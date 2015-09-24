@@ -2,4 +2,5 @@
 
 * [IoT Overview](README.md)
    * [IoT Architecture](iot_architecture.md)
+   * IoT Domain Model
 
