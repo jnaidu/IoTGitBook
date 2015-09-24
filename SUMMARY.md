@@ -1,5 +1,5 @@
 # Summary
 
 * [IoT Overview](README.md)
-   * IoT Architecture
+   * [IoT Architecture](iot_architecture.md)
 
