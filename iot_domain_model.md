@@ -21,3 +21,9 @@ Application
 ## 
 Device Template
 * Application refers to any external software.
+
+## 
+Attribute Type
+* Attribute Type describes the attributes or the properties of the device.
+
+
