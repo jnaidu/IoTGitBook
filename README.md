@@ -10,4 +10,4 @@ The diagram below shows how a complex connected product (thing) connects to the 
 
 The technologies used to develop applications on this platform release include Java SDKs and ReST APIs (See APIs section).
 
-![](IoT_Domain_Model.jpg)
+![](IoT_Overview.jpg)
