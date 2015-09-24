@@ -18,3 +18,6 @@ Application
 * Application refers to any external software.
 
 
+## 
+Device Template
+* Application refers to any external software.
