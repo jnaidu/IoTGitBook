@@ -41,3 +41,19 @@ Event Threshold Policy
 ## 
 Event Source
 * Event Threshold Policy describes a set of actions that need to be executed when certain conditions are met on a specified Event.
+
+## 
+Device
+* Device is an instance of a Device Template. It inherits the device properties, commands and events described in the template.
+
+## 
+Stream
+* Stream is a data pipe that transfers events and commands to/from devices.
+
+## 
+Route
+* Route identifies the producers and consumers of the event or command stream.
+
+## 
+Workflow
+* Workflow describes a set of actions that needs to be performed on events arriving from the device and before routing it to the desired destination.
