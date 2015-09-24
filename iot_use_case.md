@@ -19,6 +19,7 @@ The first step is to model the device or the car in IoT platform. A device templ
 First, we will create a library of attributes that are required to represent a car. Next, we will create a library of events that the gateway on the car can send. Lastly, all the required attributes and events required to represent a car are used to create a device template.
 
 #### POST: CREATE ATTRIBUTE TYPE
+Create Attribute Type service will create an attribute in the IoT solution library. In this case, the basic attributes required to represent a car are: Manufacturer, Model, Year of Make, VIN number etc. In addition to this, we would need to model the engine fault code which is of our interest.
 
 ```
 
