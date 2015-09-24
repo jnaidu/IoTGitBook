@@ -21,6 +21,22 @@ First, we will create a library of attributes that are required to represent a c
 #### POST: CREATE ATTRIBUTE TYPE
 Create Attribute Type service will create an attribute in the IoT solution library. In this case, the basic attributes required to represent a car are: Manufacturer, Model, Year of Make, VIN number etc. In addition to this, we would need to model the engine fault code which is of our interest.
 
+SAMPLE REQUEST
 ```
+{
+    "creator": "solutionImpl",
+    "creatorAppId": "solutionImplApp",
+    "realm": "IOT4RENTALCO",
+    "name": "engine_fault",
+    "description": [{ 
+      "lang": "en_us", 
+      "text": "engine fault code attribute."
+    }],
+    "type": "decimal",
+    "defaultValue": 1.0,
+    "isActive": true,
+    "isFrozen": false
+}
 
 ```
+
