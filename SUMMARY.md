@@ -8,5 +8,5 @@
    * [Functional Security](functional_security.md)
    * [Auditing](auditing.md)
 * [Getting Started](getting_started.md)
-* IoT Use Case
+* [IoT Use Case](iot_use_case.md)
 
