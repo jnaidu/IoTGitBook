@@ -18,4 +18,8 @@ This is a health monitoring use case where a Rental Car Company is using Covisin
 The first step is to model the device or the car in IoT platform. A device template is used to represent a device of a particular kind and create multiple instances of it. A device template contains Attribute Type, Event Template and Command Template. In this case, the device template for a car will have Attribute Types and Event Templates. Since we don’t have any commands sent out to the car, Command Templates are not modeled. 
 First, we will create a library of attributes that are required to represent a car. Next, we will create a library of events that the gateway on the car can send. Lastly, all the required attributes and events required to represent a car are used to create a device template.
 
-### 
+#### POST: CREATE ATTRIBUTE TYPE
+
+```
+
+```
