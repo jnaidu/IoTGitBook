@@ -26,4 +26,7 @@ Device Template
 Attribute Type
 * Attribute Type describes the attributes or the properties of the device.
 
+## 
+Command Template
+* Command Template describes the format of the command that the end device can act on.
 
