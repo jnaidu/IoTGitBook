@@ -40,3 +40,25 @@ SAMPLE REQUEST
 
 ```
 
+SAMPLE RESPONSE
+```
+{
+    "id": "65eb9268-b0d1-4f75-a855-71eac716a351",
+    "version": 0,
+    "creator": "solutionImpl",
+    "creatorAppId": "solutionImplApp",
+    "creation": 1441377362856,
+    "realm": "IOT4RENTALCO",
+    "name": "engine_fault",
+    "description": [
+      {
+        "lang": "en_us",
+        "text": "engine fault code attribute."
+      }
+    ],
+    "type": "decimal",
+    "defaultValue": 1.0,
+    "isActive": true,
+    "isFrozen": false
+}
+```
