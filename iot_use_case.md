@@ -8,3 +8,5 @@ This section is intended as a guide for solution developers and partners to deve
 
 ## Pre-requisite
 Assumption is that assumes that the prerequisite IoT solution or the realm already exists and the following solution is built on top of this realm.
+
+## Use Case: Rental Car Company
