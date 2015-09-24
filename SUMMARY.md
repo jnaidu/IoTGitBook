@@ -6,4 +6,5 @@
 * [IoT Security](iot_security.md)
    * [IoT Security Overview](iot_security_overview.md)
    * [Functional Security](functional_security.md)
+   * Auditing
 
