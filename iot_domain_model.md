@@ -30,3 +30,14 @@ Attribute Type
 Command Template
 * Command Template describes the format of the command that the end device can act on.
 
+## 
+Event Template
+* Event Template is used to model the format of the events that the device can emit.
+
+## 
+Event Threshold Policy
+* Event Threshold Policy describes a set of actions that need to be executed when certain conditions are met on a specified Event.
+
+## 
+Event Source
+* Event Threshold Policy describes a set of actions that need to be executed when certain conditions are met on a specified Event.
