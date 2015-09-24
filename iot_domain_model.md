@@ -12,3 +12,9 @@ IoT Solution
 Instance
 * Instance is an application environment dedicated for a specific purpose.
 
+
+## 
+Application
+* Application refers to any external software.
+
+
