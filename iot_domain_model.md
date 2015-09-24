@@ -59,4 +59,5 @@ Workflow
 * Workflow describes a set of actions that needs to be performed on events arriving from the device and before routing it to the desired destination.
 
 
+![](IoT_Domain_Model.jpg)
 
