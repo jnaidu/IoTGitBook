@@ -349,4 +349,6 @@ SAMPLE RESPONSE
    }]
 }
 ```
+#### POST: CREATE EVENT THRESHOLD POLICY
+On the incoming events from the device, we can attach policies to detect if a certain condition has met. In the rental car usecase, we would like to detect if the engine fault code is greater than default value 10000.
 
