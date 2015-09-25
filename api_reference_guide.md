@@ -1590,4 +1590,31 @@ SAMPLE RESPONSE
     }
   ]
 }
-``
+```
+### GET: GET EVENT SOURCE
+Retrieve the event source by its unique id.
+
+URI: /eventSources/{eventSourceId}
+
+SAMPLE REQUEST
+```
+Accept: application/vnd.com.covisint.platform.eventSource.v1+json
+x-Realm :IOT1
+```
+SAMPLE RESPONSE
+```
+{
+  "id": "9568b779-b05f-4924-8147-50a30a4e08c7",
+  "version": "g2wAAAABaAJtAAAADKEXbw0nFaz5AAACymEBag==",
+  "creator": "integrationTester",
+  "creatorAppId": "integrationTesterApp",
+  "creation": 1441971175074,
+  "realm": "IOT1",
+  "name": [
+    {
+      "lang": "en",
+      "value": "{{eventSourceName}}"
+    }
+  ]
+}
+```
