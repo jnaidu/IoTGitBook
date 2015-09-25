@@ -398,3 +398,9 @@ SAMPLE REQUEST
   “engine_fault_code”: 10200
 }
 ```
+SAMPLE RESPONSE
+```
+{
+  “result”: true
+}
+```
