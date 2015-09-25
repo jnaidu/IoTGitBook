@@ -301,5 +301,5 @@ ATTRIBUTES:
 | deviceId | String | True | Id of the device that needs to be activated |
 
 ### Create Event Source And Threshold Policy For The Device
-
+In order to receive an event from the device, we will have to create an event source with the deviceId and the eventTemplateId.
 
