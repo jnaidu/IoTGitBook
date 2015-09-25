@@ -1398,6 +1398,48 @@ URI: /streams/{streamId}/{deviceId}
 ## Routes
 Routes connect source and destination topics.
 
+### POST: CREATE ROUTE
+Create a new route.
+
+URI: /routes
+
+SAMPLE REQUEST
+```
+Accept: application/vnd.com.covisint.platform.messaging.route.v1+json
+Content-type: application/vnd.com.covisint.platform.messaging.route.v1+json
+x-Realm: IOT1
+{
+	"creator": "SGORIAL2",
+  	"creatorAppId": "postman",
+  	"realm": "{{iotRealmHeader}}",
+  	"routeType": "EVENT",
+  	"streamId": "stream01",
+  	"routeSourceId": "5acb7b8e017x",
+  	"routingTopic": "RoutingTopic01",
+  	"workflowId": "workflow_1",
+  	"workflowTopic": "WorkflowTopic01",
+  	"workflowTopology": "WorkflowTopology01"
+}
+```
+SAMPLE RESPONSE
+```
+{
+  "id": "bf069bb8-c4cf-418f-814f-216b4aac7ec2",
+  "version": "g2wAAAABaAJtAAAADNYQX5stnA6MAAAEdGEBag==",
+  "creator": "SGORIAL2",
+  "creatorAppId": "postman",
+  "creation": 1442389711913,
+  "realm": "IOT1",
+  "routeId": "bf069bb8-c4cf-418f-814f-216b4aac7ec2",
+  "routeSourceId": "5acb7b8e017x",
+  "routeType": "EVENT",
+  "streamId": "stream01",
+  "workflowId": "workflow_1",
+  "workflowTopology": "WorkflowTopology01",
+  "workflowTopic": "WorkflowTopic01",
+  "routingTopic": "RoutingTopic01"
+}
+```
 
 
 
