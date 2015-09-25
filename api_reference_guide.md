@@ -806,7 +806,7 @@ SAMPLE RESPONSE
 ### PUT: TAG DEVICE TEMPLATE
 This method tags the specified device template.
 
-URI:/deviceTemplates/ {deviceTemplateId}/tags/{tag}
+URI:/deviceTemplates/{deviceTemplateId}/tags/{tag}
 
 ### DELETE: UNTAG DEVICE TEMPLATE
 Removes a tag from the device template.
@@ -814,3 +814,6 @@ Removes a tag from the device template.
 URI: /deviceTemplates/ {deviceTemplateId}/tags/{tag}
 
 ### POST: ACTIVATE DEVICE TEMPLATE
+Activates the device template.  Invoking this on an active device template has no effect.
+
+URI: /deviceTemplates/{deviceTemplateId}/tasks/activate
