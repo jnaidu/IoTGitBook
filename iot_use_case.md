@@ -802,4 +802,12 @@ For Example:
 ```
 5. Construct event message: Construct a JSON message including messageID, deviceID, eventTemplateID and the encoded message.          
 For Example:
-
+```
+{
+    “messageID”: “65eb9268-b0d1-4f75-a855-71eac716a351”,
+    “deviceID”: “7d7289e5-a45b-42a1-a762-1a662756e715”,
+    “eventTemplateID”: “48c713f8-5b69-49f0-afb1-e5618ac9bae9”,
+    “message”: “ew0KInRlbXAiOiAyNS4zLA0KImh1bWlkaXR5Iiw1NC44DQp9”
+}
+```
+6. Send event: Send the event to IoT platform.
