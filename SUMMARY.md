@@ -10,4 +10,5 @@
    * [Auditing](auditing.md)
 * [Getting Started](getting_started.md)
 * [Use Case](iot_use_case.md)
+* API Reference Guide
 
