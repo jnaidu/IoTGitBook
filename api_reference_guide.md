@@ -1023,4 +1023,109 @@ SAMPLE REQUEST
 ```
 SAMPLE RESPONSE
 ```
+{
+  "id": "af57ec91-c123-4b98-96da-40a04b28e40b",
+  "version": "g2wAAAABaAJtAAAADCDMPMOaSx/qAAE8V2EBag==",
+  "creator": "integrationTester",
+  "creatorAppId": "integrationTesterApp",
+  "creation": 1442303332104,
+  "realm": "IOT1",
+  "name": [
+    {
+      "lang": "en",
+      "text": "Stream test"
+    },
+    {	
+      "lang": "zh",
+      "text": "流"
+    }
+  ],
+  "streamType": "DEVICE",
+  "protocolType": "MQTT",
+  "payloadSecurityType": "ENCRYPTED",
+  "ownerId": "Admin",
+  "streamConfiguration": {
+    "logMode": "INFO",
+    "pullingThreads": 1,
+    "sleepTime": 60,
+    "quota": 10
+  },
+  "payloadSecurityAttributes": [
+    {
+      "name": "consumerPrivateKey",
+      "value": "MIIBSwIBADCCASwGByqGSM44BAEwggEfAoGBAP1/U4EddRIpUt9KnC7s5Of2EbdSPO9EAMMeP4C2USZpRV1AIlH7WT2NWPq/xfW6MPbLm1Vs14E7gB00b/JmYLdrmVClpJ+f6AR7ECLCT7up1/63xhv4O1fnxqimFQ8E+4P208UewwI1VBNaFpEy9nXzrith1yrv8iIDGZ3RSAHHAhUAl2BQjxUjC8yykrmCouuEC/BYHPUCgYEA9+GghdabPd7LvKtcNrhXuXmUr7v6OuqC+VdMCz0HgmdRWVeOutRZT+ZxBxCBgLRJFnEj6EwoFhO3zwkyjMim4TwWeotUfI0o4KOuHiuzpnWRbqN/C/ohNWLx+2J6ASQ7zKTxvqhRkImog9/hWuWfBpKLZl6Ae1UlZAFMO/7PSSoEFgIUR/PBBma5H4RfGiXVh1cSGtXOrI0="
+    },
+    {
+      "name": "producerPublicKey",
+      "value": "MIIBtzCCASwGByqGSM44BAEwggEfAoGBAP1/U4EddRIpUt9KnC7s5Of2EbdSPO9EAMMeP4C2USZpRV1AIlH7WT2NWPq/xfW6MPbLm1Vs14E7gB00b/JmYLdrmVClpJ+f6AR7ECLCT7up1/63xhv4O1fnxqimFQ8E+4P208UewwI1VBNaFpEy9nXzrith1yrv8iIDGZ3RSAHHAhUAl2BQjxUjC8yykrmCouuEC/BYHPUCgYEA9+GghdabPd7LvKtcNrhXuXmUr7v6OuqC+VdMCz0HgmdRWVeOutRZT+ZxBxCBgLRJFnEj6EwoFhO3zwkyjMim4TwWeotUfI0o4KOuHiuzpnWRbqN/C/ohNWLx+2J6ASQ7zKTxvqhRkImog9/hWuWfBpKLZl6Ae1UlZAFMO/7PSSoDgYQAAoGAHogkEJzK8Q1/9qjL+EPdbGMaxACs8/0PQ8oNgZfCxkAF4jTJRtKK+6cerjf6N0kwe0bMKEhS1NnGRKM0AM3GW0/zx8EJkFdTtSBJPtsAeQNDeQHWmhYcq4YA2gXBP+n2F1NEVcgXFKROYy3zsTNsUG/xmVta15HeeG8FDnayY+Q="
+    },
+    {
+      "name": "producerPrivateKey",
+      "value": "MIIBSwIBADCCASwGByqGSM44BAEwggEfAoGBAP1/U4EddRIpUt9KnC7s5Of2EbdSPO9EAMMeP4C2USZpRV1AIlH7WT2NWPq/xfW6MPbLm1Vs14E7gB00b/JmYLdrmVClpJ+f6AR7ECLCT7up1/63xhv4O1fnxqimFQ8E+4P208UewwI1VBNaFpEy9nXzrith1yrv8iIDGZ3RSAHHAhUAl2BQjxUjC8yykrmCouuEC/BYHPUCgYEA9+GghdabPd7LvKtcNrhXuXmUr7v6OuqC+VdMCz0HgmdRWVeOutRZT+ZxBxCBgLRJFnEj6EwoFhO3zwkyjMim4TwWeotUfI0o4KOuHiuzpnWRbqN/C/ohNWLx+2J6ASQ7zKTxvqhRkImog9/hWuWfBpKLZl6Ae1UlZAFMO/7PSSoEFgIULku7TX6ezXhsWpg+xYaQZbtpJJc="
+    },
+    {
+      "name": "consumerPublicKey",
+      "value": "MIIBtzCCASwGByqGSM44BAEwggEfAoGBAP1/U4EddRIpUt9KnC7s5Of2EbdSPO9EAMMeP4C2USZpRV1AIlH7WT2NWPq/xfW6MPbLm1Vs14E7gB00b/JmYLdrmVClpJ+f6AR7ECLCT7up1/63xhv4O1fnxqimFQ8E+4P208UewwI1VBNaFpEy9nXzrith1yrv8iIDGZ3RSAHHAhUAl2BQjxUjC8yykrmCouuEC/BYHPUCgYEA9+GghdabPd7LvKtcNrhXuXmUr7v6OuqC+VdMCz0HgmdRWVeOutRZT+ZxBxCBgLRJFnEj6EwoFhO3zwkyjMim4TwWeotUfI0o4KOuHiuzpnWRbqN/C/ohNWLx+2J6ASQ7zKTxvqhRkImog9/hWuWfBpKLZl6Ae1UlZAFMO/7PSSoDgYQAAoGAKwzWUj8W72SPoPKBGHOzXJLYb2guqFQfWYgf2XeyFruGM39fTt2pesxHCp70kvNjPc8HYZMa9SfhsWHkL6gZfqaLLI3St7N7WdwCgipO1R+c55vBnaO2Ts+gF+80p9n/Y5Nay8PlvwMI5ZqpYEzth9NuETnh37uh/0prdIHag7g="
+    }
+  ]
+}
+```
+### GET: SEARCH STREAM
+This method is used to search stream based on the given filter parameters.
 
+URI: /streams
+
+SAMPLE REQUEST
+```
+Accept: application/vnd.com.covisint.platform.stream.v1+json 
+X-Realm: IOT1
+```
+SAMPLE RESPONSE
+```
+{
+  "id": "af57ec91-c123-4b98-96da-40a04b28e40b",
+  "version": "g2wAAAABaAJtAAAADCDMPMOaSx/qAAE8V2EBag==",
+  "creator": "integrationTester",
+  "creatorAppId": "integrationTesterApp",
+  "creation": 1442303332104,
+  "realm": "IOT1",
+  "name": [
+    {
+      "lang": "en",
+      "text": "Stream test"
+    },
+    {
+      "lang": "zh",
+      "text": "流"
+    }
+  ],
+  "streamType": "DEVICE",
+  "protocolType": "MQTT",
+  "payloadSecurityType": "ENCRYPTED",
+  "ownerId": "Admin",
+  "streamConfiguration": {
+    "logMode": "INFO",
+    "pullingThreads": 1,
+    "sleepTime": 60,
+    "quota": 10
+  },
+  "payloadSecurityAttributes": [
+    {
+      "name": "consumerPrivateKey",
+      "value": "MIIBSwIBADCCASwGByqGSM44BAEwggEfAoGBAP1/U4EddRIpUt9KnC7s5Of2EbdSPO9EAMMeP4C2USZpRV1AIlH7WT2NWPq/xfW6MPbLm1Vs14E7gB00b/JmYLdrmVClpJ+f6AR7ECLCT7up1/63xhv4O1fnxqimFQ8E+4P208UewwI1VBNaFpEy9nXzrith1yrv8iIDGZ3RSAHHAhUAl2BQjxUjC8yykrmCouuEC/BYHPUCgYEA9+GghdabPd7LvKtcNrhXuXmUr7v6OuqC+VdMCz0HgmdRWVeOutRZT+ZxBxCBgLRJFnEj6EwoFhO3zwkyjMim4TwWeotUfI0o4KOuHiuzpnWRbqN/C/ohNWLx+2J6ASQ7zKTxvqhRkImog9/hWuWfBpKLZl6Ae1UlZAFMO/7PSSoEFgIUR/PBBma5H4RfGiXVh1cSGtXOrI0="
+    },
+    {
+      "name": "producerPublicKey",
+      "value": "MIIBtzCCASwGByqGSM44BAEwggEfAoGBAP1/U4EddRIpUt9KnC7s5Of2EbdSPO9EAMMeP4C2USZpRV1AIlH7WT2NWPq/xfW6MPbLm1Vs14E7gB00b/JmYLdrmVClpJ+f6AR7ECLCT7up1/63xhv4O1fnxqimFQ8E+4P208UewwI1VBNaFpEy9nXzrith1yrv8iIDGZ3RSAHHAhUAl2BQjxUjC8yykrmCouuEC/BYHPUCgYEA9+GghdabPd7LvKtcNrhXuXmUr7v6OuqC+VdMCz0HgmdRWVeOutRZT+ZxBxCBgLRJFnEj6EwoFhO3zwkyjMim4TwWeotUfI0o4KOuHiuzpnWRbqN/C/ohNWLx+2J6ASQ7zKTxvqhRkImog9/hWuWfBpKLZl6Ae1UlZAFMO/7PSSoDgYQAAoGAHogkEJzK8Q1/9qjL+EPdbGMaxACs8/0PQ8oNgZfCxkAF4jTJRtKK+6cerjf6N0kwe0bMKEhS1NnGRKM0AM3GW0/zx8EJkFdTtSBJPtsAeQNDeQHWmhYcq4YA2gXBP+n2F1NEVcgXFKROYy3zsTNsUG/xmVta15HeeG8FDnayY+Q="
+    },
+    {
+      "name": "producerPrivateKey",
+      "value": "MIIBSwIBADCCASwGByqGSM44BAEwggEfAoGBAP1/U4EddRIpUt9KnC7s5Of2EbdSPO9EAMMeP4C2USZpRV1AIlH7WT2NWPq/xfW6MPbLm1Vs14E7gB00b/JmYLdrmVClpJ+f6AR7ECLCT7up1/63xhv4O1fnxqimFQ8E+4P208UewwI1VBNaFpEy9nXzrith1yrv8iIDGZ3RSAHHAhUAl2BQjxUjC8yykrmCouuEC/BYHPUCgYEA9+GghdabPd7LvKtcNrhXuXmUr7v6OuqC+VdMCz0HgmdRWVeOutRZT+ZxBxCBgLRJFnEj6EwoFhO3zwkyjMim4TwWeotUfI0o4KOuHiuzpnWRbqN/C/ohNWLx+2J6ASQ7zKTxvqhRkImog9/hWuWfBpKLZl6Ae1UlZAFMO/7PSSoEFgIULku7TX6ezXhsWpg+xYaQZbtpJJc="
+    },
+    {
+      "name": "consumerPublicKey",
+      "value": "MIIBtzCCASwGByqGSM44BAEwggEfAoGBAP1/U4EddRIpUt9KnC7s5Of2EbdSPO9EAMMeP4C2USZpRV1AIlH7WT2NWPq/xfW6MPbLm1Vs14E7gB00b/JmYLdrmVClpJ+f6AR7ECLCT7up1/63xhv4O1fnxqimFQ8E+4P208UewwI1VBNaFpEy9nXzrith1yrv8iIDGZ3RSAHHAhUAl2BQjxUjC8yykrmCouuEC/BYHPUCgYEA9+GghdabPd7LvKtcNrhXuXmUr7v6OuqC+VdMCz0HgmdRWVeOutRZT+ZxBxCBgLRJFnEj6EwoFhO3zwkyjMim4TwWeotUfI0o4KOuHiuzpnWRbqN/C/ohNWLx+2J6ASQ7zKTxvqhRkImog9/hWuWfBpKLZl6Ae1UlZAFMO/7PSSoDgYQAAoGAKwzWUj8W72SPoPKBGHOzXJLYb2guqFQfWYgf2XeyFruGM39fTt2pesxHCp70kvNjPc8HYZMa9SfhsWHkL6gZfqaLLI3St7N7WdwCgipO1R+c55vBnaO2Ts+gF+80p9n/Y5Nay8PlvwMI5ZqpYEzth9NuETnh37uh/0prdIHag7g="
+    }
+  ]
+}
+```
