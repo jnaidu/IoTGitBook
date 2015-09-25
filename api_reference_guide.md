@@ -828,3 +828,25 @@ The physical device that produces data and sends it to platform needs to be crea
 
 ### POST: CREATE DEVICE
 Create a new device. Prerequisite is Device Template should have been created.
+
+URI: /devices
+
+SAMPLE REQUEST
+```
+{
+    "creator": "integrationTester",
+    "creatorAppId": "integrationTesterApp",
+    "realm": "{{newRealm}}",
+ "name": [{ 
+  "lang": "en_US", 
+  "text": "{{deviceTemplateName}}"
+ }],
+ "description": [{ 
+  "lang": "en_US", 
+  "text": "{{deviceTemplateDescription}}"
+ }],
+ "attributes": [ "fa09d62c-3fb6-4ba6-8f1e-f3b9d1321b36" ],
+ "events": [ "5b4e22e6-3089-409a-b561-a73c3c99128f" ],
+ "commands":[ "823be4e2-dd3e-4887-b145-fbf6b2ab5f9e" ]
+}
+```
