@@ -1,5 +1,5 @@
 
-# 
+# Creating Solutions
 
 To create a new Solution, refer to https://developer.covisint.com/learn/dp/-/book/developer-portal/creating_solutions/index.html
 
