@@ -883,3 +883,9 @@ URI: /devices
 
 SAMPLE REQUEST
 ```
+Accept: application/vnd.com.covisint.platform.device.v1+json
+Content-Type: application/vnd.com.covisint.platform.device.v1+json
+X-Realm: IOT1
+```
+SAMPLE RESPONSE
+```
