@@ -118,3 +118,23 @@ URI: /eventTemplates/{{eventID}}/tasks/bindEventField?attributeTypeId={{attribut
 
 #### POST: CREATE DEVICE TEMPLATE
 Create Device Template will create a template with all the listed attributes, events and commands. In the following sample, we create a device template of a car with engine fault code with the attribute id and the event id. By default the device template is not active unless specified in the request.
+
+SAMPLE REQUEST
+```
+{
+    "creator": "solutionImpl",
+    "creatorAppId": "solutionImplApp",
+    "realm": "IOT4RENTALCO",
+    "name": [{
+      "lang": "en_us", 
+      "text": "Standard IoT Car"
+    }],
+    "description": [{ 
+      "lang": "en_us", 
+      "text": "A standard IoT car that can send engine fault code."
+    }],
+    "attributeTypes": [ "65eb9268-b0d1-4f75-a855-71eac716a351" ],
+    "eventTemplates": [ "48c713f8-5b69-49f0-afb1-e5618ac9bae9" ]
+}
+```
+
