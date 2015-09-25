@@ -297,3 +297,9 @@ Activates the event template.  Invoking this on an active event template has no 
 
 URI: /eventTemplates/ {eventTemplateId}/tasks/activate
 
+### POST: DEACTIVATE EVENT TEMPLATE
+Deactivates the event template.  Invoking this on an inactive event template has no effect.
+
+URI: /eventTemplates/ {eventTemplateId}//tasks/deactivate
+
+
