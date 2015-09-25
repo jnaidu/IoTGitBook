@@ -326,4 +326,6 @@ SAMPLE REQUEST
    }]
 }
 ```
+SAMPLE RESPONSE
+
 
