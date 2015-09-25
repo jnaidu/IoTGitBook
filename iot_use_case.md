@@ -800,4 +800,4 @@ For Example:
 ```
 “65eb9268-b0d1-4f75-a855-71eac716a351”
 ```
-
+5. Construct event message: Construct a JSON message including messageID, deviceID, eventTemplateID and the encoded message.
