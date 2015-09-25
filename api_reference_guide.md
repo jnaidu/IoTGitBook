@@ -991,3 +991,36 @@ Activates the device.  Invoking this on an active device has no effect.
 URI: /devices/{deviceId}/tasks/deactivate
 
 ## Stream
+Create a new stream.
+
+### POST: CREATE STREAM
+Create a new stream.
+
+URI: /streams
+
+SAMPLE REQUEST
+```
+{
+  "creator": "integrationTester",
+   "creatorAppId": "integrationTesterApp",
+  "realm": "IOT1",
+  "ownerId": "Admin",
+  "name": [
+    {
+      "lang": "zh",
+      "text": "流"
+    },
+    {
+      "lang": "en",
+      "text": "Stream test"
+    }
+  ],
+  "streamType": "DEVICE",
+  "protocolType": "MQTT",
+  "deviceSecurityType": "BASIC",
+  "payloadSecurityType": "ENCRYPTED"
+}
+```
+SAMPLE RESPONSE
+```
+
