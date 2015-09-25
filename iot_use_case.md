@@ -303,3 +303,8 @@ ATTRIBUTES:
 ### Create Event Source And Threshold Policy For The Device
 In order to receive an event from the device, we will have to create an event source with the deviceId and the eventTemplateId.
 
+#### POST: CREATE EVENT SOURCE
+Create event source service will create an event source on IoT platform. Event source is a group of events. Events can be grouped based on all the devices that have the particular event or specific devices that have the particular event. In the following example, we will create an engine fault event source for the specific device which we created.
+
+
+
