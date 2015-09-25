@@ -1385,8 +1385,18 @@ SAMPLE RESPONSE
   "apiStatusCode": "framework:resource:missing"
 } 
 ```
-PUT: UPDATE DEVICE WITH STREAM
+### PUT: UPDATE DEVICE WITH STREAM
 PENDING
+
+URI: /streams/{streamId}/{deviceId} 
+
+### PUT: REMOVE DEVICE FROM STREAM
+PENDING
+
+URI: /streams/{streamId}/{deviceId} 
+
+## Routes
+Routes connect source and destination topics.
 
 
 
