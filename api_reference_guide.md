@@ -975,3 +975,19 @@ SAMPLE RESPONSE
   "isActive": false
 }
 ```
+### PUT: TAG DEVICE
+This method tags the specified device.
+
+URI: /devices/ {deviceId}/tags/{tag}
+
+### DELETE: UNTAG DEVICE
+Removes a tag from the device.
+
+URI: /devices/ {deviceId}/tags/{tag}
+
+### POST: ACTIVATE DEVICE
+Activates the device.  Invoking this on an active device has no effect.
+
+URI: /devices/{deviceId}/tasks/deactivate
+
+## Stream
