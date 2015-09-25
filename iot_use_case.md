@@ -369,3 +369,23 @@ SAMPLE REQUEST
   }
 }
 ```
+SAMPLE RESPONSE
+```
+{
+  "id": "da920956-c33c-4ef6-bb4e-6e106be6eb09",
+  "version": "g2wAAAABaAJtAAAADCDMPMOaTHL2AAIpj2EBag==",
+   "creator": "solutionImpl",
+   "creatorAppId": "solutionImplApp",
+  "creation": 1444763256834,
+   "realm": "IOT4RENTALCO",
+   "name”: “Engine fault detection policy”,
+   "description": [{ 
+      "lang": "en_US", 
+      "text": "This policy detects engine fault greater than 10000"
+   }],
+  "condition": {
+     "all": [ { “expr”: "greaterThan(f:engine_fault_code, v:decimal(10000))”
+     }]
+  }
+}
+```
