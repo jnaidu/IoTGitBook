@@ -792,3 +792,12 @@ For example:
 ```
 3. Encrypt message: The JSON event string needs to be encrypted using the producerPublicKey and encode the message in Base64 format.  
 For example:
+```
+”ew0KInRlbXAiOiAyNS4zLA0KImh1bWlkaXR5Iiw1NC44DQp9”
+```
+4. Generate a messageID: A unique messageID is generated to identify the message.        
+For Example:
+```
+“65eb9268-b0d1-4f75-a855-71eac716a351”
+```
+
