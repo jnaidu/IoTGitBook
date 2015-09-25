@@ -1196,5 +1196,101 @@ Updates an existing stream.  Throws an error if {streamId} does not already exis
 URI: /streams/{streamId}
 
 SAMPLE REQUEST
-
+```
+{
+  "id": "877ac67d-5590-424a-b2f1-5ef129b714df",
+  "version": "0",
+  "creator": "integrationTester",
+  "creatorAppId": "integrationTesterApp",
+  "creation": 1442401643958,
+  "realm": "IOT1",
+  "name": [
+    {
+      "lang": "en",
+      "text": "Stream test"
+    },
+    {
+      "lang": "zh",
+      "text": "流"
+    }
+  ],
+  "streamType": "DEVICE",
+  "protocolType": "MQTT",
+  "payloadSecurityType": "ENCRYPTED",
+  "ownerId": "Admin",
+  "streamConfiguration": {
+    "logMode": "INFO",
+    "pullingThreads": 1,
+    "sleepTime": 80,
+    "quota": 10
+  },
+  "payloadSecurityAttributes": [
+    {
+      "name": "consumerPrivateKey",
+      "value": "MIIBSwIBADCCASwGByqGSM44BAEwggEfAoGBAP1/U4EddRIpUt9KnC7s5Of2EbdSPO9EAMMeP4C2USZpRV1AIlH7WT2NWPq/xfW6MPbLm1Vs14E7gB00b/JmYLdrmVClpJ+f6AR7ECLCT7up1/63xhv4O1fnxqimFQ8E+4P208UewwI1VBNaFpEy9nXzrith1yrv8iIDGZ3RSAHHAhUAl2BQjxUjC8yykrmCouuEC/BYHPUCgYEA9+GghdabPd7LvKtcNrhXuXmUr7v6OuqC+VdMCz0HgmdRWVeOutRZT+ZxBxCBgLRJFnEj6EwoFhO3zwkyjMim4TwWeotUfI0o4KOuHiuzpnWRbqN/C/ohNWLx+2J6ASQ7zKTxvqhRkImog9/hWuWfBpKLZl6Ae1UlZAFMO/7PSSoEFgIUJFdoEHuwc0dNwDqaDXwGhXZttYk="
+    },
+    {
+      "name": "producerPublicKey",
+      "value": "MIIBuDCCASwGByqGSM44BAEwggEfAoGBAP1/U4EddRIpUt9KnC7s5Of2EbdSPO9EAMMeP4C2USZpRV1AIlH7WT2NWPq/xfW6MPbLm1Vs14E7gB00b/JmYLdrmVClpJ+f6AR7ECLCT7up1/63xhv4O1fnxqimFQ8E+4P208UewwI1VBNaFpEy9nXzrith1yrv8iIDGZ3RSAHHAhUAl2BQjxUjC8yykrmCouuEC/BYHPUCgYEA9+GghdabPd7LvKtcNrhXuXmUr7v6OuqC+VdMCz0HgmdRWVeOutRZT+ZxBxCBgLRJFnEj6EwoFhO3zwkyjMim4TwWeotUfI0o4KOuHiuzpnWRbqN/C/ohNWLx+2J6ASQ7zKTxvqhRkImog9/hWuWfBpKLZl6Ae1UlZAFMO/7PSSoDgYUAAoGBANU35vjNf2TkQyhZODnGXnyX/hS8sOZC6Chms6F8BlHAW2BwC1BbxF2QCbM3vg+bzSqjcCd7n6i6pkLfsUb+r9mrVFPzgQpTeIyJtlmMt7OBS8fJEp3dyNmHixbYyrj9yG8XRhEz6UBjVLdk46/5wXZUopjyOO/uXZMOL6BkPfH8"
+    },
+    {
+      "name": "producerPrivateKey",
+      "value": "MIIBTAIBADCCASwGByqGSM44BAEwggEfAoGBAP1/U4EddRIpUt9KnC7s5Of2EbdSPO9EAMMeP4C2USZpRV1AIlH7WT2NWPq/xfW6MPbLm1Vs14E7gB00b/JmYLdrmVClpJ+f6AR7ECLCT7up1/63xhv4O1fnxqimFQ8E+4P208UewwI1VBNaFpEy9nXzrith1yrv8iIDGZ3RSAHHAhUAl2BQjxUjC8yykrmCouuEC/BYHPUCgYEA9+GghdabPd7LvKtcNrhXuXmUr7v6OuqC+VdMCz0HgmdRWVeOutRZT+ZxBxCBgLRJFnEj6EwoFhO3zwkyjMim4TwWeotUfI0o4KOuHiuzpnWRbqN/C/ohNWLx+2J6ASQ7zKTxvqhRkImog9/hWuWfBpKLZl6Ae1UlZAFMO/7PSSoEFwIVAIPsYTDQkGIElKEFqXxFrkewHGbL"
+    },
+    {
+      "name": "consumerPublicKey",
+      "value": "MIIBuDCCASwGByqGSM44BAEwggEfAoGBAP1/U4EddRIpUt9KnC7s5Of2EbdSPO9EAMMeP4C2USZpRV1AIlH7WT2NWPq/xfW6MPbLm1Vs14E7gB00b/JmYLdrmVClpJ+f6AR7ECLCT7up1/63xhv4O1fnxqimFQ8E+4P208UewwI1VBNaFpEy9nXzrith1yrv8iIDGZ3RSAHHAhUAl2BQjxUjC8yykrmCouuEC/BYHPUCgYEA9+GghdabPd7LvKtcNrhXuXmUr7v6OuqC+VdMCz0HgmdRWVeOutRZT+ZxBxCBgLRJFnEj6EwoFhO3zwkyjMim4TwWeotUfI0o4KOuHiuzpnWRbqN/C/ohNWLx+2J6ASQ7zKTxvqhRkImog9/hWuWfBpKLZl6Ae1UlZAFMO/7PSSoDgYUAAoGBAKWcP+9dHXtXz2gzXUz504J+rx00vEGVV5XTO55AALl9+hXRJP2jW8QZaOBQaE3kUNFvOamBaerpVLAyeAGk9Zw/tSmidlBKKhxB6Ye7EcIM12Rij599IUn8D7C/ol6a9vj9Lj/dRMoO4EaOD3Qrm5wvR1C70FZ+KSRgp6+YKAVa"
+    }
+  ]
+}
+```
+SAMPLE RESPONSE
+```
+{
+  "id": "877ac67d-5590-424a-b2f1-5ef129b714df",
+  "version": "g2wAAAACaAJtAAAADKEXbw0sq0pXAAAEtmEBaAJtAAAADNYQX5ssZoElAAAErGEBag==",
+  "creator": "integrationTester",
+  "creatorAppId": "integrationTesterApp",
+  "creation": 1442401776937,
+  "realm": "IOT1",
+  "name": [
+    {
+      "lang": "en",
+      "text": "Stream test"
+    },
+    {
+      "lang": "zh",
+      "text": "流"
+    }
+  ],
+  "streamType": "DEVICE",
+  "protocolType": "MQTT",
+  "payloadSecurityType": "ENCRYPTED",
+  "ownerId": "Admin",
+  "streamConfiguration": {
+    "logMode": "INFO",
+    "pullingThreads": 1,
+    "sleepTime": 80,
+    "quota": 10
+  },
+  "payloadSecurityAttributes": [
+    {
+      "name": "consumerPrivateKey",
+      "value": "MIIBSwIBADCCASwGByqGSM44BAEwggEfAoGBAP1/U4EddRIpUt9KnC7s5Of2EbdSPO9EAMMeP4C2USZpRV1AIlH7WT2NWPq/xfW6MPbLm1Vs14E7gB00b/JmYLdrmVClpJ+f6AR7ECLCT7up1/63xhv4O1fnxqimFQ8E+4P208UewwI1VBNaFpEy9nXzrith1yrv8iIDGZ3RSAHHAhUAl2BQjxUjC8yykrmCouuEC/BYHPUCgYEA9+GghdabPd7LvKtcNrhXuXmUr7v6OuqC+VdMCz0HgmdRWVeOutRZT+ZxBxCBgLRJFnEj6EwoFhO3zwkyjMim4TwWeotUfI0o4KOuHiuzpnWRbqN/C/ohNWLx+2J6ASQ7zKTxvqhRkImog9/hWuWfBpKLZl6Ae1UlZAFMO/7PSSoEFgIUJFdoEHuwc0dNwDqaDXwGhXZttYk="
+    },
+    {
+      "name": "producerPublicKey",
+      "value": "MIIBuDCCASwGByqGSM44BAEwggEfAoGBAP1/U4EddRIpUt9KnC7s5Of2EbdSPO9EAMMeP4C2USZpRV1AIlH7WT2NWPq/xfW6MPbLm1Vs14E7gB00b/JmYLdrmVClpJ+f6AR7ECLCT7up1/63xhv4O1fnxqimFQ8E+4P208UewwI1VBNaFpEy9nXzrith1yrv8iIDGZ3RSAHHAhUAl2BQjxUjC8yykrmCouuEC/BYHPUCgYEA9+GghdabPd7LvKtcNrhXuXmUr7v6OuqC+VdMCz0HgmdRWVeOutRZT+ZxBxCBgLRJFnEj6EwoFhO3zwkyjMim4TwWeotUfI0o4KOuHiuzpnWRbqN/C/ohNWLx+2J6ASQ7zKTxvqhRkImog9/hWuWfBpKLZl6Ae1UlZAFMO/7PSSoDgYUAAoGBANU35vjNf2TkQyhZODnGXnyX/hS8sOZC6Chms6F8BlHAW2BwC1BbxF2QCbM3vg+bzSqjcCd7n6i6pkLfsUb+r9mrVFPzgQpTeIyJtlmMt7OBS8fJEp3dyNmHixbYyrj9yG8XRhEz6UBjVLdk46/5wXZUopjyOO/uXZMOL6BkPfH8"
+    },
+    {
+      "name": "producerPrivateKey",
+      "value": "MIIBTAIBADCCASwGByqGSM44BAEwggEfAoGBAP1/U4EddRIpUt9KnC7s5Of2EbdSPO9EAMMeP4C2USZpRV1AIlH7WT2NWPq/xfW6MPbLm1Vs14E7gB00b/JmYLdrmVClpJ+f6AR7ECLCT7up1/63xhv4O1fnxqimFQ8E+4P208UewwI1VBNaFpEy9nXzrith1yrv8iIDGZ3RSAHHAhUAl2BQjxUjC8yykrmCouuEC/BYHPUCgYEA9+GghdabPd7LvKtcNrhXuXmUr7v6OuqC+VdMCz0HgmdRWVeOutRZT+ZxBxCBgLRJFnEj6EwoFhO3zwkyjMim4TwWeotUfI0o4KOuHiuzpnWRbqN/C/ohNWLx+2J6ASQ7zKTxvqhRkImog9/hWuWfBpKLZl6Ae1UlZAFMO/7PSSoEFwIVAIPsYTDQkGIElKEFqXxFrkewHGbL"
+    },
+    {
+      "name": "consumerPublicKey",
+      "value": "MIIBuDCCASwGByqGSM44BAEwggEfAoGBAP1/U4EddRIpUt9KnC7s5Of2EbdSPO9EAMMeP4C2USZpRV1AIlH7WT2NWPq/xfW6MPbLm1Vs14E7gB00b/JmYLdrmVClpJ+f6AR7ECLCT7up1/63xhv4O1fnxqimFQ8E+4P208UewwI1VBNaFpEy9nXzrith1yrv8iIDGZ3RSAHHAhUAl2BQjxUjC8yykrmCouuEC/BYHPUCgYEA9+GghdabPd7LvKtcNrhXuXmUr7v6OuqC+VdMCz0HgmdRWVeOutRZT+ZxBxCBgLRJFnEj6EwoFhO3zwkyjMim4TwWeotUfI0o4KOuHiuzpnWRbqN/C/ohNWLx+2J6ASQ7zKTxvqhRkImog9/hWuWfBpKLZl6Ae1UlZAFMO/7PSSoDgYUAAoGBAKWcP+9dHXtXz2gzXUz504J+rx00vEGVV5XTO55AALl9+hXRJP2jW8QZaOBQaE3kUNFvOamBaerpVLAyeAGk9Zw/tSmidlBKKhxB6Ye7EcIM12Rij599IUn8D7C/ol6a9vj9Lj/dRMoO4EaOD3Qrm5wvR1C70FZ+KSRgp6+YKAVa"
+    }
+  ]
+}
+```
 
