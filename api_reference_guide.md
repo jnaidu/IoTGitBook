@@ -1341,6 +1341,31 @@ SAMPLE REQUEST
 Accept: application/vnd.com.covisint.platform.stream.device.v1+json
 X-Realm: IOT1
 ```
+SAMPLE RESPONSE
+```
+[
+  {
+    "id": "357b36af-208f-4549-b257-7e47d80cf684",
+    "version": "g2wAAAABaAJtAAAADCDMPMOaSx/qAAE8c2EBag==",
+    "creator": "EADAMS",
+    "creatorAppId": "postman",
+    "creation": 1442316982919,
+    "realm": "IOT1",
+    "deviceId": "1442316983",
+    "streamId": "6cc3260f-f5a2-4cfe-ab28-f5a0cba27785"
+  },
+  {
+    "id": "3ec81cdb-fea9-4b3d-a768-49356711f13d",
+    "version": "g2wAAAABaAJtAAAADCDMPMOaSy7tAAE8e2EBag==",
+    "creator": "EADAMS",
+    "creatorAppId": "postman",
+    "creation": 1442316681139,
+    "realm": "IOT1",
+    "deviceId": "1442316680",
+    "streamId": "6cc3260f-f5a2-4cfe-ab28-f5a0cba27785"
+  }
+]
+```
 
 
 
