@@ -3,7 +3,7 @@
 * [IoT Overview](README.md)
    * [Architecture](iot_architecture.md)
    * [Domain Model](iot_domain_model.md)
-   * Features
+   * [Features](features.md)
 * [Security](iot_security.md)
    * [IoT Security Overview](iot_security_overview.md)
    * [Functional Security](functional_security.md)
