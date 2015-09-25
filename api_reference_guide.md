@@ -817,3 +817,10 @@ URI: /deviceTemplates/ {deviceTemplateId}/tags/{tag}
 Activates the device template.  Invoking this on an active device template has no effect.
 
 URI: /deviceTemplates/{deviceTemplateId}/tasks/activate
+
+### POST: DEACTIVATE DEVICE TEMPLATE
+Deactivates the device template.  Invoking this on an inactive device template has no effect.
+
+URI: /deviceTemplates/ {deviceTemplateId}//tasks/deactivate
+
+## Device
