@@ -230,4 +230,8 @@ SAMPLE RESPONSE
     "isActive": false
 }
 ```
+#### PUT: UPDATE DEVICE
+Update device service can be used to update the attributes, events or commands of the device. This service can be used to change the default values as well. In the example below, we will update the default value of the engine fault code to “10000.0”.
+
+
 
