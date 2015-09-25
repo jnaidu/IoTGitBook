@@ -666,6 +666,7 @@ SAMPLE REQUEST
 }
 ```
 SAMPLE RESPONSE
+```
 {
   "id": "03c06624-0204-4d54-a70d-21ec9652c261",
   "version": "g2wAAAABaAJtAAAADKEXbw0nGpWEAAADuWEBag==",
@@ -691,5 +692,79 @@ SAMPLE RESPONSE
 ### GET: SEARCH DEVICE TEMPLATE
 This method is used search device templates based on the filter parameters.
 
-URI: 
+URI: /deviceTemplates
+
+SAMPLE REQUEST
+```
+Accept: application/vnd.com.covisint.platform.deviceTemplate.v1+json;fetchattributetypes=true;fetchcommandtemplates=true;fetcheventtemplates=true
+Content-Type: application/vnd.com.covisint.platform.deviceTemplate.v1+json
+X-Realm: IOT1
+```
+SAMPLE RESPONSE
+[
+  {
+    "id": "03c06624-0204-4d54-a70d-21ec9652c261",
+    "version": "g2wAAAABaAJtAAAADKEXbw0nGpWEAAADuWEBag==",
+    "creator": "integrationTester",
+    "creatorAppId": "integrationTesterApp",
+    "creation": 1442229070062,
+    "realm": "IOT1",
+    "name": [
+      {
+        "lang": "en_US",
+        "text": "{{deviceTemplateName}}"
+      }
+    ],
+    "description": [
+      {
+        "lang": "en_US",
+        "text": "{{deviceTemplateDescription}}"
+      }
+    ],
+    "isActive": false
+  },
+  {
+    "id": "4ceb483f-6485-456e-bf5f-8f7b6b8238d8",
+    "version": "g2wAAAABaAJtAAAADNYQX5stFD7wAAAA+2EBag==",
+    "creator": "integrationTester",
+    "creatorAppId": "integrationTesterApp",
+    "creation": 1441798080311,
+    "realm": "IOT1",
+    "name": [
+      {
+        "lang": "en_US",
+        "text": "{{deviceTemplateName}}"
+      }
+    ],
+    "description": [
+      {
+        "lang": "en_US",
+        "text": "{{deviceTemplateDescription}}"
+      }
+    ],
+    "isActive": false
+  },
+  {
+    "id": "4bfc6847-fe51-4a54-8716-d92e733f898b",
+    "version": "g2wAAAACaAJtAAAADCDMPMOaSUrqAAGGzmEBaAJtAAAADKEXbw0nFa7pAAABg2EBag==",
+    "creator": "integrationTester",
+    "creatorAppId": "integrationTesterApp",
+    "creation": 1441964016560,
+    "realm": "IOT1",
+    "name": [
+      {
+        "lang": "en_US",
+        "text": "{{deviceTemplateName}}"
+      }
+    ],
+    "description": [
+      {
+        "lang": "en_US",
+        "text": "{{deviceTemplateDescription}}"
+      }
+    ],
+    "isActive": true
+  }
+]
+
 
