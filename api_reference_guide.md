@@ -850,3 +850,29 @@ SAMPLE REQUEST
  "commands":[ "823be4e2-dd3e-4887-b145-fbf6b2ab5f9e" ]
 }
 ```
+SAMPLE RESPONSE
+```
+{
+  "id": "412793ad-d113-4a59-87e3-f99bce746b7e",
+  "version": "g2wAAAABaAJtAAAADNYQX5stnA6MAAAEGmEBag==",
+  "creator": "integrationTester",
+  "creatorAppId": "integrationTesterApp",
+  "creation": 1442291747936,
+  "realm": "IOT1",
+  "name": [
+    {
+      "lang": "en_US",
+      "text": "{{deviceTemplateName}}"
+    }
+  ],
+  "description": [
+    {
+      "lang": "en_US",
+      "text": "{{deviceTemplateDescription}}"
+    }
+  ],
+  "parentDeviceTemplateId": "03c06624-0204-4d54-a70d-21ec9652c261",
+  "attributes": {},
+  "isActive": false
+}
+```
