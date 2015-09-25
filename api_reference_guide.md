@@ -1551,4 +1551,10 @@ Delete an existing route. Throws an error if {routeId} does not already exist.
 
 URI: /routes/{routeId}
 
-SAMPLE 
+SAMPLE REQUEST
+```
+Accept: application/vnd.com.covisint.platform.messaging.route.v1+json
+x-realm : IOT1
+```
+## EventSource
+Event source is a grouping of events by eventTemplateID and deviceID or eventTemplateID and deviceTemplateID.
