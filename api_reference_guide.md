@@ -938,3 +938,40 @@ SAMPLE RESPONSE
   }
 ]
 ```
+### GET: GET DEVICE 
+This method is used to retrieve the requested device.
+
+URI: /devices/{deviceId}
+
+SAMPLE REQUEST
+```
+Accept: application/vnd.com.covisint.platform.device.v1+json
+Content-Type: application/vnd.com.covisint.platform.device.v1+json
+X-Realm: IOT1
+```
+SAMPLE RESPONSE
+```
+{
+  "id": "cfb8e081-bcf1-4455-b2d3-ee165567e235",
+  "version": "g2wAAAACaAJtAAAADCDMPMOaTHweAAE6KGEBaAJtAAAADKEXbw0ttADjAAABt2ECag==",
+  "creator": "integrationTester",
+  "creatorAppId": "integrationTesterApp",
+  "creation": 1441964728334,
+  "realm": "IOT1",
+  "name": [
+    {
+      "lang": "en_US",
+      "text": "{{deviceTemplateName}}"
+    }
+  ],
+  "description": [
+    {
+      "lang": "en_US",
+      "text": "{{deviceTemplateDescription}}"
+    }
+  ],
+  "parentDeviceTemplateId": "4bfc6847-fe51-4a54-8716-d92e733f898b",
+  "attributes": {},
+  "isActive": false
+}
+```
