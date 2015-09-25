@@ -1694,4 +1694,7 @@ Delete an existing event source. Throws an error if {eventSourceId} does not alr
 URI: /eventSources/{eventSourceId}
 
 SAMPLE REQUEST
-
+```
+Accept: application/vnd.com.covisint.platform.eventSource.v1+json
+x-realm : IOT1
+```
