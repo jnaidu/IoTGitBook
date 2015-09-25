@@ -1293,5 +1293,13 @@ SAMPLE RESPONSE
   ]
 }
 ```
+### DELETE: DELETE STREAM
+Deletes an existing stream.
 
+URI: /stream/{streamId}
 
+SAMPLE REQUEST
+```
+Accept: application/vnd.com.covisint.platform.stream.device.v1+json
+X-Realm: IOT1
+```
