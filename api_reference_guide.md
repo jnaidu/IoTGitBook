@@ -1129,3 +1129,14 @@ SAMPLE RESPONSE
   ]
 }
 ```
+### GET: GET STREAM
+This method is used to retrieve stream by stream ID.
+
+URI: /streams/{streamId}
+
+SAMPLE REQUEST
+```
+Accept: application/vnd.com.covisint.platform.stream.v1+json
+X-Realm: IOT1
+```
+
