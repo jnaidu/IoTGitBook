@@ -300,3 +300,6 @@ ATTRIBUTES:
 | -- | -- | -- | -- |
 | deviceId | String | True | Id of the device that needs to be activated |
 
+### Create Event Source And Threshold Policy For The Device
+
+
