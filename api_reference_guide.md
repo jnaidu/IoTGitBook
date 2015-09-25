@@ -134,3 +134,10 @@ Deactivates the attribute type template.  Invoking this on an inactive attribute
 
 URI: /attributeTypes/{attributeTypeId}/tasks/deactivate
 
+## EventTemplate
+Device produces an “Event” when values of its attributes change. In order to scale models, connect many Devices, and avoid repetitious definition of the attributes for each new Device, a developer can streamline this process using Event Templates.
+
+### POST: CREATE EVENT TEMPLATE
+Create a new event template.
+
+URI: 
