@@ -199,3 +199,86 @@ SAMPLE RESPONSE
 }
 ```
 ### GET: SEARCH EVENT TEMPLATE
+This method is used search event templates based on the given filter parameters.
+
+URI: /eventTemplates
+
+SAMPLE REQUEST
+```
+Accept: application/vnd.com.covisint.platform.eventTemplate.v1+json
+Content-Type: application/vnd.com.covisint.platform.eventTemplate.v1+json
+X-Realm: IOT1
+```
+SAMPLE RESPONSE
+```
+[
+  {
+    "id": "8d6ff5b4-f2f7-473d-889a-0c9cf2064493",
+    "version": "g2wAAAACaAJtAAAADKEXbw0nGFeJAAAnxmECaAJtAAAADNYQX5sthJnpAABOyWEEag==",
+    "creator": "integrationTester",
+    "creatorAppId": "integrationTesterApp",
+    "creation": 1441949748924,
+    "realm": "IOT1",
+    "name": "{{eventName}}",
+    "description": [
+      {
+        "lang": "en_US",
+        "text": "{{eventDescription}}"
+      }
+    ],
+    "eventFields": [
+      {
+        "name": "{{eventFeild1Name}}",
+        "type": "decimal",
+        "boundAttributeTypeId": "119b02b8-ddf1-4265-88ac-cdc746b5e283"
+      },
+      {
+        "name": "{{eventFeild2Name}}",
+        "type": "decimal"
+      }
+    ],
+    "isActive": false
+  }
+]
+```
+### GET: GET EVENT TEMPLATE
+This method is used to retrieve the requested event template.
+
+URI: /eventTemplates/{eventTemplateId}
+
+SAMPLE REQUEST
+```
+Accept: application/vnd.com.covisint.platform.eventtemplate.v1+json;charset=UTF-8
+Content-Type: application/vnd.com.covisint.platform.eventtemplate.v1+json;charset=UTF-8
+X-Realm: IOT1
+```
+SAMPLE RESPONSE
+```
+{
+  "id": "8d6ff5b4-f2f7-473d-889a-0c9cf2064493",
+  "version": "g2wAAAACaAJtAAAADKEXbw0nGFeJAAAnxmECaAJtAAAADNYQX5sthJnpAABOyWEEag==",
+  "creator": "integrationTester",
+  "creatorAppId": "integrationTesterApp",
+  "creation": 1441949748924,
+  "realm": "IOT1",
+  "name": "{{eventName}}",
+  "description": [
+    {
+      "lang": "en_US",
+      "text": "{{eventDescription}}"
+    }
+  ],
+  "eventFields": [
+    {
+      "name": "{{eventFeild1Name}}",
+      "type": "decimal",
+      "boundAttributeTypeId": "119b02b8-ddf1-4265-88ac-cdc746b5e283"
+    },
+    {
+      "name": "{{eventFeild2Name}}",
+      "type": "decimal"
+    }
+  ],
+  "isActive": false
+}
+```
