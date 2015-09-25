@@ -1385,6 +1385,8 @@ SAMPLE RESPONSE
   "apiStatusCode": "framework:resource:missing"
 } 
 ```
+PUT: UPDATE DEVICE WITH STREAM
+P
 
 
 
