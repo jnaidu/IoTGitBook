@@ -352,3 +352,20 @@ SAMPLE RESPONSE
 #### POST: CREATE EVENT THRESHOLD POLICY
 On the incoming events from the device, we can attach policies to detect if a certain condition has met. In the rental car usecase, we would like to detect if the engine fault code is greater than default value 10000.
 
+SAMPLE REQUEST
+```
+{
+    "creator": "solutionImpl",
+    "creatorAppId": "solutionImplApp",
+    "realm": "IOT4RENTALCO",
+   "name”: “Engine fault detection policy”,
+   "description": [{ 
+      "lang": "en_US", 
+      "text": "This policy detects engine fault greater than 10000"
+   }],
+  "condition": {
+     "all": [ { “expr”: "greaterThan(f:engine_fault_code, v:decimal(10000))”
+     }]
+  }
+}
+```
