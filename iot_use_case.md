@@ -7,7 +7,7 @@
 This section is intended as a guide for solution developers and partners to develop their IoT solution on top of Covisint platform. It illustrates steps involved in developing an IoT solution by using example use cases. A sample request and response is provided to guide the user. For a complete list of APIs, refer to IoT Platform API Reference Guide.
 
 ## Pre-requisite
-Assumption is that the IoT solution instance already exists and the following application is built on top of this solution ins.
+Assumption is that the IoT solution instance already exists and the following application is built on top of this solution instance.
 
 ## Use Case: Rental Car Company
 
