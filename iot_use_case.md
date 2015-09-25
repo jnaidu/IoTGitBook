@@ -289,4 +289,14 @@ SAMPLE RESPONSE
      "isActive": false
 }
 ```
+#### POST: ACTIVATE DEVICE
+A device needs to be activated before use. Device can be activated in an update command or by this web service.
+
+URI: /devices/{deviceId}/tasks/activate
+
+ATTRIBUTES:
+
+| Parameter | Type | Required? | Description |
+| -- | -- | -- | -- |
+| deviceId | String | True | Id of the device that needs to be activated |
 
