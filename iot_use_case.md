@@ -178,4 +178,11 @@ From a device template, we can create multiple instances of a device. In this ca
 #### POST: CREATE DEVICE
 Create device service creates an instance of a device for the given deviceTemplateId. The device will inherit the default attributes defined in the device template. This service returns a deviceId which acts as a handle for all other web service calls. However, the device is not yet active to be used.
 
+ATTRIBUTES:
+
+| Parameter | Type | Required? | Description |
+| -- | -- | -- | -- |
+| deviceTemplateId | String | True | Id of the device template |
+
+
 
