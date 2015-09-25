@@ -389,3 +389,12 @@ SAMPLE RESPONSE
   }
 }
 ```
+#### POST: VALIDATE EVENT THRESHOLD POLICY
+Event threshold policy can be validated by some sample values. The web service will return true if the value satisfied the policy or else false.
+
+SAMPLE REQUEST
+```
+{
+  “engine_fault_code”: 10200
+}
+```
