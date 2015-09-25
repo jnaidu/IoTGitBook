@@ -137,4 +137,26 @@ SAMPLE REQUEST
     "eventTemplates": [ "48c713f8-5b69-49f0-afb1-e5618ac9bae9" ]
 }
 ```
+SAMPLE RESPONSE
+```
+{
+    "id": "4efa6ce8-5112-4aaf-92be-bde636c3488c",
+    "version": "1",
+    "creator": "solutionImpl",
+    "creatorAppId": "solutionImplApp",
+    "creation": 1441488130828,
+    "realm": "IOT4RENTALCO",
+    "name": [{
+      "lang": "en_us", 
+      "text": "Standard IoT Car"
+    }],
+    "description": [{ 
+      "lang": "en_us", 
+      "text": "A standard IoT car that can send engine fault code."
+    }],
+    "attributeTypes": [ "65eb9268-b0d1-4f75-a855-71eac716a351" ],
+    "eventTemplates": [ "48c713f8-5b69-49f0-afb1-e5618ac9bae9" ],
+    "isActive": false
+}
+```
 
