@@ -62,3 +62,47 @@ SAMPLE RESPONSE
     "isFrozen": false
 }
 ```
+#### POST: CREATE EVENT TEMPLATE
+Create Event Template service will create an event in the IoT solution library. The car can send engine fault code events every minute. This is captured in the following request.
+
+SAMPLE REQUEST
+```
+{
+    "creator": "solutionImpl",
+    "creatorAppId": "solutionImplApp",
+    "realm": "IOT4RENTALCO",
+    "name": "engine fault event",
+    "description": [{ 
+      "lang": "en_us", 
+      "text": "An event that sends engine fault code."
+    }],
+    "eventFields": [{
+      "name": "engine_fault_code",
+      "type": "decimal"
+    }]   
+    "isActive": true,
+    "tags": [ "car", "engine", "fault" ]
+}
+```
+SAMPLE RESPONSE
+```
+{
+    "id": "48c713f8-5b69-49f0-afb1-e5618ac9bae9",
+    "version": 0,
+    "creator": "solutionImpl",
+    "creatorAppId": "solutionImplApp",
+    "realm": "IOT4RENTALCO",
+    "creation": 1441377895153,
+    "name": "engine_fault_event",
+    "description": [{ 
+      "lang": "en_us", 
+      "text": "An event that sends engine fault code."
+    }],
+    "eventFields": [{
+      "name": "engine_fault_code",
+      "type": "decimal"
+    }]   
+    "isActive": true,
+    "tags": [ "car", "engine", "fault" ]
+}
+```
