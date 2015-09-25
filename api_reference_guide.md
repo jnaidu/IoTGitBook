@@ -347,3 +347,55 @@ SAMPLE REQUEST
 ```
 SAMPLE RESPONSE
 ```
+{
+  "id": "141bd70d-b9ce-4ea1-b2a6-99e2acb43aeb",
+  "version": "g2wAAAABaAJtAAAADNYQX5sthJnpAABQ7mEBag==",
+  "creator": "Sam",
+  "creatorAppId": "Sam's App",
+  "creation": 1442223545432,
+  "realm": "IOT1",
+  "name": "{{commandName}}",
+  "description": [
+    {
+      "lang": "en_US",
+      "text": "{{commandDescription}}"
+    }
+  ],
+  "args": [
+    {
+      "name": "{{commandArg2}}",
+      "description": [
+        {
+          "lang": "en_us",
+          "text": "{{commandArg2Description}}"
+        }
+      ],
+      "type": "bool",
+      "index": 0
+    },
+    {
+      "name": "{{commandArg1}}",
+      "description": [
+        {
+          "lang": "en_us",
+          "text": "{{commandArg1Description}}"
+        }
+      ],
+      "type": "decimal",
+      "index": 1
+    }
+  ],
+  "isActive": false
+}
+```
+### GET: SEARCH COMMAND TEMPLATE
+This method is used search event templates based on the given filter parameters.
+
+URI: /commandTemplates
+
+SAMPLE REQUEST
+```
+Accept: application/vnd.com.covisint.platform.commandTemplate.v1+json
+Content-Type: application/vnd.com.covisint.platform.commandTemplate.v1+json
+X-Realm: IOT1
+```
