@@ -1,4 +1,4 @@
-IoT Platform Architecture
+# IoT Platform Architecture
 
 Covisint IoT Platform enables partners and solution developers to securely connect people, process and system of things. The platform provides identity relationship management and entitlement management services for users, devices and applications. Building applications is made easy with a rich set of APIs.
 
