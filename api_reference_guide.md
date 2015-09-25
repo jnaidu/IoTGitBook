@@ -282,3 +282,18 @@ SAMPLE RESPONSE
   "isActive": false
 }
 ```
+### PUT: TAG EVENT TEMPLATE
+This method tags the specified event template.
+
+URI: /eventTemplates/ {eventTemplateId}/tags/{tag}
+
+### DELETE: UNTAG EVENT TEMPLATE
+Removes a tag from the event template.
+
+URI: /eventTemplates/ {eventTemplateId}/tags/{tag}
+
+### POST: ACTIVATE EVENT TEMPLATE
+Activates the event template.  Invoking this on an active event template has no effect.
+
+URI: /eventTemplates/ {eventTemplateId}/tasks/activate
+
