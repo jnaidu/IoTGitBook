@@ -782,3 +782,4 @@ producerPublicKey – The key used to encrypt the command message which will be 
 Password – the password for the device. When device security set to basic.
 Username – the username of the device. When device security set to basic.
 ```
+### Send Event From Devic
