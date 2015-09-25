@@ -115,3 +115,6 @@ URI: /eventTemplates/{{eventID}}/tasks/bindEventField?attributeTypeId={{attribut
 | -- | -- | -- | -- |
 | eventId | String | True | Id of the event which needs to be bound to an attribute type |
 | attributeTypeId | String | True | Id of the attribute type |
+
+#### POST: CREATE DEVICE TEMPLATE
+Create Device Template will create a template with all the listed attributes, events and commands. In the following sample, we create a device template of a car with engine fault code with the attribute id and the event id. By default the device template is not active unless specified in the request.
