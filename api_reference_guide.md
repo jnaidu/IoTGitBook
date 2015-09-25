@@ -824,3 +824,4 @@ Deactivates the device template.  Invoking this on an inactive device template h
 URI: /deviceTemplates/ {deviceTemplateId}//tasks/deactivate
 
 ## Device
+
