@@ -773,3 +773,12 @@ accountId – the id to be passed to the JMS broker when publishing commands and
 Username – the username required to provide when connecting to the JMS broker. Basic authentication.
 Password – the password required to provide when connecting to the JMS broker. Basic authentication.
 ```
+#### MESSAGE PROCESSING CONFIGURATION INFORMATION
+Information you will need to publish commands and subscribe to events.
+```
+ownerId -  the application Id.
+consumerPrivateKey – The key used to decrypt the incoming events and alerts from the broker.
+producerPublicKey – The key used to encrypt the command message which will be published to the producer topic.
+Password – the password for the device. When device security set to basic.
+Username – the username of the device. When device security set to basic.
+```
