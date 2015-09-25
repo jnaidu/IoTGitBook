@@ -345,3 +345,5 @@ SAMPLE REQUEST
 	] 
 }
 ```
+SAMPLE RESPONSE
+```
