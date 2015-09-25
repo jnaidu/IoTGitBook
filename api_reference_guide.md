@@ -767,4 +767,50 @@ SAMPLE RESPONSE
   }
 ]
 
+### GET: GET DEVICE TEMPLATE
 
+This method is used to retrieve the requested device template.
+
+URI: /deviceTemplates/ {deviceTemplateId}
+
+SAMPLE REQUEST
+```
+Accept: application/vnd.com.covisint.platform.deviceTemplate.v1+json;fetchattributetypes=true;fetchcommandtemplates=true;fetcheventtemplates=true
+Content-Type: application/vnd.com.covisint.platform.deviceTemplate.v1+json
+X-Realm: IOT1
+```
+SAMPLE RESPONSE
+```
+{
+    "id": "4bfc6847-fe51-4a54-8716-d92e733f898b",
+    "version": "g2wAAAACaAJtAAAADCDMPMOaSUrqAAGGzmEBaAJtAAAADKEXbw0nFa7pAAABg2EBag==",
+    "creator": "integrationTester",
+    "creatorAppId": "integrationTesterApp",
+    "creation": 1441964016560,
+    "realm": "IOT1",
+    "name": [
+      {
+        "lang": "en_US",
+        "text": "{{deviceTemplateName}}"
+      }
+    ],
+    "description": [
+      {
+        "lang": "en_US",
+        "text": "{{deviceTemplateDescription}}"
+      }
+    ],
+    "isActive": true
+  },
+```
+### PUT: TAG DEVICE TEMPLATE
+This method tags the specified device template.
+
+URI:/deviceTemplates/ {deviceTemplateId}/tags/{tag}
+
+### DELETE: UNTAG DEVICE TEMPLATE
+Removes a tag from the device template.
+
+URI: /deviceTemplates/ {deviceTemplateId}/tags/{tag}
+
+### POST: ACTIVATE DEVICE TEMPLATE
