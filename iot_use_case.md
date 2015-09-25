@@ -233,5 +233,31 @@ SAMPLE RESPONSE
 #### PUT: UPDATE DEVICE
 Update device service can be used to update the attributes, events or commands of the device. This service can be used to change the default values as well. In the example below, we will update the default value of the engine fault code to “10000.0”.
 
+SAMPLE REQUEST
+```
+{
+    "creator": "solutionImpl",
+    "creatorAppId": "solutionImplApp",
+    "realm": "IOT4RENTALCO",
+    "name": [{
+      "lang": "en_us", 
+      "text": "Standard IoT Car – Instance 1"
+    }],
+    "description": [{ 
+      "lang": "en_us", 
+      "text": "A standard IoT car that can send engine fault code."
+    }],
+    "attributes": {
+      "standard": [{
+        "attributeTypeId": "65eb9268-b0d1-4f75-a855-71eac716a351",
+        "value": 10000.0
+      }]
+     },
+     "observableEvents": [
+       "48c713f8-5b69-49f0-afb1-e5618ac9bae9"
+      ],
+      "isActive": false
+}
+```
 
 
