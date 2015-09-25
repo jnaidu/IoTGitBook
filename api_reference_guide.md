@@ -1441,6 +1441,64 @@ SAMPLE RESPONSE
 }
 ```
 
+### GET: LIST ROUTE
+List of available routes.
 
+URI: /routes
 
+SAMPLE REQUEST
+```
+Accept: application/vnd.com.covisint.platform.messaging.route.v1+json
+x-Realm :IOT1
+```
+SAMPLE RESPONSE
+```
+[
+  {
+    "id": "bd8e0952-a7fa-4654-86b2-687e94a527e6",
+    "version": "g2wAAAABaAJtAAAADCDMPMOaSzKTAAE5fWEBag==",
+    "creator": "SGORIAL2",
+    "creatorAppId": "postman",
+    "creation": 1441795645043,
+    "realm": "IOT1",
+    "routeId": "bd8e0952-a7fa-4654-86b2-687e94a527e6",
+    "routeSourceId": "5acb7b8e017x",
+    "routeType": "EVENT",
+    "streamId": "stream01",
+    "workflowId": "workflow_1",
+    "workflowTopology": "WorkflowTopology01",
+    "workflowTopic": "WorkflowTopic01",
+    "routingTopic": "RoutingTopic01"
+  }
+]
+```
+### GET: GET ROUTE
+This method is used to retrieve the requested route.
+
+URI: /routes/{routeId}
+
+SAMPLE REQUEST
+```
+Accept: application/vnd.com.covisint.platform.messaging.route.v1+json
+x-realm : IOT1
+```
+SAMPLE RESPONSE
+```
+{
+  "id": "bd8e0952-a7fa-4654-86b2-687e94a527e6",
+  "version": "g2wAAAABaAJtAAAADCDMPMOaSzKTAAE5fWEBag==",
+  "creator": "SGORIAL2",
+  "creatorAppId": "postman",
+  "creation": 1441795645043,
+  "realm": "IOT1",
+  "routeId": "bd8e0952-a7fa-4654-86b2-687e94a527e6",
+  "routeSourceId": "5acb7b8e017x",
+  "routeType": "EVENT",
+  "streamId": "stream01",
+  "workflowId": "workflow_1",
+  "workflowTopology": "WorkflowTopology01",
+  "workflowTopic": "WorkflowTopic01",
+  "routingTopic": "RoutingTopic01"
+}
+```
 
