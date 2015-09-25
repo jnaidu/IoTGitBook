@@ -159,4 +159,12 @@ SAMPLE RESPONSE
     "isActive": false
 }
 ```
+#### POST: ACTIVATE DEVICE TEMPLATE
+Device templates needs to be active before using it to create devices. A solution developer can activate a device template with this web service.
+
+URI: /deviceTemplates/{{deviceTemplateId}}/tasks/activate
+
+| Parameter | Type | Required? | Description |
+| -- | -- | -- | -- |
+| 0:2 | 1:2 | 2:2 | 3:2 |
 
