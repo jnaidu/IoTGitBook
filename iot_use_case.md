@@ -166,5 +166,5 @@ URI: /deviceTemplates/{{deviceTemplateId}}/tasks/activate
 
 | Parameter | Type | Required? | Description |
 | -- | -- | -- | -- |
-| 0:2 | 1:2 | 2:2 | 3:2 |
+| deviceTemplateId | String | True | Id of the device template to activate |
 
