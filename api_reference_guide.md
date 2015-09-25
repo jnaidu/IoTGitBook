@@ -1367,6 +1367,26 @@ SAMPLE RESPONSE
 ]
 ```
 
+### GET: GET DEVICE BY ID FROM STREAM
+Retrieves the device associated with the stream by its unique id.
+
+URI: /streams/{streamId}/{deviceId}
+
+SAMPLE REQUEST
+```
+Accept: application/vnd.com.covisint.platform.stream.device.v1+json
+X-Realm: IOT1
+```
+SAMPLE RESPONSE
+```
+{
+  "status": 404,
+  "apiMessage": "A resource with the following ID was not found: 1442316983",
+  "apiStatusCode": "framework:resource:missing"
+} 
+```
+
+
 
 
 
