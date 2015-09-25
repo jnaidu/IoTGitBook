@@ -1649,3 +1649,49 @@ SAMPLE RESPONSE
 ```
 ### PUT: UPDATE EVENT SOURCE
 Updates an existing event source. Throws an error if {eventSourceId} does not already exist.
+
+URI: /eventSources/{eventSourceId}
+
+SAMPLE REQUEST
+```
+Accept: application/vnd.com.covisint.platform.eventSource.v1+json
+x-realm : IOT
+{
+    "id": "9568b779-b05f-4924-8147-50a30a4e08c7",
+    "version": "0",
+    "creator": "integrationTester",
+    "creatorAppId": "integrationTesterApp",
+    "creation": 1441971175074,
+    "realm": "IOT1",
+    "name": [
+      {
+        "lang": "en",
+        "value": "{{eventSourceName}}"
+      }
+    ]
+}
+```
+SAMPLE RESPONSE
+```
+{
+  "id": "9568b779-b05f-4924-8147-50a30a4e08c7",
+  "version": "g2wAAAABaAJtAAAADKEXbw0nFaz5AAACymECag==",
+  "creator": " integrationTester",
+  "creatorAppId": " integrationTesterApp",
+  "creation": 1442474369552,
+  "realm": "IOT1",
+  "name": [
+    {
+      "lang": "en",
+      "value": "{{eventSourceName}}"
+    }
+  ]
+}
+```
+### GET: DELETE EVENT SOURCE
+Delete an existing event source. Throws an error if {eventSourceId} does not already exist.
+
+URI: /eventSources/{eventSourceId}
+
+SAMPLE REQUEST
+
