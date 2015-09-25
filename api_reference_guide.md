@@ -878,3 +878,8 @@ SAMPLE RESPONSE
 ```
 ### GET: SEARCH DEVICE 
 This method is used search device based on the filter parameters.
+
+URI: /devices
+
+SAMPLE REQUEST
+```
