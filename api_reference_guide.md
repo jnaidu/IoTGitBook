@@ -1558,3 +1558,36 @@ x-realm : IOT1
 ```
 ## EventSource
 Event source is a grouping of events by eventTemplateID and deviceID or eventTemplateID and deviceTemplateID.
+
+### POST: CREATE EVENT SOURCE
+Create a new eventsource.
+
+SAMPLE REQUEST
+```
+Accept: application/vnd.com.covisint.platform.eventSource.v1+json
+Content-type: application/vnd.com.covisint.platform.eventSource.v1+json
+x-Realm: IOT1
+{
+    "creator": "Integrator",
+    "creatorAppId": "IntegrationTest",
+    "realm": "RLM",
+    "name": [ { "lang": "en", "value": "An event source." } ]
+}
+```
+SAMPLE RESPONSE
+```
+{
+  "id": "6ecf4721-1608-40f6-81a4-19ccdd335911",
+  "version": "g2wAAAABaAJtAAAADNYQX5strNlqAAAzEGEBag==",
+  "creator": "Integrator",
+  "creatorAppId": "IntegrationTest",
+  "creation": 1442472840600,
+  "realm": "RLM",
+  "name": [
+    {
+      "lang": "en",
+      "value": "An event source."
+    }
+  ]
+}
+``
