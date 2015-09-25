@@ -164,7 +164,16 @@ Device templates needs to be active before using it to create devices. A solutio
 
 URI: /deviceTemplates/{{deviceTemplateId}}/tasks/activate
 
+ATTRIBUTES:
+
 | Parameter | Type | Required? | Description |
 | -- | -- | -- | -- |
 | deviceTemplateId | String | True | Id of the device template to activate |
+
+### Create An Instance Of The Device From Template
+From a device template, we can create multiple instances of a device. In this case, we create an instance of a car from a device template and activate the device in IoT platform.
+
+#### POST: CREATE DEVICE
+Create device service creates an instance of a device for the given deviceTemplateId. The device will inherit the default attributes defined in the device template. This service returns a deviceId which acts as a handle for all other web service calls. However, the device is not yet active to be used.
+
 
