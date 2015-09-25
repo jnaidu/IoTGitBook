@@ -1195,5 +1195,6 @@ Updates an existing stream.  Throws an error if {streamId} does not already exis
 
 URI: /streams/{streamId}
 
-SAMPLE REQ
+SAMPLE REQUEST
+
 
