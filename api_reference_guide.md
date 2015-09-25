@@ -1331,6 +1331,16 @@ SAMPLE RESPONSE
   "streamId": "6cc3260f-f5a2-4cfe-ab28-f5a0cba27785"
 }
 ```
+### GET: GET ALL DEVICES WITH STREAM
+List all devices attached to this stream.
+
+URI: /streams/{streamId}/devices
+
+SAMPLE REQUEST
+```
+Accept: application/vnd.com.covisint.platform.stream.device.v1+json
+X-Realm: IOT1
+```
 
 
 
