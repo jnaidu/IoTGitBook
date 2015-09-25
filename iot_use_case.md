@@ -111,3 +111,7 @@ Bind event field to attribute so that the attribute is updated with the latest v
 
 URI: /eventTemplates/{{eventID}}/tasks/bindEventField?attributeTypeId={{attributeTypeId}}
 
+| Parameter | Type | Required? | Description |
+| -- | -- | -- | -- |
+| eventId | String | True | Id of the event which needs to be bound to an attribute type |
+| attributeTypeId | String | True | Id of the attribute type |
