@@ -399,3 +399,297 @@ Accept: application/vnd.com.covisint.platform.commandTemplate.v1+json
 Content-Type: application/vnd.com.covisint.platform.commandTemplate.v1+json
 X-Realm: IOT1
 ```
+SAMPLE RESPONSE
+```
+[
+  {
+    "id": "bc02b60f-90f8-4eed-ad17-8d10f8b9bfa8",
+    "version": "g2wAAAABaAJtAAAADNYQX5stIjkQAAABW2EBag==",
+    "creator": "integrationTester",
+    "creatorAppId": "integrationTesterApp",
+    "creation": 1441958618261,
+    "realm": "IOT1",
+    "name": "{{commandName}}",
+    "description": [
+      {
+        "lang": "en_US",
+        "text": "{{commandDescription}}"
+      }
+    ],
+    "args": [
+      {
+        "name": "{{commandArg2}}",
+        "description": [
+          {
+            "lang": "en_us",
+            "text": "{{commandArg2Description}}"
+          }
+        ],
+        "type": "bool",
+        "index": 0
+      },
+      {
+        "name": "{{commandArg1}}",
+        "description": [
+          {
+            "lang": "en_us",
+            "text": "{{commandArg1Description}}"
+          }
+        ],
+        "type": "decimal",
+        "index": 1
+      }
+    ],
+    "isActive": false
+  },
+  {
+    "id": "f58e3d66-47e9-4dd1-b255-64f24334bf38",
+    "version": "g2wAAAABaAJtAAAADCDMPMOaSzKTAAE722EBag==",
+    "creator": "Sam",
+    "creatorAppId": "Sam's App",
+    "creation": 1442217205007,
+    "realm": "IOT1",
+    "name": "{{commandName}}",
+    "description": [
+      {
+        "lang": "en_US",
+        "text": "{{commandDescription}}"
+      }
+    ],
+    "args": [
+      {
+        "name": "{{commandArg2}}",
+        "description": [
+          {
+            "lang": "en_us",
+            "text": "{{commandArg2Description}}"
+          }
+        ],
+        "type": "bool",
+        "index": 0
+      },
+      {
+        "name": "{{commandArg1}}",
+        "description": [
+          {
+            "lang": "en_us",
+            "text": "{{commandArg1Description}}"
+          }
+        ],
+        "type": "decimal",
+        "index": 1
+      }
+    ],
+    "isActive": false
+  },
+  {
+    "id": "c12249b9-a84f-4a8e-9048-1e7127db9694",
+    "version": "g2wAAAABaAJtAAAADNYQX5swFAnfAAADdGEBag==",
+    "creator": "integrationTester",
+    "creatorAppId": "integrationTesterApp",
+    "creation": 1442223526270,
+    "realm": "IOT1",
+    "name": "{{commandName}}",
+    "description": [
+      {
+        "lang": "en_US",
+        "text": "{{commandDescription}}"
+      }
+    ],
+    "args": [
+      {
+        "name": "{{commandArg2}}",
+        "description": [
+          {
+            "lang": "en_us",
+            "text": "{{commandArg2Description}}"
+          }
+        ],
+        "type": "bool",
+        "index": 0
+      },
+      {
+        "name": "{{commandArg1}}",
+        "description": [
+          {
+            "lang": "en_us",
+            "text": "{{commandArg1Description}}"
+          }
+        ],
+        "type": "decimal",
+        "index": 1
+      }
+    ],
+    "isActive": false
+  },
+  {
+    "id": "141bd70d-b9ce-4ea1-b2a6-99e2acb43aeb",
+    "version": "g2wAAAABaAJtAAAADNYQX5sthJnpAABQ7mEBag==",
+    "creator": "integrationTester",
+    "creatorAppId": "integrationTesterApp",
+    "creation": 1442223545432,
+    "realm": "IOT1",
+    "name": "{{commandName}}",
+    "description": [
+      {
+        "lang": "en_US",
+        "text": "{{commandDescription}}"
+      }
+    ],
+    "args": [
+      {
+        "name": "{{commandArg2}}",
+        "description": [
+          {
+            "lang": "en_us",
+            "text": "{{commandArg2Description}}"
+          }
+        ],
+        "type": "bool",
+        "index": 0
+      },
+      {
+        "name": "{{commandArg1}}",
+        "description": [
+          {
+            "lang": "en_us",
+            "text": "{{commandArg1Description}}"
+          }
+        ],
+        "type": "decimal",
+        "index": 1
+      }
+    ],
+    "isActive": false
+  }
+]
+```
+### GET: GET COMMAND TEMPLATE
+This method is used to retrieve the requested command template.
+
+URI: /commandTemplates/ {commandTemplateId}
+
+SAMPLE REQUEST
+```
+Accept: application/vnd.com.covisint.platform.commandTemplate.v1+json
+Content-Type: application/vnd.com.covisint.platform.commandTemplate.v1+json
+X-Realm: IOT1
+```
+SAMPLE RESPONSE
+```
+{
+  "id": "bc02b60f-90f8-4eed-ad17-8d10f8b9bfa8",
+  "version": "g2wAAAABaAJtAAAADNYQX5stIjkQAAABW2EBag==",
+  "creator": "integrationTester",
+  "creatorAppId": "integrationTesterApp",
+  "creation": 1441958618261,
+  "realm": "IOT1",
+  "name": "{{commandName}}",
+  "description": [
+    {
+      "lang": "en_US",
+      "text": "{{commandDescription}}"
+    }
+  ],
+  "args": [
+    {
+      "name": "{{commandArg2}}",
+      "description": [
+        {
+          "lang": "en_us",
+          "text": "{{commandArg2Description}}"
+        }
+      ],
+      "type": "bool",
+      "index": 0
+    },
+    {
+      "name": "{{commandArg1}}",
+      "description": [
+        {
+          "lang": "en_us",
+          "text": "{{commandArg1Description}}"
+        }
+      ],
+      "type": "decimal",
+      "index": 1
+    }
+  ],
+  "isActive": false
+}
+```
+### PUT: TAG COMMAND TEMPLATE
+This method tags the specified command template. 
+
+URI: /commandTemplates/ {commandTemplateId}/tags/{tag}
+
+### DELETE: UNTAG COMMAND TEMPLATE
+Removes a tag from the event template.
+
+URI: /commandTemplates/ {commandTemplateId}/tags/{tag}
+
+### POST: ACTIVATE COMMAND TEMPLATE
+Activates the command template.  Invoking this on an active command template has no effect.
+
+URI: /commandTemplates/ {commandTemplateId}/tasks/activate
+
+### POST: DEACTIVATE COMMAND TEMPLATE
+Deactivates the command template.  Invoking this on an inactive command template has no effect.
+
+URI: /eventTemplates/ {eventTemplateId}//tasks/deactivate
+
+## DeviceTemplate
+Using the Device template, a developer typically starts by creating a new device. In order to scale models, connect many Devices, and avoid repetitious definition of the property for each new Device, a developer can streamline this process using Device Templates. Prerequisite: Attributes, Events, Commands should be created in advance.
+
+### POST: CREATE DEVICE TEMPLATE
+Create a new device template.
+
+URI: /deviceTemplates
+
+SAMPLE REQUEST
+```
+{
+    "creator": "integrationTester",
+    "creatorAppId": "integrationTesterApp",
+    "realm": "{{newRealm}}",
+ "name": [{ 
+  "lang": "en_US", 
+  "text": "{{deviceTemplateName}}"
+ }],
+ "description": [{ 
+  "lang": "en_US", 
+  "text": "{{deviceTemplateDescription}}"
+ }],
+ "attributes": [ "fa09d62c-3fb6-4ba6-8f1e-f3b9d1321b36" ],
+ "events": [ "5b4e22e6-3089-409a-b561-a73c3c99128f" ],
+ "commands":[ "823be4e2-dd3e-4887-b145-fbf6b2ab5f9e" ]
+}
+```
+SAMPLE RESPONSE
+{
+  "id": "03c06624-0204-4d54-a70d-21ec9652c261",
+  "version": "g2wAAAABaAJtAAAADKEXbw0nGpWEAAADuWEBag==",
+  "creator": "integrationTester",
+  "creatorAppId": "integrationTesterApp",
+  "creation": 1442229070062,
+  "realm": "IOT1",
+  "name": [
+    {
+      "lang": "en_US",
+      "text": "{{deviceTemplateName}}"
+    }
+  ],
+  "description": [
+    {
+      "lang": "en_US",
+      "text": "{{deviceTemplateDescription}}"
+    }
+  ],
+  "isActive": false
+}
+```
+### GET: SEARCH DEVICE TEMPLATE
+This method is used search device templates based on the filter parameters.
+
+URI: 
+
