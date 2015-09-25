@@ -1501,4 +1501,54 @@ SAMPLE RESPONSE
   "routingTopic": "RoutingTopic01"
 }
 ```
+### PUT: UPDATE ROUTE
+This method updates the route.
 
+URI: /routes/{routeId}
+
+SAMPLE REQUEST
+```
+Accept: application/vnd.com.covisint.platform.messaging.route.v1+json
+x-realm : IOT1
+{
+  "id": "bf069bb8-c4cf-418f-814f-216b4aac7ec2",
+  "version": "0",
+  "creator": "SGORIAL2",
+  "creatorAppId": "postman",
+  "creation": 1442389711913,
+  "realm": "IOT1",
+  "routeId": "bf069bb8-c4cf-418f-814f-216b4aac7ec2",
+  "routeSourceId": "5acb7b8e017x",
+  "routeType": "EVENT",
+  "streamId": "stream01",
+  "workflowId": "workflow_1",
+  "workflowTopology": "WorkflowTopology02",
+  "workflowTopic": "WorkflowTopic02",
+  "routingTopic": "RoutingTopic02"
+}
+```
+SAMPLE RESPONSE
+```
+{
+  "id": "bf069bb8-c4cf-418f-814f-216b4aac7ec2",
+  "version": "g2wAAAACaAJtAAAADKEXbw0nF1JWAAAEfmEBaAJtAAAADNYQX5stnA6MAAAEdGEBag==",
+  "creator": "SGORIAL2",
+  "creatorAppId": "postman",
+  "creation": 1442395373085,
+  "realm": "IOT1",
+  "routeId": "bf069bb8-c4cf-418f-814f-216b4aac7ec2",
+  "routeSourceId": "5acb7b8e017x",
+  "routeType": "EVENT",
+  "streamId": "stream01",
+  "workflowId": "workflow_1",
+  "workflowTopology": "WorkflowTopology02",
+  "workflowTopic": "WorkflowTopic02",
+  "routingTopic": "RoutingTopic02"
+}
+```
+### DELETE: DELETE ROUTE
+Delete an existing route. Throws an error if {routeId} does not already exist.
+
+URI: /routes/{routeId}
+
+SAMPLE 
