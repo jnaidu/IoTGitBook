@@ -782,4 +782,12 @@ producerPublicKey – The key used to encrypt the command message which will be 
 Password – the password for the device. When device security set to basic.
 Username – the username of the device. When device security set to basic.
 ```
-### Send Event From Devic
+### Send Event From Device
+To send an event from the car, the gateway on the car needs to perform the following steps:
+1. Read engine fault code: The gateway will read the engine fault code every minute.
+2. Construct message: The gateway will construct JSON string for the event. -
+For example:
+```
+{ “engine_fault_code”: 10200 }
+```
+3. 
