@@ -22,3 +22,4 @@ A solution developer can model attributes, events, commands and device templates
 
 Devices can connect to the platform using MQTT protocol directly or through a Smart Gateway. The MQTT broker is based on scalable architecture which can connect to large number of devices and transport messages between the cloud and the devices. Service Broker help in routing the messages from the devices to applications and vice-versa. Developers can create routes and streams between devices and applications in Messaging Services unit. Applications can subscribe to events from the devices and send commands to devices. On the other hand, devices publish events and act on commands. All events and commands are tracked at a granular level inside the platform.
 
+![](IoT_Architecture.jpg)
