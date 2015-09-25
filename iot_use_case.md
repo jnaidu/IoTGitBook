@@ -561,3 +561,11 @@ SAMPLE RESPONSE
     }]
 }
 ```
+### Create Event Stream For Application
+Create an event stream to connect an application. This event stream is a secure channel that allows the application to publish commands and subscribe to events. This service will require the applicationId in order to create an event stream.
+
+#### POST: CREATE STREAM
+Create an application stream using the applicationId and the security parameters.
+
+SAMPLE REQUEST
+```
