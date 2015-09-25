@@ -302,4 +302,46 @@ Deactivates the event template.  Invoking this on an inactive event template has
 
 URI: /eventTemplates/ {eventTemplateId}//tasks/deactivate
 
+## CommandTemplate
+Command templates are created so that the response from devices can be captured in a standard form.
 
+### POST: CREATE COMMAND TEMPLATE
+Create a new command template.
+
+URI: /commandTemplates
+
+SAMPLE REQUEST
+```
+{   "creator": "integrationTester",     
+	"creatorAppId": "integrationTesterApp",
+	"realm": "{{newRealm}}",
+	"name": "{{commandName}}",
+	"isActive": true,
+	"description": [       
+		{   
+			"lang": "en_US",           
+			"text": "{{commandDescription}}"
+		}   
+	],   
+	"args": [
+		{         
+			"name": "{{commandArg1}}",
+			"description": [{        
+			"lang": "en_us",        
+			"text": "{{commandArg1Description}}"      
+			}],      
+			"type": "decimal",      
+			"index": 1     
+		},     
+		{         
+			"name": "{{commandArg2}}",      
+			"description": [{        
+			"lang": "en_us",        
+			"text": "{{commandArg2Description}}"      
+			}],      
+			"type": "bool",      
+			"index": 0     
+		}       
+	] 
+}
+```
