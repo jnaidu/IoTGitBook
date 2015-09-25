@@ -824,4 +824,7 @@ Deactivates the device template.  Invoking this on an inactive device template h
 URI: /deviceTemplates/ {deviceTemplateId}//tasks/deactivate
 
 ## Device
+The physical device that produces data and sends it to platform needs to be created.
 
+### POST: CREATE DEVICE
+Create a new device. Prerequisite is Device Template should have been created
