@@ -140,4 +140,62 @@ Device produces an “Event” when values of its attributes change. In order to
 ### POST: CREATE EVENT TEMPLATE
 Create a new event template.
 
-URI: 
+URI: /eventTemplates
+
+SAMPLE REQUEST
+```
+{
+    "creator": "integrationTester",
+    "creatorAppId": "integrationTesterApp",
+    "realm": "{{newRealm}}",
+    "name": "{{eventName}}",
+    "description": [
+        {
+            "lang": "en_US",
+            "text": "{{eventDescription}}"
+        }    
+    ],
+    "eventFields": [
+        {
+            "name": "{{eventFeild1Name}}",
+            "type": "decimal"
+        },
+        {
+            "name": "{{eventFeild2Name}}",
+            "type": "decimal"
+        }
+    ],
+    "isActive": true,
+    "tags": [ "weather", "temp" ]
+}
+```
+SAMPLE RESPONSE
+```
+{
+  "id": "8d6ff5b4-f2f7-473d-889a-0c9cf2064493",
+  "version": "g2wAAAABaAJtAAAADNYQX5sthJnpAABOyWEBag==",
+  "creator": "integrationTester",
+  "creatorAppId": "integrationTesterApp",
+  "creation": 1441949748924,
+  "realm": "IOT1",
+  "name": "{{eventName}}",
+  "description": [
+    {
+      "lang": "en_US",
+      "text": "{{eventDescription}}"
+    }
+  ],
+  "eventFields": [
+    {
+      "name": "{{eventFeild1Name}}",
+      "type": "decimal"
+    },
+    {
+      "name": "{{eventFeild2Name}}",
+      "type": "decimal"
+    }
+  ],
+  "isActive": false
+}
+```
+### GET: SEARCH EVENT TEMPLATE
