@@ -1190,5 +1190,10 @@ SAMPLE RESPONSE
   }
 ]
 ```
+### PUT: UPDATE STREAM
+Updates an existing stream.  Throws an error if {streamId} does not already exist.
 
+URI: /streams/{streamId}
+
+SAMPLE R
 
