@@ -790,4 +790,5 @@ For example:
 ```
 { “engine_fault_code”: 10200 }
 ```
-3. 
+3. Encrypt message: The JSON event string needs to be encrypted using the producerPublicKey and encode the message in Base64 format.
+For example:
