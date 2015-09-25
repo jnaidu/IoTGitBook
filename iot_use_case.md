@@ -327,5 +327,26 @@ SAMPLE REQUEST
 }
 ```
 SAMPLE RESPONSE
-
+```
+{
+  "id": "231034ca-96ee-48bc-9937-aa964d8c9813",
+  "version": "g2wAAAABaAJtAAAADCDMPMOaTHL2AAIpj2EBag==",
+    "creator": "solutionImpl",
+    "creatorAppId": "solutionImplApp",
+  "creation": 1442863150834,
+   "realm": "IOT4RENTALCO",
+   "name": [{ 
+      "lang": "en_US", 
+      "text": "Engine fault event source"
+    }],
+   "description": [{ 
+      "lang": "en_US", 
+      "text": "A standard engine fault event source."
+   }],
+  "sourceDevices": [{
+     "deviceId": [ "23f6db35-3416-4058-97a7-2e50e8b152e2" ],
+     "eventTemplateId": [ "48c713f8-5b69-49f0-afb1-e5618ac9bae9" ]
+   }]
+}
+```
 
