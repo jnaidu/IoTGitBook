@@ -715,3 +715,18 @@ SAMPLE REQUEST
     "routingTopic": "90f71720-519b-4b36-b7ae-6c38eb956c7d"
 }
 ```
+SAMPLE RESPONSE
+```
+  {
+    "id": "1766682f-3d7c-47a7-8f9f-468bef155b4d",
+    "version": "g2wAAAABaAJtAAAADCDMPMOaTGC2AAE5jWEBag==",
+    "creator": "solutionImpl",
+    "creatorAppId": "solutionImplApp",
+    "realm": "IOT4RENTALCO",
+    "creation": 1441819423946,
+    "routeSourceId": "5acb7b8e017x",
+    "routeType": "EVENT",
+    "streamId": "stream01",
+    "routingTopic": "RoutingTopic01"
+  }
+```
