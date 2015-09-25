@@ -184,5 +184,20 @@ ATTRIBUTES:
 | -- | -- | -- | -- |
 | deviceTemplateId | String | True | Id of the device template |
 
-
+SAMPLE REQUEST
+```
+{
+    "creator": "solutionImpl",
+    "creatorAppId": "solutionImplApp",
+    "realm": "IOT4RENTALCO",
+    "name": [{
+      "lang": "en_us", 
+      "text": "Standard IoT Car – Instance 1"
+    }],
+    "description": [{ 
+      "lang": "en_us", 
+      "text": "A standard IoT car that can send engine fault code."
+    }]
+}
+```
 
