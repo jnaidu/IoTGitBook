@@ -406,3 +406,32 @@ SAMPLE RESPONSE
 ```
 ### Create Event Stream For Device
 In order to connect a device, we need to create a event stream for it. This event stream is a secure channel that allows the device to publish events and subscribe to commands. You will need the deviceId in order to create an event stream.
+
+#### POST: CREATE STREAM
+Create stream service will require information on the protocol used to connect to the device and all the security information.
+
+SAMPLE REQUEST
+```
+{
+    "creator": "solutionImpl",
+    "creatorAppId": "solutionImplApp",
+    "realm": "IOT4RENTALCO",
+    "ownerId": "2bbb69c0-4551-4b91-b06b-c77a6865e44c",
+    "name": [{
+      "lang": "en_us", 
+      "text": "Device Stream for Standard IoT Car – Instance 1"
+    }],
+    "streamType": "DEVICE",
+    "protocolType": "MQTT",
+    "protocolSecurityType": "BASIC",
+    "ownerSecurityType": "BASIC",
+    "payloadSecurityType": "ENCRYPTED",
+
+    "streamConfiguration": {
+       "pullingThreads": 1,
+       "sleepTime": 10000,
+       "quota": 1
+    }
+
+}
+```
