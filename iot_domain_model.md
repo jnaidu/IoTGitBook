@@ -1,6 +1,5 @@
 
-# 
-**IoT Domain Model**
+# **IoT Domain Model**
 
 
 ## IoT Solution
