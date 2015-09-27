@@ -1,4 +1,4 @@
-# IoT Features
+# Features
 
 ## Key capabilities provided in this release are as follows:
 
