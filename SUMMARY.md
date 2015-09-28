@@ -17,5 +17,6 @@
    * [Create Application](create_application.md)
    * [Create Event Stream For Application](create_event_stream_for_application.md)
    * [Subscribe To Events](subscribe_to_events.md)
+   * Configure The Device
 * [API Documentation](api_reference_guide.md)
 
