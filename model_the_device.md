@@ -8,9 +8,9 @@ Create Attribute Type service will create an attribute in the IoT solution libra
 SAMPLE REQUEST
 ```
 {
-    "creator": "solutionImpl",
-    "creatorAppId": "solutionImplApp",
-    "realm": "IOT4RENTALCO",
+    "creator": "",
+    "creatorAppId": "",
+    "realm": "",
     "name": "engine_fault",
     "description": [{ 
       "lang": "en_us", 
@@ -29,10 +29,10 @@ SAMPLE RESPONSE
 {
     "id": "65eb9268-b0d1-4f75-a855-71eac716a351",
     "version": 0,
-    "creator": "solutionImpl",
-    "creatorAppId": "solutionImplApp",
+    "creator": "",
+    "creatorAppId": "",
     "creation": 1441377362856,
-    "realm": "IOT4RENTALCO",
+    "realm": "",
     "name": "engine_fault",
     "description": [
       {
@@ -52,9 +52,9 @@ Create Event Template service will create an event in the IoT solution library. 
 SAMPLE REQUEST
 ```
 {
-    "creator": "solutionImpl",
-    "creatorAppId": "solutionImplApp",
-    "realm": "IOT4RENTALCO",
+    "creator": "",
+    "creatorAppId": "",
+    "realm": "",
     "name": "engine fault event",
     "description": [{ 
       "lang": "en_us", 
@@ -73,9 +73,9 @@ SAMPLE RESPONSE
 {
     "id": "48c713f8-5b69-49f0-afb1-e5618ac9bae9",
     "version": 0,
-    "creator": "solutionImpl",
-    "creatorAppId": "solutionImplApp",
-    "realm": "IOT4RENTALCO",
+    "creator": "",
+    "creatorAppId": "",
+    "realm": "",
     "creation": 1441377895153,
     "name": "engine_fault_event",
     "description": [{ 
@@ -108,9 +108,9 @@ Create Device Template will create a template with all the listed attributes, ev
 SAMPLE REQUEST
 ```
 {
-    "creator": "solutionImpl",
-    "creatorAppId": "solutionImplApp",
-    "realm": "IOT4RENTALCO",
+    "creator": "",
+    "creatorAppId": "",
+    "realm": "",
     "name": [{
       "lang": "en_us", 
       "text": "Standard IoT Car"
@@ -128,10 +128,10 @@ SAMPLE RESPONSE
 {
     "id": "4efa6ce8-5112-4aaf-92be-bde636c3488c",
     "version": "1",
-    "creator": "solutionImpl",
-    "creatorAppId": "solutionImplApp",
+    "creator": "",
+    "creatorAppId": "",
     "creation": 1441488130828,
-    "realm": "IOT4RENTALCO",
+    "realm": "",
     "name": [{
       "lang": "en_us", 
       "text": "Standard IoT Car"
