@@ -12,7 +12,7 @@ clientId – the id to be passed to the MQTT broker when publishing events and s
 Username – the username required to provide when connecting to the MQTT broker. Basic authentication.
 Password – the password required to provide when connecting to the MQTT broker. Basic authentication.
 ```
-#### MESSAGE PROCESSING CONFIGURATION INFORMATION
+## MESSAGE PROCESSING CONFIGURATION INFORMATION
 Flash message processing configuration information onto the device
 ```
 ownerId -  the device Id.
