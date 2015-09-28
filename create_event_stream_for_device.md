@@ -7,9 +7,9 @@ Create stream service will require information on the protocol used to connect t
 SAMPLE REQUEST
 ```
 {
-    "creator": "solutionImpl",
-    "creatorAppId": "solutionImplApp",
-    "realm": "IOT4RENTALCO",
+    "creator": "",
+    "creatorAppId": "",
+    "realm": "",
     "ownerId": "2bbb69c0-4551-4b91-b06b-c77a6865e44c",
     "name": [{
       "lang": "en_us", 
@@ -34,10 +34,10 @@ SAMPLE RESPONSE
 {
     "id": "21a98b8e-745f-48ff-b4c5-fc2a2fa04149",
     "version": "g2wAAAABaAJtAAAADCDMPMOaSy7tAAE5SGEBag==",
-    "creator": "solutionImpl",
-    "creatorAppId": "solutionImplApp",
+    "creator": "",
+    "creatorAppId": "",
     "creation": 1441488610329,
-    "realm": "IOT4RENTALCO",
+    "realm": "",
     "ownerId": "2bbb69c0-4551-4b91-b06b-c77a6865e44c",
     "name": [{
       "lang": "en_us", 
