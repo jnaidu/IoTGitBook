@@ -1,8 +1,8 @@
-### Model The Device
+# Model The Device
 The first step is to model the device or the car in IoT platform. A device template is used to represent a device of a particular kind and create multiple instances of it. A device template contains Attribute Type, Event Template and Command Template. In this case, the device template for a car will have Attribute Types and Event Templates. Since we don’t have any commands sent out to the car, Command Templates are not modeled. 
 First, we will create a library of attributes that are required to represent a car. Next, we will create a library of events that the gateway on the car can send. Lastly, all the required attributes and events required to represent a car are used to create a device template.
 
-#### POST: CREATE ATTRIBUTE TYPE
+## POST: CREATE ATTRIBUTE TYPE
 Create Attribute Type service will create an attribute in the IoT solution library. In this case, the basic attributes required to represent a car are: Manufacturer, Model, Year of Make, VIN number etc. In addition to this, we would need to model the engine fault code which is of our interest.
 
 SAMPLE REQUEST
@@ -46,7 +46,7 @@ SAMPLE RESPONSE
     "isFrozen": false
 }
 ```
-#### POST: CREATE EVENT TEMPLATE
+## POST: CREATE EVENT TEMPLATE
 Create Event Template service will create an event in the IoT solution library. The car can send engine fault code events every minute. This is captured in the following request.
 
 SAMPLE REQUEST
@@ -90,7 +90,7 @@ SAMPLE RESPONSE
     "tags": [ "car", "engine", "fault" ]
 }
 ```
-#### POST: BIND EVENT FIELD TO ATTRIBUTE
+## POST: BIND EVENT FIELD TO ATTRIBUTE
 Bind event field to attribute so that the attribute is updated with the latest value in the event. The bound attribute must have the same data type as the field. Using the eventID and the attributeID obtained in the previous requests, we will create a binding between the event and the attribute using this web service.
 
 URI: /eventTemplates/{{eventID}}/tasks/bindEventField?attributeTypeId={{attributeTypeId}}
@@ -102,7 +102,7 @@ ATTRIBUTES:
 | eventId | String | True | Id of the event which needs to be bound to an attribute type |
 | attributeTypeId | String | True | Id of the attribute type |
 
-#### POST: CREATE DEVICE TEMPLATE
+## POST: CREATE DEVICE TEMPLATE
 Create Device Template will create a template with all the listed attributes, events and commands. In the following sample, we create a device template of a car with engine fault code with the attribute id and the event id. By default the device template is not active unless specified in the request.
 
 SAMPLE REQUEST
@@ -145,7 +145,7 @@ SAMPLE RESPONSE
     "isActive": false
 }
 ```
-#### POST: ACTIVATE DEVICE TEMPLATE
+## POST: ACTIVATE DEVICE TEMPLATE
 Device templates needs to be active before using it to create devices. A solution developer can activate a device template with this web service.
 
 URI: /deviceTemplates/{{deviceTemplateId}}/tasks/activate
