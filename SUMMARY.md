@@ -10,6 +10,6 @@
    * [Auditing](auditing.md)
 * [Getting Started](getting_started.md)
 * [IoT Example](iot_use_case.md)
-   * Model The Device
+   * [Model The Device](model_the_device.md)
 * [API Documentation](api_reference_guide.md)
 
