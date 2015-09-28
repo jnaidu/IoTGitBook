@@ -1,7 +1,7 @@
 # Summary
 
 * [IoT Overview](README.md)
-   * Fleet Management Use Case
+   * [Fleet Management Use Case](fleet_management_use_case.md)
    * [Architecture](iot_architecture.md)
    * [Domain Model](iot_domain_model.md)
    * [Features](features.md)
