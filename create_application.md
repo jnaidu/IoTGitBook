@@ -1,7 +1,7 @@
-### Create Application
+# Create Application
 The rental car company’s application which will be monitoring the health of all the vehicles needs to be created in this IoT solution.
 
-#### POST: CREATE APPLICATION
+## POST: CREATE APPLICATION
 Create an application inside IoT solution. A unique applicationId for the application is returned.
 
 SAMPLE REQUEST
