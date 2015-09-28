@@ -11,5 +11,6 @@
 * [Getting Started](getting_started.md)
 * [IoT Example](iot_use_case.md)
    * [Model The Device](model_the_device.md)
+   * Create An Instance Of The Device From Template
 * [API Documentation](api_reference_guide.md)
 
