@@ -40,11 +40,16 @@ The IoT Platform has five core capabilities. They are Secure & Control, Connect,
     * Alerts based on conditions set at the data point level
     * Enable publishing of alerts to subscribed applications
 
+## Build
+* API Services: extensive microservices API
+    * Device Definition (data points, attributes, commands, identity)
+    * Device Management
+    * Connectivity Gateway-Platform (MQTT, JMS)
+    * Ecosystem Management (groups)
+    * Pub-Sub of applications to ecosystem events
 
-
-
-
-
+This Health Monitoring release provides proactive support by identifying and diagnosing potential faults and malfunctions, then contacting the affected stakeholders and directing them to solutions. By monitoring the health of a connected device, Covisint's IoT Platform allows customers and users to mitigate and avoid operational risks, while increasing safety and reducing costs.
+The technologies used to develop applications on this platform release include Java SDKs and REST APIs (See APIs sections).
 
 ![](IoTOverview.jpg)
 
