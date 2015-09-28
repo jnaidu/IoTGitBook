@@ -1,7 +1,7 @@
-### Subscribe To Events
+# Subscribe To Events
 After creating event streams for the device and the application, we need to specify how to route events. This is done by subscribing to appropriate stream and routing topic.
 
-#### POST: CREATE ROUTE
+## POST: CREATE ROUTE
 This service is used to create a route between source and destination topics. With this message, any event sent by the device should be received by the application.
 
 SAMPLE REQUEST
