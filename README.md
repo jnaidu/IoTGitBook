@@ -53,7 +53,7 @@ The technologies used to develop applications on this platform release include J
 
 ![](IoTOverview.jpg)
 
-##Fleet Management Use Case
+## Fleet Management Use Case
  This release of the IoT Platform enables a fleet manager to monitor vehicle health while operating a fleet of cars. This is achieved by the transfer of data about a potential problem with the vehicle through the Platform (cloud), to monitoring applications, then back to the driver as an alert. The alert then offers solutions to the problem.
 
 For example:
