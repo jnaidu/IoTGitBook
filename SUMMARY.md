@@ -19,5 +19,6 @@
    * [Subscribe To Events](subscribe_to_events.md)
    * [Configure The Device](configure_the_device.md)
    * [Configure The Application](configure_the_application.md)
+   * Send Event From Device
 * [API Documentation](api_reference_guide.md)
 
