@@ -1,5 +1,5 @@
 
-# API Workflow Use Case
+# IoT Example
 
 
 ## Purpose
