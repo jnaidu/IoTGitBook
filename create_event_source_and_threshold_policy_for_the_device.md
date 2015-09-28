@@ -1,7 +1,7 @@
-### Create Event Source And Threshold Policy For The Device
+# Create Event Source And Threshold Policy For The Device
 In order to receive an event from the device, we will have to create an event source with the deviceId and the eventTemplateId.
 
-#### POST: CREATE EVENT SOURCE
+## POST: CREATE EVENT SOURCE
 Create event source service will create an event source on IoT platform. Event source is a group of events. Events can be grouped based on all the devices that have the particular event or specific devices that have the particular event. In the following example, we will create an engine fault event source for the specific device which we created.
 
 SAMPLE REQUEST
@@ -47,7 +47,7 @@ SAMPLE RESPONSE
    }]
 }
 ```
-#### POST: CREATE EVENT THRESHOLD POLICY
+## POST: CREATE EVENT THRESHOLD POLICY
 On the incoming events from the device, we can attach policies to detect if a certain condition has met. In the rental car usecase, we would like to detect if the engine fault code is greater than default value 10000.
 
 SAMPLE REQUEST
@@ -87,7 +87,7 @@ SAMPLE RESPONSE
   }
 }
 ```
-#### POST: VALIDATE EVENT THRESHOLD POLICY
+## POST: VALIDATE EVENT THRESHOLD POLICY
 Event threshold policy can be validated by some sample values. The web service will return true if the value satisfied the policy or else false.
 
 SAMPLE REQUEST
