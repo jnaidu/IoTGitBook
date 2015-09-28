@@ -16,6 +16,6 @@
    * [Create Event Stream For Device](create_event_stream_for_device.md)
    * [Create Application](create_application.md)
    * [Create Event Stream For Application](create_event_stream_for_application.md)
-   * Subscribe To Events
+   * [Subscribe To Events](subscribe_to_events.md)
 * [API Documentation](api_reference_guide.md)
 
