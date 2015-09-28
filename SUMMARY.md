@@ -13,5 +13,6 @@
    * [Model The Device](model_the_device.md)
    * [Create An Instance Of The Device From Template](create_an_instance_of_the_device_from_template.md)
    * [Create Event Stream For Device](create_event_stream_for_device.md)
+   * Create Event Source And Threshold Policy For The Device
 * [API Documentation](api_reference_guide.md)
 
