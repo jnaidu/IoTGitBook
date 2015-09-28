@@ -1,7 +1,7 @@
-### Configure The Application
+# Configure The Application
 In order to establish a secure communication between the application and the Covisint IoT Platform, you will need the following connectivity and message processing information.
 
-#### CONNECTIVITY CONFIGURATION INFORMATION
+## CONNECTIVITY CONFIGURATION INFORMATION
 Information you will need to establish a secure communication.
 ```
 Host – The host name of the Covisint JMS MQTT Broker for your solution
@@ -18,7 +18,7 @@ accountId – the id to be passed to the JMS broker when publishing commands and
 Username – the username required to provide when connecting to the JMS broker. Basic authentication.
 Password – the password required to provide when connecting to the JMS broker. Basic authentication.
 ```
-#### MESSAGE PROCESSING CONFIGURATION INFORMATION
+## MESSAGE PROCESSING CONFIGURATION INFORMATION
 Information you will need to publish commands and subscribe to events.
 ```
 ownerId -  the application Id.
