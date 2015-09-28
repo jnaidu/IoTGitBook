@@ -9,6 +9,6 @@
    * [Functional Security](functional_security.md)
    * [Auditing](auditing.md)
 * [Getting Started](getting_started.md)
-* [API Workflow Use Case](iot_use_case.md)
+* [IoT Example](iot_use_case.md)
 * [API Documentation](api_reference_guide.md)
 
