@@ -13,9 +13,9 @@ ATTRIBUTES:
 SAMPLE REQUEST
 ```
 {
-    "creator": "solutionImpl",
-    "creatorAppId": "solutionImplApp",
-    "realm": "IOT4RENTALCO",
+    "creator": "",
+    "creatorAppId": "",
+    "realm": "",
     "name": [{
       "lang": "en_us", 
       "text": "Standard IoT Car – Instance 1"
@@ -31,10 +31,10 @@ SAMPLE RESPONSE
 {
     "id": "7d7289e5-a45b-42a1-a762-1a662756e715",
     "version": "1",
-    "creator": "solutionImpl",
-    "creatorAppId": "solutionImplApp",
+    "creator": "",
+    "creatorAppId": "",
     "creation": 1441588430324,
-    "realm": "IOT4RENTALCO",
+    "realm": "",
     "name": [{
       "lang": "en_us", 
       "text": "Standard IoT Car – Instance 1"
@@ -62,9 +62,9 @@ Update device service can be used to update the attributes, events or commands o
 SAMPLE REQUEST
 ```
 {
-    "creator": "solutionImpl",
-    "creatorAppId": "solutionImplApp",
-    "realm": "IOT4RENTALCO",
+    "creator": "",
+    "creatorAppId": "",
+    "realm": "",
     "name": [{
       "lang": "en_us", 
       "text": "Standard IoT Car – Instance 1"
@@ -90,10 +90,10 @@ SAMPLE RESPONSE
 {
     "id": "7d7289e5-a45b-42a1-a762-1a662756e715",
     "version": "1",
-    "creator": "solutionImpl",
-    "creatorAppId": "solutionImplApp",
+    "creator": "",
+    "creatorAppId": "",
     "creation": 1441588430324,
-    "realm": "IOT4RENTALCO",
+    "realm": "",
     "name": [{
       "lang": "en_us", 
       "text": "Standard IoT Car – Instance 1"
