@@ -15,7 +15,7 @@ Application refers to any external software, which is affiliated with devices. A
 
 
 ## Device Template
-Application refers to any external software.
+Device Template describes a device in a generic form. It is mainly composed of attribute, command, and event templates. A library of device templates can be created in an instance. A device based on this template will inherit all the attribute, command, and event properties. Multiple device instances can be created with one device template.
 
 ## Attribute Type
 Attribute Type describes the attributes or the properties of the device.
