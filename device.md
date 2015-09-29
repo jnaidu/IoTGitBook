@@ -9,9 +9,6 @@ URI: /devices
 SAMPLE REQUEST
 ```
 {
-    "creator": "",
-    "creatorAppId": "",
-    "realm": "{{newRealm}}",
  "name": [{ 
   "lang": "en_US", 
   "text": "{{deviceTemplateName}}"
@@ -30,10 +27,7 @@ SAMPLE RESPONSE
 {
   "id": "412793ad-d113-4a59-87e3-f99bce746b7e",
   "version": "g2wAAAABaAJtAAAADNYQX5stnA6MAAAEGmEBag==",
-  "creator": "",
-  "creatorAppId": "",
   "creation": 1442291747936,
-  "realm": "",
   "name": [
     {
       "lang": "en_US",
@@ -60,7 +54,7 @@ SAMPLE REQUEST
 ```
 Accept: application/vnd.com.covisint.platform.device.v1+json
 Content-Type: application/vnd.com.covisint.platform.device.v1+json
-X-Realm: 
+Authorization	Bearer 34jhbf9uinvun98v098eijre
 ```
 SAMPLE RESPONSE
 ```
@@ -68,10 +62,7 @@ SAMPLE RESPONSE
   {
     "id": "cfb8e081-bcf1-4455-b2d3-ee165567e235",
     "version": "g2wAAAACaAJtAAAADCDMPMOaTHweAAE6KGEBaAJtAAAADKEXbw0ttADjAAABt2EBag==",
-    "creator": "",
-    "creatorAppId": "",
     "creation": 1441964728334,
-    "realm": "",
     "name": [
       {
         "lang": "en_US",
@@ -91,10 +82,7 @@ SAMPLE RESPONSE
   {
     "id": "412793ad-d113-4a59-87e3-f99bce746b7e",
     "version": "g2wAAAABaAJtAAAADNYQX5stnA6MAAAEGmEBag==",
-    "creator": "",
-    "creatorAppId": "",
     "creation": 1442291747936,
-    "realm": "",
     "name": [
       {
         "lang": "en_US",
@@ -122,17 +110,14 @@ SAMPLE REQUEST
 ```
 Accept: application/vnd.com.covisint.platform.device.v1+json
 Content-Type: application/vnd.com.covisint.platform.device.v1+json
-X-Realm: 
+Authorization	Bearer 34jhbf9uinvun98v098eijre
 ```
 SAMPLE RESPONSE
 ```
 {
   "id": "cfb8e081-bcf1-4455-b2d3-ee165567e235",
   "version": "g2wAAAACaAJtAAAADCDMPMOaTHweAAE6KGEBaAJtAAAADKEXbw0ttADjAAABt2ECag==",
-  "creator": "",
-  "creatorAppId": "",
   "creation": 1441964728334,
-  "realm": "",
   "name": [
     {
       "lang": "en_US",
