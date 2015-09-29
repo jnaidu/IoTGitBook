@@ -1,7 +1,7 @@
-## Stream
+# Stream
 Create a new stream.
 
-### POST: CREATE STREAM
+## POST: CREATE STREAM
 Create a new stream.
 
 URI: /streams
@@ -78,7 +78,7 @@ SAMPLE RESPONSE
   ]
 }
 ```
-### GET: SEARCH STREAM
+## GET: SEARCH STREAM
 This method is used to search stream based on the given filter parameters.
 
 URI: /streams
@@ -137,7 +137,7 @@ SAMPLE RESPONSE
   ]
 }
 ```
-### GET: GET STREAM
+## GET: GET STREAM
 This method is used to retrieve stream by stream ID.
 
 URI: /streams/{streamId}
@@ -198,7 +198,7 @@ SAMPLE RESPONSE
   }
 ]
 ```
-### PUT: UPDATE STREAM
+## PUT: UPDATE STREAM
 Updates an existing stream.  Throws an error if {streamId} does not already exist.
 
 URI: /streams/{streamId}
@@ -301,7 +301,7 @@ SAMPLE RESPONSE
   ]
 }
 ```
-### DELETE: DELETE STREAM
+## DELETE: DELETE STREAM
 Deletes an existing stream.
 
 URI: /stream/{streamId}
@@ -311,7 +311,7 @@ SAMPLE REQUEST
 Accept: application/vnd.com.covisint.platform.stream.device.v1+json
 X-Realm: IOT1
 ```
-### POST: REGISTER DEVICE WITH STREAM
+## POST: REGISTER DEVICE WITH STREAM
 Registers a device with a Connector Stream.
 
 URI: /streams/{streamId}/devices
@@ -339,7 +339,7 @@ SAMPLE RESPONSE
   "streamId": "6cc3260f-f5a2-4cfe-ab28-f5a0cba27785"
 }
 ```
-### GET: GET ALL DEVICES WITH STREAM
+## GET: GET ALL DEVICES WITH STREAM
 List all devices attached to this stream.
 
 URI: /streams/{streamId}/devices
@@ -375,7 +375,7 @@ SAMPLE RESPONSE
 ]
 ```
 
-### GET: GET DEVICE BY ID FROM STREAM
+## GET: GET DEVICE BY ID FROM STREAM
 Retrieves the device associated with the stream by its unique id.
 
 URI: /streams/{streamId}/{deviceId}
@@ -393,12 +393,12 @@ SAMPLE RESPONSE
   "apiStatusCode": "framework:resource:missing"
 } 
 ```
-### PUT: UPDATE DEVICE WITH STREAM
+## PUT: UPDATE DEVICE WITH STREAM
 PENDING
 
 URI: /streams/{streamId}/{deviceId} 
 
-### PUT: REMOVE DEVICE FROM STREAM
+## PUT: REMOVE DEVICE FROM STREAM
 PENDING
 
 URI: /streams/{streamId}/{deviceId}
