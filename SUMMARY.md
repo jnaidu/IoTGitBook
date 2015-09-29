@@ -8,6 +8,7 @@
 * [Getting Started](getting_started.md)
    * [Registering With Covisint](registering_with_covisint.md)
    * Creating Solution
+   * Creating Instance
 * [IoT Example](iot_use_case.md)
    * [Model The Device](model_the_device.md)
    * [Create An Instance Of The Device From Template](create_an_instance_of_the_device_from_template.md)
