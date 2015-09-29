@@ -1,7 +1,7 @@
-## EventSource
+# EventSource
 Event source is a grouping of events by eventTemplateID and deviceID or eventTemplateID and deviceTemplateID.
 
-### POST: CREATE EVENT SOURCE
+## POST: CREATE EVENT SOURCE
 Create a new eventsource.
 
 SAMPLE REQUEST
@@ -33,7 +33,7 @@ SAMPLE RESPONSE
   ]
 }
 ```
-### GET: GET EVENT SOURCE
+## GET: GET EVENT SOURCE
 Retrieve the event source by its unique id.
 
 URI: /eventSources/{eventSourceId}
@@ -60,7 +60,7 @@ SAMPLE RESPONSE
   ]
 }
 ```
-### GET: SEARCH EVENT SOURCE
+## GET: SEARCH EVENT SOURCE
 Search event sources based on the given query parameters.
 
 URI: /eventSources
@@ -89,7 +89,7 @@ SAMPLE RESPONSE
   }
 ]
 ```
-### PUT: UPDATE EVENT SOURCE
+## PUT: UPDATE EVENT SOURCE
 Updates an existing event source. Throws an error if {eventSourceId} does not already exist.
 
 URI: /eventSources/{eventSourceId}
@@ -130,7 +130,7 @@ SAMPLE RESPONSE
   ]
 }
 ```
-### GET: DELETE EVENT SOURCE
+## GET: DELETE EVENT SOURCE
 Delete an existing event source. Throws an error if {eventSourceId} does not already exist.
 
 URI: /eventSources/{eventSourceId}
