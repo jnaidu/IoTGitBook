@@ -9,9 +9,6 @@ URI: /attributeTypes
 SAMPLE REQUEST
 ```
 {
-    "creator": "",
-    "creatorAppId": "",
-    "realm": "",
     "name": "temperature",
     "description": [{ 
       "lang": "en_us", 
@@ -28,10 +25,7 @@ SAMPLE RESPONSE
 {
     "id": "65eb9268-b0d1-4f75-a855-71eac716a351",
     "version": 0,
-    "creator": "",
-    "creatorAppId": "",
     "creation": 1441377362856,
-    "realm": "",
     "name": "temperature",
     "description": [
       {
@@ -61,10 +55,7 @@ SAMPLE RESPONSE
 {
     "id": "65eb9268-b0d1-4f75-a855-71eac716a351",
     "version": 0,
-    "creator": "",
-    "creatorAppId": "",
     "creation": 1441377362856,
-    "realm": "",
     "name": "temperature",
     "description": [
       {
@@ -84,11 +75,9 @@ URI: /attributeTypes/{attributeTypeId}
 
 SAMPLE REQUEST
 ```
-Accept	application/vnd.com.covisint.platform.stream.v1+json
-Content-Type 	application/vnd.com.covisint.platform.stream.v1+json
-x-realm	 
-x-requestor	 
-x-requestor-app	 
+Accept    application/vnd.com.covisint.platform.stream.v1+json
+Content-Type     application/vnd.com.covisint.platform.stream.v1+json
+Authorization	Bearer 34jhbf9uinvun98v098eijre=
 ```
 SAMPLE RESPONSE
 ```
