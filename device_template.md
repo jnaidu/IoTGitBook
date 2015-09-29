@@ -9,9 +9,6 @@ URI: /deviceTemplates
 SAMPLE REQUEST
 ```
 {
-    "creator": "",
-    "creatorAppId": "",
-    "realm": "{{newRealm}}",
  "name": [{ 
   "lang": "en_US", 
   "text": "{{deviceTemplateName}}"
@@ -30,10 +27,7 @@ SAMPLE RESPONSE
 {
   "id": "03c06624-0204-4d54-a70d-21ec9652c261",
   "version": "g2wAAAABaAJtAAAADKEXbw0nGpWEAAADuWEBag==",
-  "creator": "",
-  "creatorAppId": "",
   "creation": 1442229070062,
-  "realm": "",
   "name": [
     {
       "lang": "en_US",
@@ -58,17 +52,15 @@ SAMPLE REQUEST
 ```
 Accept: application/vnd.com.covisint.platform.deviceTemplate.v1+json;fetchattributetypes=true;fetchcommandtemplates=true;fetcheventtemplates=true
 Content-Type: application/vnd.com.covisint.platform.deviceTemplate.v1+json
-X-Realm: 
+Authorization	Bearer 34jhbf9uinvun98v098eijre
 ```
 SAMPLE RESPONSE
+```
 [
   {
     "id": "03c06624-0204-4d54-a70d-21ec9652c261",
     "version": "g2wAAAABaAJtAAAADKEXbw0nGpWEAAADuWEBag==",
-    "creator": "",
-    "creatorAppId": "",
     "creation": 1442229070062,
-    "realm": "",
     "name": [
       {
         "lang": "en_US",
@@ -86,10 +78,7 @@ SAMPLE RESPONSE
   {
     "id": "4ceb483f-6485-456e-bf5f-8f7b6b8238d8",
     "version": "g2wAAAABaAJtAAAADNYQX5stFD7wAAAA+2EBag==",
-    "creator": "",
-    "creatorAppId": "",
     "creation": 1441798080311,
-    "realm": "",
     "name": [
       {
         "lang": "en_US",
@@ -107,10 +96,7 @@ SAMPLE RESPONSE
   {
     "id": "4bfc6847-fe51-4a54-8716-d92e733f898b",
     "version": "g2wAAAACaAJtAAAADCDMPMOaSUrqAAGGzmEBaAJtAAAADKEXbw0nFa7pAAABg2EBag==",
-    "creator": "",
-    "creatorAppId": "",
     "creation": 1441964016560,
-    "realm": "",
     "name": [
       {
         "lang": "en_US",
@@ -137,17 +123,14 @@ SAMPLE REQUEST
 ```
 Accept: application/vnd.com.covisint.platform.deviceTemplate.v1+json;fetchattributetypes=true;fetchcommandtemplates=true;fetcheventtemplates=true
 Content-Type: application/vnd.com.covisint.platform.deviceTemplate.v1+json
-X-Realm: 
+Authorization	Bearer 34jhbf9uinvun98v098eijre
 ```
 SAMPLE RESPONSE
 ```
 {
     "id": "4bfc6847-fe51-4a54-8716-d92e733f898b",
     "version": "g2wAAAACaAJtAAAADCDMPMOaSUrqAAGGzmEBaAJtAAAADKEXbw0nFa7pAAABg2EBag==",
-    "creator": "",
-    "creatorAppId": "",
     "creation": 1441964016560,
-    "realm": "",
     "name": [
       {
         "lang": "en_US",
