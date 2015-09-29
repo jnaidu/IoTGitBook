@@ -24,5 +24,5 @@
    * [Send Event From Device](send_event_from_device.md)
 * [API Documentation](api_reference_guide.md)
    * [Attribute Type](attribute_type.md)
-   * Event Template
+   * [Event Template](event_template.md)
 
