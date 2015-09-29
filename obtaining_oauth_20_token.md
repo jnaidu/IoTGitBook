@@ -16,7 +16,7 @@ grant_type= client_credentials&scope=all
 **Sample Response:**
 ```
 {
-"access_token": "2|uxyoDbuisAehSKMhipjGG13zwt2v",
+"access_token": "2|uxyoDbuisAehSKMhipjgdh56t2v",
 "expires_in": "899",
 "scope": "email",
 "token_type": "BearerToken"
