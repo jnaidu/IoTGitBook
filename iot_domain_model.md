@@ -1,7 +1,7 @@
 
 # **Domain Model**
 
-The IoT Domain Model illustrates entities and the relationships between them. The objective of this section is provide an effective basis for understanding the responsibilities of entities. 
+The IoT Domain Model illustrates entities and the relationships between them. The objective of this section is provide an effective basis for understanding the conceptual framework of the entities involved within IoT space. 
 
 
 ## IoT Solution
