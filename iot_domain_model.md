@@ -30,7 +30,7 @@ Event Template is used to model the format of the events that the device can pro
 Event Threshold Policy describes a set of actions that need to be executed when certain conditions are met on a specified event. Every time an event is generated, the event threshold policy is executed to check if the conditions are met. If so, an alert is generated, indicating that the policy was satisfied. An event threshold policy can be attached to any event, and an event can have zero or more event threshold policies.
 
 ## Event Source
-Event Threshold Policy describes a set of actions that need to be executed when certain conditions are met on a specified Event.
+Event Source describes the list of events or a group of events. Events can be grouped based on event templates and device templates or devices.
 
 ## Device
 Device is an instance of a Device Template. It inherits the device properties, commands and events described in the template.
