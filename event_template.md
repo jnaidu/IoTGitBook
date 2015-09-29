@@ -103,19 +103,16 @@ URI: /eventTemplates/{eventTemplateId}
 
 SAMPLE REQUEST
 ```
-Accept: application/vnd.com.covisint.platform.eventtemplate.v1+json;charset=UTF-8
-Content-Type: application/vnd.com.covisint.platform.eventtemplate.v1+json;charset=UTF-8
-X-Realm: 
+Accept    application/vnd.com.covisint.platform.eventTemplate.v1+json
+Content-Type     application/vnd.com.covisint.platform.eventTemplate.v1+json
+Authorization	Bearer 34jhbf9uinvun98v098eijre=  
 ```
 SAMPLE RESPONSE
 ```
 {
   "id": "8d6ff5b4-f2f7-473d-889a-0c9cf2064493",
   "version": "g2wAAAACaAJtAAAADKEXbw0nGFeJAAAnxmECaAJtAAAADNYQX5sthJnpAABOyWEEag==",
-  "creator": "",
-  "creatorAppId": "",
   "creation": 1441949748924,
-  "realm": "",
   "name": "{{eventName}}",
   "description": [
     {
