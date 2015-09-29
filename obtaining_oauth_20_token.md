@@ -1,6 +1,7 @@
 Covisint uses the OAuth 2.0 for authentication and authorization of the Covisint APIs. OAuth 2.0 is a protocol designed to let third-party applications authenticate to perform actions as a user, without getting the user's password. For application-only authentication, Covisint’s implementation is based on the Client Credentials Grant flow of the OAuth 2 specification.
 
-At a high-level, all applications follow To being the process, obtain OAuth 2.0 client credentials with respect to your solution instance from Developer Portal. Your client application must request an access token from the Covisint Authorization server. This token is then used to access the Covisint Platform API you want to access.
+# 1. At a high-level, all applications go through the following basic steps to access a Covisint API using OAuth 2.0.
+To begin the process, obtain OAuth 2.0 client credentials such as client ID and client secret from Developer Portal console. Your client application must request an access token from the Covisint Authorization server. This token is then used to access the Covisint Platform API you want to access.
 
 In application-only authentication flow, client application accesses resources on a server without user involvement. The 3rd party app simply presents its client ID and client secret in an encoded format, and if they are valid, Authorization server returns an access token (also called bearer tokens). Bearer token is passed in Authorization headers and acts as a pre-requisite to invoke any micro-services API.
 
