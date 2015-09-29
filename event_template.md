@@ -9,8 +9,8 @@ URI: /eventTemplates
 SAMPLE REQUEST
 ```
 {
-    "creator": "integrationTester",
-    "creatorAppId": "integrationTesterApp",
+    "creator": "",
+    "creatorAppId": "",
     "realm": "{{newRealm}}",
     "name": "{{eventName}}",
     "description": [
@@ -38,10 +38,10 @@ SAMPLE RESPONSE
 {
   "id": "8d6ff5b4-f2f7-473d-889a-0c9cf2064493",
   "version": "g2wAAAABaAJtAAAADNYQX5sthJnpAABOyWEBag==",
-  "creator": "integrationTester",
-  "creatorAppId": "integrationTesterApp",
+  "creator": "",
+  "creatorAppId": "",
   "creation": 1441949748924,
-  "realm": "IOT1",
+  "realm": "",
   "name": "{{eventName}}",
   "description": [
     {
@@ -71,7 +71,7 @@ SAMPLE REQUEST
 ```
 Accept: application/vnd.com.covisint.platform.eventTemplate.v1+json
 Content-Type: application/vnd.com.covisint.platform.eventTemplate.v1+json
-X-Realm: IOT1
+X-Realm: 
 ```
 SAMPLE RESPONSE
 ```
@@ -79,10 +79,10 @@ SAMPLE RESPONSE
   {
     "id": "8d6ff5b4-f2f7-473d-889a-0c9cf2064493",
     "version": "g2wAAAACaAJtAAAADKEXbw0nGFeJAAAnxmECaAJtAAAADNYQX5sthJnpAABOyWEEag==",
-    "creator": "integrationTester",
-    "creatorAppId": "integrationTesterApp",
+    "creator": "",
+    "creatorAppId": "",
     "creation": 1441949748924,
-    "realm": "IOT1",
+    "realm": "",
     "name": "{{eventName}}",
     "description": [
       {
@@ -114,17 +114,17 @@ SAMPLE REQUEST
 ```
 Accept: application/vnd.com.covisint.platform.eventtemplate.v1+json;charset=UTF-8
 Content-Type: application/vnd.com.covisint.platform.eventtemplate.v1+json;charset=UTF-8
-X-Realm: IOT1
+X-Realm: 
 ```
 SAMPLE RESPONSE
 ```
 {
   "id": "8d6ff5b4-f2f7-473d-889a-0c9cf2064493",
   "version": "g2wAAAACaAJtAAAADKEXbw0nGFeJAAAnxmECaAJtAAAADNYQX5sthJnpAABOyWEEag==",
-  "creator": "integrationTester",
-  "creatorAppId": "integrationTesterApp",
+  "creator": "",
+  "creatorAppId": "",
   "creation": 1441949748924,
-  "realm": "IOT1",
+  "realm": "",
   "name": "{{eventName}}",
   "description": [
     {
