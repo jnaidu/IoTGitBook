@@ -9,9 +9,9 @@ URI: /attributeTypes
 SAMPLE REQUEST
 ```
 {
-    "creator": "referenceImpl",
-    "creatorAppId": "referenceImplApp",
-    "realm": "IOTPAASQA_ITEST",
+    "creator": "",
+    "creatorAppId": "",
+    "realm": "",
     "name": "temperature",
     "description": [{ 
       "lang": "en_us", 
@@ -28,10 +28,10 @@ SAMPLE RESPONSE
 {
     "id": "65eb9268-b0d1-4f75-a855-71eac716a351",
     "version": 0,
-    "creator": "referenceImpl",
-    "creatorAppId": "referenceImplApp",
+    "creator": "",
+    "creatorAppId": "",
     "creation": 1441377362856,
-    "realm": "IOTPAASQA_ITEST",
+    "realm": "",
     "name": "temperature",
     "description": [
       {
@@ -61,10 +61,10 @@ SAMPLE RESPONSE
 {
     "id": "65eb9268-b0d1-4f75-a855-71eac716a351",
     "version": 0,
-    "creator": "referenceImpl",
-    "creatorAppId": "referenceImplApp",
+    "creator": "",
+    "creatorAppId": "",
     "creation": 1441377362856,
-    "realm": "IOTPAASQA_ITEST",
+    "realm": "",
     "name": "temperature",
     "description": [
       {
@@ -86,19 +86,19 @@ SAMPLE REQUEST
 ```
 Accept	application/vnd.com.covisint.platform.stream.v1+json
 Content-Type 	application/vnd.com.covisint.platform.stream.v1+json
-x-realm	 IOTPAASQA_ITEST
-x-requestor	 referenceImpl
-x-requestor-app	 referenceImplApp
+x-realm	 
+x-requestor	 
+x-requestor-app	 
 ```
 SAMPLE RESPONSE
 ```
 {
     "id": "65eb9268-b0d1-4f75-a855-71eac716a351",
     "version": 0,
-    "creator": "referenceImpl",
-    "creatorAppId": "referenceImplApp",
+    "creator": "",
+    "creatorAppId": "",
     "creation": 1441377362856,
-    "realm": "IOTPAASQA_ITEST",
+    "realm": "",
     "name": "temperature",
     "description": [
       {
