@@ -1,6 +1,6 @@
 # Features
 
-## Key capabilities provided in this release are as follows:
+## This section describes the capabilities provided in this release, similar to the ones listed below.
 
 ### IoT Core Services:
 * Ability to define devices: There are templates for devices, and a device’s attributes can be described so that a message from a sensor on the device will carry the device type and attributes.
