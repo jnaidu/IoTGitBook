@@ -42,5 +42,6 @@ Stream is a data pipe that transfers messages between devices and applications. 
 Route connects producers and consumers of messages. A route can either be an event or a command route, and is defined over device and application streams.
 
 
+IoT Domain Model
 ![](IoT_Domain_Model.jpg)
 
