@@ -13,14 +13,7 @@ These features help protect and govern identity, data, connectivity, commands, a
 These features support creating and managing connectivity and data among people, systems, and devices. Gateway Services allow partners to integrate their own gateways or third party gateways. The Event Data Hub routes all data through the hub; validates client sending and performs encryption and decryption of payload as necessary; provides initial analytics support for condition based alerting; collects data and routes based on pub-sub model; and publishes to short term and long term data storage. Messaging Services include support for MQTT and JMS streams.
 
 ## Manage
-* Device Registry
-    * Service which allows collection of devices and their metadata to be managed enabling device specific inquiries
-* Lifecycle Management
-    * Support for adding / removing devices
-    * Initial device state management
-* Notification services: Rule based
-    * Alerts based on conditions set at the data point level
-    * Enable publishing of alerts to subscribed applications
+These features help coordinate and orchestrate the lifecycles of people, systems, and devices. Lifecycle Management provides support for adding and removing devices, and initial device state management. Notification services (rule-based) include alerts based on conditions set at the data point level, and enable publishing of alerts to subscribed applications.
 
 ## Build
 * API Services: extensive microservices API
