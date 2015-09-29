@@ -24,7 +24,7 @@ Attribute Type describes the attributes or the properties of the device. It can 
 Command Template describes the format of the command that the end device can act on. A command template captures the command and its associated parameters. A library of command templates can be created in an instance and shared across device templates.
 
 ## Event Template
-Event Template is used to model the format of the events that the device can emit.
+Event Template is used to model the format of the events that the device can produce. Event templates can be bound to attribute type. If bound, then the attribute type is updated on event changes. A library of event templates can be constructed in an instance and used across multiple device templates.
 
 ## Event Threshold Policy
 Event Threshold Policy describes a set of actions that need to be executed when certain conditions are met on a specified Event.
