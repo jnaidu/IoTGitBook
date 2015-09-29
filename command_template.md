@@ -1,7 +1,7 @@
-## CommandTemplate
+# CommandTemplate
 Command templates are created so that the response from devices can be captured in a standard form.
 
-### POST: CREATE COMMAND TEMPLATE
+## POST: CREATE COMMAND TEMPLATE
 Create a new command template.
 
 URI: /commandTemplates
@@ -84,7 +84,7 @@ SAMPLE RESPONSE
   "isActive": false
 }
 ```
-### GET: SEARCH COMMAND TEMPLATE
+## GET: SEARCH COMMAND TEMPLATE
 This method is used search event templates based on the given filter parameters.
 
 URI: /commandTemplates
@@ -260,7 +260,7 @@ SAMPLE RESPONSE
   }
 ]
 ```
-### GET: GET COMMAND TEMPLATE
+## GET: GET COMMAND TEMPLATE
 This method is used to retrieve the requested command template.
 
 URI: /commandTemplates/ {commandTemplateId}
@@ -314,22 +314,22 @@ SAMPLE RESPONSE
   "isActive": false
 }
 ```
-### PUT: TAG COMMAND TEMPLATE
+## PUT: TAG COMMAND TEMPLATE
 This method tags the specified command template. 
 
 URI: /commandTemplates/ {commandTemplateId}/tags/{tag}
 
-### DELETE: UNTAG COMMAND TEMPLATE
+## DELETE: UNTAG COMMAND TEMPLATE
 Removes a tag from the event template.
 
 URI: /commandTemplates/ {commandTemplateId}/tags/{tag}
 
-### POST: ACTIVATE COMMAND TEMPLATE
+## POST: ACTIVATE COMMAND TEMPLATE
 Activates the command template.  Invoking this on an active command template has no effect.
 
 URI: /commandTemplates/ {commandTemplateId}/tasks/activate
 
-### POST: DEACTIVATE COMMAND TEMPLATE
+## POST: DEACTIVATE COMMAND TEMPLATE
 Deactivates the command template.  Invoking this on an inactive command template has no effect.
 
 URI: /eventTemplates/ {eventTemplateId}//tasks/deactivate
