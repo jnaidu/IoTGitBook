@@ -2,9 +2,9 @@
 
 * [IoT Overview](README.md)
    * [Fleet Management Use Case](fleet_management_use_case.md)
+   * [Features](features.md)
    * [Architecture](iot_architecture.md)
    * [Domain Model](iot_domain_model.md)
-   * [Features](features.md)
 * [Getting Started](getting_started.md)
    * [Authentication](registering_with_covisint.md)
    * [Creating Solution](creating_solution.md)
