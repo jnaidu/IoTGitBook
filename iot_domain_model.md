@@ -21,7 +21,7 @@ Device Template describes a device in a generic form. It is mainly composed of a
 Attribute Type describes the attributes or the properties of the device. It can either describe a variable or a constant attribute. Constants such as manufacturer, model, etc. are set once through the life of the device and variables such as temperature, set point, etc. keep changing over the life of the device. A library of attribute types can be created in an instance and shared across device templates.
 
 ## Command Template
-Command Template describes the format of the command that the end device can act on.
+Command Template describes the format of the command that the end device can act on. A command template captures the command and its associated parameters. A library of command templates can be created in an instance and shared across device templates.
 
 ## Event Template
 Event Template is used to model the format of the events that the device can emit.
