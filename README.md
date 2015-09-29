@@ -1,7 +1,10 @@
 # IoT Platform Overview
 
-This Covisint IoT Platform release is built around Device Health Monitoring. Health Monitoring (HM) is the ability of the system to monitor key aspects of device functionality, and alert stakeholders (customers, users) to device behavior that could result in malfunction, and ultimately failure. This release will be followed by more releases based on more advanced use cases.
-The IoT Platform has five core capabilities. They are Secure & Control, Connect, Manage, Build, and Analyze. The Health Monitoring release enhances Secure & Control, Connect, Manage, and Build. These enhancements are detailed as follows:
+This initial release of the Covisint Internet of Things Platform introduces features that support the fundamental IoT use case of monitoring the health of connected products. In this use case, a monitoring application that is subscribed to a queue receives data about a connected product via the IoT platform.
+
+This release provides out-of-the-box support for health monitoring, and can be customized to support more complex IoT use cases. Upcoming releases will add features to support more complex IoT use cases for connected products.
+
+The current release includes features that support core IoT capabilities, briefly described below. These features can be customized to support more complex IoT use cases.
 
 ## Secure and Control
 * Identity Provisioning
