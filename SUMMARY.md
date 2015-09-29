@@ -29,5 +29,5 @@
    * [Device Template](device_template.md)
    * [Device](device.md)
    * [Stream](stream.md)
-   * Routes
+   * [Routes](routes.md)
 
