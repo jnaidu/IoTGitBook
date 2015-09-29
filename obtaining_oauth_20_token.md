@@ -42,3 +42,4 @@ grant_type= client_credentials&scope=all
 ```
 
 ## 4. Refresh the Access Token
+Access tokens have a limited lifetime. An application can obtain a refresh token if it needs access to a Covisint API beyond the lifetime of an access token.
