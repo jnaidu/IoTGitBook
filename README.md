@@ -7,19 +7,7 @@ This release provides out-of-the-box support for health monitoring, and can be c
 The current release includes features that support core IoT capabilities, briefly described below. These features can be customized to support more complex IoT use cases.
 
 ## Secure and Control
-* Identity Provisioning
-    * Secure device registration and token (JWT) issuance
-* Identity Relationship Management
-    * Allow definition of groups of people, devices, organizations, and other groups
-    * Flexible group attribute definition model
-    * Add/remove to groups
-* Identity Auth
-    * Device authentication (Cert, Basic Auth, JWT token)
-* Secure Data Transport
-    * Encrypt all network and payload traffic between cloud services, gateways and devices
-    * Log all CRUD operations in a persistent log for auditing and compliance reporting
-    * Allow 3rd party applications to retrieve and analyze audit records
-    * Ability to restrict who can access what data based on event routing
+These features help protect and govern identity, data, connectivity, commands, and relationships among people, systems, and devices. Identity Provisioning provides secure device registration and token (JWT) issuance. Identity Relationship Management allows definition of groups of people, devices, organizations, and other groups. It also provides a flexible group attribute definition model. Identity Authentication includes device authentication (Cert, Basic Auth, JWT token). Secure Data Transport allows encryption of all network and payload traffic between cloud services, gateways and devices; logs all CRUD operations in a persistent log for auditing and compliance reporting; allows third party applications to retrieve and analyze audit records; and allows the ability to restrict who can access what data, based on event routing.
 
 ## Connect
 * Gateway Services
