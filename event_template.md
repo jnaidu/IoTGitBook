@@ -63,8 +63,8 @@ URI: /eventTemplates
 
 SAMPLE REQUEST
 ```
-Accept    application/vnd.com.covisint.platform.stream.v1+json
-Content-Type     application/vnd.com.covisint.platform.stream.v1+json
+Accept    application/vnd.com.covisint.platform.eventTemplate.v1+json
+Content-Type     application/vnd.com.covisint.platform.eventTemplate.v1+json
 Authorization	Bearer 34jhbf9uinvun98v098eijre=     
 ```
 SAMPLE RESPONSE
