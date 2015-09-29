@@ -81,10 +81,7 @@ SAMPLE RESPONSE
 {
   "id": "bd8e0952-a7fa-4654-86b2-687e94a527e6",
   "version": "g2wAAAABaAJtAAAADCDMPMOaSzKTAAE5fWEBag==",
-  "creator": "",
-  "creatorAppId": "",
   "creation": 1441795645043,
-  "realm": "",
   "routeId": "bd8e0952-a7fa-4654-86b2-687e94a527e6",
   "routeSourceId": "5acb7b8e017x",
   "routeType": "EVENT",
