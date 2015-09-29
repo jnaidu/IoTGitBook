@@ -40,3 +40,5 @@ grant_type= client_credentials&scope=all
 "token_type": "BearerToken"
 }
 ```
+
+## 4. Refresh Token
