@@ -27,7 +27,7 @@ Command Template describes the format of the command that the end device can act
 Event Template is used to model the format of the events that the device can produce. Event templates can be bound to attribute type. If bound, then the attribute type is updated on event changes. A library of event templates can be constructed in an instance and used across multiple device templates.
 
 ## Event Threshold Policy
-Event Threshold Policy describes a set of actions that need to be executed when certain conditions are met on a specified Event.
+Event Threshold Policy describes a set of actions that need to be executed when certain conditions are met on a specified event. Every time an event is generated, the event threshold policy is executed to check if the conditions are met. If so, an alert is generated, indicating that the policy was satisfied. An event threshold policy can be attached to any event, and an event can have zero or more event threshold policies.
 
 ## Event Source
 Event Threshold Policy describes a set of actions that need to be executed when certain conditions are met on a specified Event.
