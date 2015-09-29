@@ -23,5 +23,3 @@ The technologies used to develop applications on this platform release include J
 This Health Monitoring release provides proactive support by identifying and diagnosing potential faults and malfunctions, then contacting the affected stakeholders and directing them to solutions. By monitoring the health of a connected device, Covisint's IoT Platform allows customers and users to mitigate and avoid operational risks, while increasing safety and reducing costs.
 The technologies used to develop applications on this platform release include Java SDKs and REST APIs (See APIs sections).
 
-![](IoTOverview.jpg)
-
