@@ -18,7 +18,7 @@ Application refers to any external software, which is affiliated with devices. A
 Device Template describes a device in a generic form. It is mainly composed of attribute, command, and event templates. A library of device templates can be created in an instance. A device based on this template will inherit all the attribute, command, and event properties. Multiple device instances can be created with one device template.
 
 ## Attribute Type
-Attribute Type describes the attributes or the properties of the device.
+Attribute Type describes the attributes or the properties of the device. It can either describe a variable or a constant attribute. Constants such as manufacturer, model, etc. are set once through the life of the device and variables such as temperature, set point, etc. keep changing over the life of the device. A library of attribute types can be created in an instance and shared across device templates.
 
 ## Command Template
 Command Template describes the format of the command that the end device can act on.
