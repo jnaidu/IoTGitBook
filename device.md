@@ -1,7 +1,7 @@
-## Device
+# Device
 The physical device that produces data and sends it to platform needs to be created.
 
-### POST: CREATE DEVICE
+## POST: CREATE DEVICE
 Create a new device. Prerequisite is Device Template should have been created.
 
 URI: /devices
@@ -51,7 +51,7 @@ SAMPLE RESPONSE
   "isActive": false
 }
 ```
-### GET: SEARCH DEVICE 
+## GET: SEARCH DEVICE 
 This method is used search device based on the filter parameters.
 
 URI: /devices
@@ -113,7 +113,7 @@ SAMPLE RESPONSE
   }
 ]
 ```
-### GET: GET DEVICE 
+## GET: GET DEVICE 
 This method is used to retrieve the requested device.
 
 URI: /devices/{deviceId}
@@ -150,17 +150,17 @@ SAMPLE RESPONSE
   "isActive": false
 }
 ```
-### PUT: TAG DEVICE
+## PUT: TAG DEVICE
 This method tags the specified device.
 
 URI: /devices/ {deviceId}/tags/{tag}
 
-### DELETE: UNTAG DEVICE
+## DELETE: UNTAG DEVICE
 Removes a tag from the device.
 
 URI: /devices/ {deviceId}/tags/{tag}
 
-### POST: ACTIVATE DEVICE
+## POST: ACTIVATE DEVICE
 Activates the device.  Invoking this on an active device has no effect.
 
 URI: /devices/{deviceId}/tasks/deactivate
