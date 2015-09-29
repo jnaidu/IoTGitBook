@@ -10,16 +10,7 @@ The current release includes features that support core IoT capabilities, briefl
 These features help protect and govern identity, data, connectivity, commands, and relationships among people, systems, and devices. Identity Provisioning provides secure device registration and token (JWT) issuance. Identity Relationship Management allows definition of groups of people, devices, organizations, and other groups. It also provides a flexible group attribute definition model. Identity Authentication includes device authentication (Cert, Basic Auth, JWT token). Secure Data Transport allows encryption of all network and payload traffic between cloud services, gateways and devices; logs all CRUD operations in a persistent log for auditing and compliance reporting; allows third party applications to retrieve and analyze audit records; and allows the ability to restrict who can access what data, based on event routing.
 
 ## Connect
-* Gateway Services
-    * Partners can integrate their own gateways or 3rd party gateways
-* Event Data Hub
-    * All data routes through the hub
-    * Validates client sending and performs encryption and decryption of payload as necessary
-    * Initial analytics support for condition based alerting
-    * Collects data and routes based on pub / sub model
-    * Publishes to short term and long term data storage
-* Messaging Services
-    * Support for MQTT and JMS streams
+These features support creating and managing connectivity and data among people, systems, and devices. Gateway Services allow partners to integrate their own gateways or third party gateways. The Event Data Hub routes all data through the hub; validates client sending and performs encryption and decryption of payload as necessary; provides initial analytics support for condition based alerting; collects data and routes based on pub-sub model; and publishes to short term and long term data storage. Messaging Services include support for MQTT and JMS streams.
 
 ## Manage
 * Device Registry
