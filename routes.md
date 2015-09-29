@@ -1,7 +1,7 @@
-## Routes
+# Routes
 Routes connect source and destination topics.
 
-### POST: CREATE ROUTE
+## POST: CREATE ROUTE
 Create a new route.
 
 URI: /routes
@@ -44,7 +44,7 @@ SAMPLE RESPONSE
 }
 ```
 
-### GET: LIST ROUTE
+## GET: LIST ROUTE
 List of available routes.
 
 URI: /routes
@@ -75,7 +75,7 @@ SAMPLE RESPONSE
   }
 ]
 ```
-### GET: GET ROUTE
+## GET: GET ROUTE
 This method is used to retrieve the requested route.
 
 URI: /routes/{routeId}
@@ -104,7 +104,7 @@ SAMPLE RESPONSE
   "routingTopic": "RoutingTopic01"
 }
 ```
-### PUT: UPDATE ROUTE
+## PUT: UPDATE ROUTE
 This method updates the route.
 
 URI: /routes/{routeId}
@@ -149,7 +149,7 @@ SAMPLE RESPONSE
   "routingTopic": "RoutingTopic02"
 }
 ```
-### DELETE: DELETE ROUTE
+## DELETE: DELETE ROUTE
 Delete an existing route. Throws an error if {routeId} does not already exist.
 
 URI: /routes/{routeId}
