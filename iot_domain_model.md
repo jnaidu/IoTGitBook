@@ -39,10 +39,8 @@ Device is an instance of a device template. It inherits the device attributes, c
 Stream is a data pipe that transfers messages between devices and applications. A stream can either be an application stream or a device stream. Each stream has publisher, consumer, and alert topics. Routes are used to connect publisher and subscriber. A stream can have multiple routes.
 
 ## Route
-Route identifies the producers and consumers of the event or command stream.
+Route connects producers and consumers of messages. A route can either be an event or a command route, and is defined over device and application streams.
 
-## Workflow
-Workflow describes a set of actions that needs to be performed on events arriving from the device and before routing it to the desired destination.
 
 
 ![](IoT_Domain_Model.jpg)
