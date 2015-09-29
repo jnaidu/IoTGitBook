@@ -10,9 +10,6 @@ Accept: application/vnd.com.covisint.platform.eventSource.v1+json
 Content-type: application/vnd.com.covisint.platform.eventSource.v1+json
 x-Realm: 
 {
-    "creator": "",
-    "creatorAppId": "",
-    "realm": "",
     "name": [ { "lang": "en", "value": "An event source." } ]
 }
 ```
@@ -21,10 +18,7 @@ SAMPLE RESPONSE
 {
   "id": "6ecf4721-1608-40f6-81a4-19ccdd335911",
   "version": "g2wAAAABaAJtAAAADNYQX5strNlqAAAzEGEBag==",
-  "creator": "",
-  "creatorAppId": "",
   "creation": 1442472840600,
-  "realm": "",
   "name": [
     {
       "lang": "en",
@@ -41,17 +35,14 @@ URI: /eventSources/{eventSourceId}
 SAMPLE REQUEST
 ```
 Accept: application/vnd.com.covisint.platform.eventSource.v1+json
-x-Realm :
+Authorization	Bearer 34jhbf9uinvun98v098eijre
 ```
 SAMPLE RESPONSE
 ```
 {
   "id": "9568b779-b05f-4924-8147-50a30a4e08c7",
   "version": "g2wAAAABaAJtAAAADKEXbw0nFaz5AAACymEBag==",
-  "creator": "er",
-  "creatorAppId": "erApp",
   "creation": 1441971175074,
-  "realm": "",
   "name": [
     {
       "lang": "en",
@@ -68,7 +59,7 @@ URI: /eventSources
 SAMPLE REQUEST
 ```
 Accept: application/vnd.com.covisint.platform.eventSource.v1+json
-x-realm : 
+Authorization	Bearer 34jhbf9uinvun98v098eijre
 ```
 SAMPLE RESPONSE
 ```
@@ -76,10 +67,7 @@ SAMPLE RESPONSE
   {
     "id": "9568b779-b05f-4924-8147-50a30a4e08c7",
     "version": "g2wAAAABaAJtAAAADKEXbw0nFaz5AAACymEBag==",
-    "creator": "er",
-    "creatorAppId": "erApp",
     "creation": 1441971175074,
-    "realm": "",
     "name": [
       {
         "lang": "en",
@@ -97,14 +85,11 @@ URI: /eventSources/{eventSourceId}
 SAMPLE REQUEST
 ```
 Accept: application/vnd.com.covisint.platform.eventSource.v1+json
-x-realm : IOT
+Authorization	Bearer 34jhbf9uinvun98v098eijre
 {
     "id": "9568b779-b05f-4924-8147-50a30a4e08c7",
     "version": "0",
-    "creator": "er",
-    "creatorAppId": "erApp",
     "creation": 1441971175074,
-    "realm": "",
     "name": [
       {
         "lang": "en",
@@ -118,10 +103,7 @@ SAMPLE RESPONSE
 {
   "id": "9568b779-b05f-4924-8147-50a30a4e08c7",
   "version": "g2wAAAABaAJtAAAADKEXbw0nFaz5AAACymECag==",
-  "creator": " er",
-  "creatorAppId": " erApp",
   "creation": 1442474369552,
-  "realm": "",
   "name": [
     {
       "lang": "en",
@@ -138,5 +120,5 @@ URI: /eventSources/{eventSourceId}
 SAMPLE REQUEST
 ```
 Accept: application/vnd.com.covisint.platform.eventSource.v1+json
-x-realm : 
+Authorization	Bearer 34jhbf9uinvun98v098eijre 
 ```
