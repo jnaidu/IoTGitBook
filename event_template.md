@@ -1,7 +1,7 @@
-## EventTemplate
+# EventTemplate
 Device produces an “Event” when values of its attributes change. In order to scale models, connect many Devices, and avoid repetitious definition of the attributes for each new Device, a developer can streamline this process using Event Templates.
 
-### POST: CREATE EVENT TEMPLATE
+## POST: CREATE EVENT TEMPLATE
 Create a new event template.
 
 URI: /eventTemplates
@@ -62,7 +62,7 @@ SAMPLE RESPONSE
   "isActive": false
 }
 ```
-### GET: SEARCH EVENT TEMPLATE
+## GET: SEARCH EVENT TEMPLATE
 This method is used search event templates based on the given filter parameters.
 
 URI: /eventTemplates
@@ -105,7 +105,7 @@ SAMPLE RESPONSE
   }
 ]
 ```
-### GET: GET EVENT TEMPLATE
+## GET: GET EVENT TEMPLATE
 This method is used to retrieve the requested event template.
 
 URI: /eventTemplates/{eventTemplateId}
@@ -146,22 +146,22 @@ SAMPLE RESPONSE
   "isActive": false
 }
 ```
-### PUT: TAG EVENT TEMPLATE
+## PUT: TAG EVENT TEMPLATE
 This method tags the specified event template.
 
 URI: /eventTemplates/ {eventTemplateId}/tags/{tag}
 
-### DELETE: UNTAG EVENT TEMPLATE
+## DELETE: UNTAG EVENT TEMPLATE
 Removes a tag from the event template.
 
 URI: /eventTemplates/ {eventTemplateId}/tags/{tag}
 
-### POST: ACTIVATE EVENT TEMPLATE
+## POST: ACTIVATE EVENT TEMPLATE
 Activates the event template.  Invoking this on an active event template has no effect.
 
 URI: /eventTemplates/ {eventTemplateId}/tasks/activate
 
-### POST: DEACTIVATE EVENT TEMPLATE
+## POST: DEACTIVATE EVENT TEMPLATE
 Deactivates the event template.  Invoking this on an inactive event template has no effect.
 
 URI: /eventTemplates/ {eventTemplateId}//tasks/deactivate
