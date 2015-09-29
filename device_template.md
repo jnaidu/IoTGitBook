@@ -1,7 +1,7 @@
-## DeviceTemplate
+# DeviceTemplate
 Using the Device template, a developer typically starts by creating a new device. In order to scale models, connect many Devices, and avoid repetitious definition of the property for each new Device, a developer can streamline this process using Device Templates. Prerequisite: Attributes, Events, Commands should be created in advance.
 
-### POST: CREATE DEVICE TEMPLATE
+## POST: CREATE DEVICE TEMPLATE
 Create a new device template.
 
 URI: /deviceTemplates
@@ -49,7 +49,7 @@ SAMPLE RESPONSE
   "isActive": false
 }
 ```
-### GET: SEARCH DEVICE TEMPLATE
+## GET: SEARCH DEVICE TEMPLATE
 This method is used search device templates based on the filter parameters.
 
 URI: /deviceTemplates
@@ -127,7 +127,7 @@ SAMPLE RESPONSE
   }
 ]
 
-### GET: GET DEVICE TEMPLATE
+## GET: GET DEVICE TEMPLATE
 
 This method is used to retrieve the requested device template.
 
@@ -163,22 +163,22 @@ SAMPLE RESPONSE
     "isActive": true
   },
 ```
-### PUT: TAG DEVICE TEMPLATE
+## PUT: TAG DEVICE TEMPLATE
 This method tags the specified device template.
 
 URI:/deviceTemplates/{deviceTemplateId}/tags/{tag}
 
-### DELETE: UNTAG DEVICE TEMPLATE
+## DELETE: UNTAG DEVICE TEMPLATE
 Removes a tag from the device template.
 
 URI: /deviceTemplates/ {deviceTemplateId}/tags/{tag}
 
-### POST: ACTIVATE DEVICE TEMPLATE
+## POST: ACTIVATE DEVICE TEMPLATE
 Activates the device template.  Invoking this on an active device template has no effect.
 
 URI: /deviceTemplates/{deviceTemplateId}/tasks/activate
 
-### POST: DEACTIVATE DEVICE TEMPLATE
+## POST: DEACTIVATE DEVICE TEMPLATE
 Deactivates the device template.  Invoking this on an inactive device template has no effect.
 
 URI: /deviceTemplates/ {deviceTemplateId}//tasks/deactivate
