@@ -9,7 +9,7 @@
    * [Registering With Covisint](registering_with_covisint.md)
    * Creating Solution
    * Creating Instance
-   * Creating Application
+   * [Creating Application](creating_application.md)
    * [Obtaining OAuth 2.0 Token](obtaining_oauth_20_token.md)
 * [IoT Example](iot_use_case.md)
    * [Model The Device](model_the_device.md)
