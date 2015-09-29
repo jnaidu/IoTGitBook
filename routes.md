@@ -74,7 +74,7 @@ URI: /routes/{routeId}
 SAMPLE REQUEST
 ```
 Accept: application/vnd.com.covisint.platform.messaging.route.v1+json
-x-realm : 
+Authorization	Bearer 34jhbf9uinvun98v098eijre
 ```
 SAMPLE RESPONSE
 ```
