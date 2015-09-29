@@ -1,4 +1,4 @@
-# Creating an Application in Developer Portal
+# Creating an Application
 Application management gives the administrator the option to register using an external application. A list of solutions should appear for the company where access has been granted. A list of Instances will also be created and displayed. 
 
 Within the solution, by selecting “new application”, identify the application name and description and “save” allows customization of an application based upon requirement. The PaaS layer consist of two sets of services: Identity Services and Messaging Services. These two sets of roles are required to access different features of the Solution Center application. You must create a solution instance in order to add applications that will provide the secret access The AppID, ClientID, and the client secret button will appear. For additional steps: https://s-platform-covs.portal.stg.covapp.io/learn/dp/-/book/developer-portal/managing_instances/manage_applications.html
