@@ -7,7 +7,13 @@ At a high-level, all applications go through the following basic steps to access
 To begin the process, obtain OAuth 2.0 client credentials such as client ID and client secret from Developer Portal console.
 
 ## 2. Obtain an Access Token
-Your client application must request an access token from the Covisint Authorization server. This token is then used to access the Covisint Platform API you want to access.
+Your client application must request an access token from the Covisint Authorization server. The parameters that need to be passed to obtain an access token are dictated by the grant type:
+* Authorization Code: Get an OAuth 2.0 authorization. A successful call will result in a redirection to the authorization server in order to receive the resource owner's consent. The redirection will be to the login page or directly to the consent page (if the user is already authenticated and login is not forced). Once consent is granted then the authorization server will send the user agent to the redirect_uri with query parameters state, scope, and code.
+* Password: This is used in conjunction with the username (or user_id) parameter to validate the resource owner's credentials. Will be ignored for any other grant type.
+* Client Credentials: 
+* Refresh Token: The refresh token returned by a previous "Authorization Code", "client Credentials" or "Password" call.
+
+This token is then used to access the Covisint Platform API you want to access.
 
 In application-only authentication flow, client application accesses resources on a server without user involvement. The 3rd party app simply presents its client ID and client secret in an encoded format, and if they are valid, Authorization server returns an access token (also called bearer tokens).
 
