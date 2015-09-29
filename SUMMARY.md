@@ -25,5 +25,5 @@
 * [API Documentation](api_reference_guide.md)
    * [Attribute Type](attribute_type.md)
    * [Event Template](event_template.md)
-   * Command Template
+   * [Command Template](command_template.md)
 
