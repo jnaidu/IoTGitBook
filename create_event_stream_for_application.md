@@ -7,9 +7,6 @@ Create an application stream using the applicationId and the security parameters
 SAMPLE REQUEST
 ```
 {
-    "creator": "",
-    "creatorAppId": "",
-    "realm": "",
     "ownerId": "d6dc2178-f75b-4f7f-b314-22f3da2908d5",
     "name": [{
       "lang": "en_us", 
