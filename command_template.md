@@ -8,8 +8,8 @@ URI: /commandTemplates
 
 SAMPLE REQUEST
 ```
-{   "creator": "integrationTester",     
-	"creatorAppId": "integrationTesterApp",
+{   "creator": "",     
+	"creatorAppId": "",
 	"realm": "{{newRealm}}",
 	"name": "{{commandName}}",
 	"isActive": true,
@@ -49,7 +49,7 @@ SAMPLE RESPONSE
   "creator": "Sam",
   "creatorAppId": "Sam's App",
   "creation": 1442223545432,
-  "realm": "IOT1",
+  "realm": "",
   "name": "{{commandName}}",
   "description": [
     {
@@ -93,7 +93,7 @@ SAMPLE REQUEST
 ```
 Accept: application/vnd.com.covisint.platform.commandTemplate.v1+json
 Content-Type: application/vnd.com.covisint.platform.commandTemplate.v1+json
-X-Realm: IOT1
+X-Realm: 
 ```
 SAMPLE RESPONSE
 ```
@@ -101,10 +101,10 @@ SAMPLE RESPONSE
   {
     "id": "bc02b60f-90f8-4eed-ad17-8d10f8b9bfa8",
     "version": "g2wAAAABaAJtAAAADNYQX5stIjkQAAABW2EBag==",
-    "creator": "integrationTester",
-    "creatorAppId": "integrationTesterApp",
+    "creator": "",
+    "creatorAppId": "",
     "creation": 1441958618261,
-    "realm": "IOT1",
+    "realm": "",
     "name": "{{commandName}}",
     "description": [
       {
@@ -144,7 +144,7 @@ SAMPLE RESPONSE
     "creator": "Sam",
     "creatorAppId": "Sam's App",
     "creation": 1442217205007,
-    "realm": "IOT1",
+    "realm": "",
     "name": "{{commandName}}",
     "description": [
       {
@@ -181,10 +181,10 @@ SAMPLE RESPONSE
   {
     "id": "c12249b9-a84f-4a8e-9048-1e7127db9694",
     "version": "g2wAAAABaAJtAAAADNYQX5swFAnfAAADdGEBag==",
-    "creator": "integrationTester",
-    "creatorAppId": "integrationTesterApp",
+    "creator": "",
+    "creatorAppId": "",
     "creation": 1442223526270,
-    "realm": "IOT1",
+    "realm": "",
     "name": "{{commandName}}",
     "description": [
       {
@@ -221,10 +221,10 @@ SAMPLE RESPONSE
   {
     "id": "141bd70d-b9ce-4ea1-b2a6-99e2acb43aeb",
     "version": "g2wAAAABaAJtAAAADNYQX5sthJnpAABQ7mEBag==",
-    "creator": "integrationTester",
-    "creatorAppId": "integrationTesterApp",
+    "creator": "",
+    "creatorAppId": "",
     "creation": 1442223545432,
-    "realm": "IOT1",
+    "realm": "",
     "name": "{{commandName}}",
     "description": [
       {
@@ -269,17 +269,17 @@ SAMPLE REQUEST
 ```
 Accept: application/vnd.com.covisint.platform.commandTemplate.v1+json
 Content-Type: application/vnd.com.covisint.platform.commandTemplate.v1+json
-X-Realm: IOT1
+X-Realm: 
 ```
 SAMPLE RESPONSE
 ```
 {
   "id": "bc02b60f-90f8-4eed-ad17-8d10f8b9bfa8",
   "version": "g2wAAAABaAJtAAAADNYQX5stIjkQAAABW2EBag==",
-  "creator": "integrationTester",
-  "creatorAppId": "integrationTesterApp",
+  "creator": "",
+  "creatorAppId": "",
   "creation": 1441958618261,
-  "realm": "IOT1",
+  "realm": "",
   "name": "{{commandName}}",
   "description": [
     {
