@@ -41,4 +41,4 @@ grant_type= client_credentials&scope=all
 }
 ```
 
-## 4. Refresh Token
+## 4. Refresh the Access Token
