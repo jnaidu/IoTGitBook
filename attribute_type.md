@@ -121,12 +121,12 @@ Removes a tag from the attribute type.
 ```
 /attributeTypes/{attributeTypeId}/tags/{tag}
 ```
-## POST: ACTIVATE ATTRIBUTE TYPE
+### POST: ACTIVATE ATTRIBUTE TYPE
 Activates the attribute type template.  Invoking this on an active attribute type has no effect. Attribute type has to be active before use.
 
 URI: /attributeTypes/{attributeTypeId}/tasks/activate
 
-## POST: DEACTIVATE ATTRIBUTE TYPE
+### POST: DEACTIVATE ATTRIBUTE TYPE
 Deactivates the attribute type template.  Invoking this on an inactive attribute type has no effect.
 
 URI: /attributeTypes/{attributeTypeId}/tasks/deactivate
