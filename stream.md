@@ -339,10 +339,7 @@ SAMPLE RESPONSE
   {
     "id": "3ec81cdb-fea9-4b3d-a768-49356711f13d",
     "version": "g2wAAAABaAJtAAAADCDMPMOaSy7tAAE8e2EBag==",
-    "creator": "EADAMS",
-    "creatorAppId": "postman",
     "creation": 1442316681139,
-    "realm": "",
     "deviceId": "1442316680",
     "streamId": "6cc3260f-f5a2-4cfe-ab28-f5a0cba27785"
   }
@@ -357,7 +354,7 @@ URI: /streams/{streamId}/{deviceId}
 SAMPLE REQUEST
 ```
 Accept: application/vnd.com.covisint.platform.stream.device.v1+json
-X-Realm: 
+Authorization	Bearer 34jhbf9uinvun98v098eijre
 ```
 SAMPLE RESPONSE
 ```
