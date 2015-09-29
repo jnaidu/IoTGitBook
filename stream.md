@@ -9,9 +9,9 @@ URI: /streams
 SAMPLE REQUEST
 ```
 {
-  "creator": "integrationTester",
-   "creatorAppId": "integrationTesterApp",
-  "realm": "IOT1",
+  "creator": "",
+   "creatorAppId": "",
+  "realm": "",
   "ownerId": "Admin",
   "name": [
     {
@@ -34,10 +34,10 @@ SAMPLE RESPONSE
 {
   "id": "af57ec91-c123-4b98-96da-40a04b28e40b",
   "version": "g2wAAAABaAJtAAAADCDMPMOaSx/qAAE8V2EBag==",
-  "creator": "integrationTester",
-  "creatorAppId": "integrationTesterApp",
+  "creator": "",
+  "creatorAppId": "",
   "creation": 1442303332104,
-  "realm": "IOT1",
+  "realm": "",
   "name": [
     {
       "lang": "en",
@@ -86,17 +86,17 @@ URI: /streams
 SAMPLE REQUEST
 ```
 Accept: application/vnd.com.covisint.platform.stream.v1+json 
-X-Realm: IOT1
+X-Realm: 
 ```
 SAMPLE RESPONSE
 ```
 {
   "id": "af57ec91-c123-4b98-96da-40a04b28e40b",
   "version": "g2wAAAABaAJtAAAADCDMPMOaSx/qAAE8V2EBag==",
-  "creator": "integrationTester",
-  "creatorAppId": "integrationTesterApp",
+  "creator": "",
+  "creatorAppId": "",
   "creation": 1442303332104,
-  "realm": "IOT1",
+  "realm": "",
   "name": [
     {
       "lang": "en",
@@ -145,7 +145,7 @@ URI: /streams/{streamId}
 SAMPLE REQUEST
 ```
 Accept: application/vnd.com.covisint.platform.stream.v1+json
-X-Realm: IOT1
+X-Realm: 
 ```
 SAMPLE RESPONSE
 ```
@@ -153,10 +153,10 @@ SAMPLE RESPONSE
   {
     "id": "af57ec91-c123-4b98-96da-40a04b28e40b",
     "version": "g2wAAAABaAJtAAAADCDMPMOaSx/qAAE8V2EBag==",
-    "creator": "integrationTester",
-    "creatorAppId": "integrationTesterApp",
+    "creator": "",
+    "creatorAppId": "",
     "creation": 1442303332104,
-    "realm": "IOT1",
+    "realm": "",
     "name": [
       {
         "lang": "en",
@@ -208,10 +208,10 @@ SAMPLE REQUEST
 {
   "id": "877ac67d-5590-424a-b2f1-5ef129b714df",
   "version": "0",
-  "creator": "integrationTester",
-  "creatorAppId": "integrationTesterApp",
+  "creator": "",
+  "creatorAppId": "",
   "creation": 1442401643958,
-  "realm": "IOT1",
+  "realm": "",
   "name": [
     {
       "lang": "en",
@@ -257,10 +257,10 @@ SAMPLE RESPONSE
 {
   "id": "877ac67d-5590-424a-b2f1-5ef129b714df",
   "version": "g2wAAAACaAJtAAAADKEXbw0sq0pXAAAEtmEBaAJtAAAADNYQX5ssZoElAAAErGEBag==",
-  "creator": "integrationTester",
-  "creatorAppId": "integrationTesterApp",
+  "creator": "",
+  "creatorAppId": "",
   "creation": 1442401776937,
-  "realm": "IOT1",
+  "realm": "",
   "name": [
     {
       "lang": "en",
@@ -309,7 +309,7 @@ URI: /stream/{streamId}
 SAMPLE REQUEST
 ```
 Accept: application/vnd.com.covisint.platform.stream.device.v1+json
-X-Realm: IOT1
+X-Realm: 
 ```
 ## POST: REGISTER DEVICE WITH STREAM
 Registers a device with a Connector Stream.
@@ -334,7 +334,7 @@ SAMPLE RESPONSE
   "creator": "EADAMS",
   "creatorAppId": "postman",
   "creation": 1442316982919,
-  "realm": "IOT1",
+  "realm": "",
   "deviceId": "1442316983",
   "streamId": "6cc3260f-f5a2-4cfe-ab28-f5a0cba27785"
 }
@@ -347,7 +347,7 @@ URI: /streams/{streamId}/devices
 SAMPLE REQUEST
 ```
 Accept: application/vnd.com.covisint.platform.stream.device.v1+json
-X-Realm: IOT1
+X-Realm: 
 ```
 SAMPLE RESPONSE
 ```
@@ -358,7 +358,7 @@ SAMPLE RESPONSE
     "creator": "EADAMS",
     "creatorAppId": "postman",
     "creation": 1442316982919,
-    "realm": "IOT1",
+    "realm": "",
     "deviceId": "1442316983",
     "streamId": "6cc3260f-f5a2-4cfe-ab28-f5a0cba27785"
   },
@@ -368,7 +368,7 @@ SAMPLE RESPONSE
     "creator": "EADAMS",
     "creatorAppId": "postman",
     "creation": 1442316681139,
-    "realm": "IOT1",
+    "realm": "",
     "deviceId": "1442316680",
     "streamId": "6cc3260f-f5a2-4cfe-ab28-f5a0cba27785"
   }
@@ -383,7 +383,7 @@ URI: /streams/{streamId}/{deviceId}
 SAMPLE REQUEST
 ```
 Accept: application/vnd.com.covisint.platform.stream.device.v1+json
-X-Realm: IOT1
+X-Realm: 
 ```
 SAMPLE RESPONSE
 ```
