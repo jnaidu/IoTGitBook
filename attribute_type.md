@@ -84,10 +84,7 @@ SAMPLE RESPONSE
 {
     "id": "65eb9268-b0d1-4f75-a855-71eac716a351",
     "version": 0,
-    "creator": "",
-    "creatorAppId": "",
     "creation": 1441377362856,
-    "realm": "",
     "name": "temperature",
     "description": [
       {
