@@ -31,10 +31,7 @@ SAMPLE RESPONSE
 {
     "id": "c109ea32-9786-4f57-9668-12a4d96aa644",
     "version": "g2wAAAABaAJtAAAADCDMPMOaSy7tAAE5SGEBag==",
-    "creator": "",
-    "creatorAppId": "",
     "creation": 1441799941388,
-    "realm": "",
     "ownerId": "d6dc2178-f75b-4f7f-b314-22f3da2908d5",
     "name": [{
       "lang": "en_us", 
