@@ -16,12 +16,9 @@ These features support creating and managing connectivity and data among people,
 These features help coordinate and orchestrate the lifecycles of people, systems, and devices. Lifecycle Management provides support for adding and removing devices, and initial device state management. Notification services (rule-based) include alerts based on conditions set at the data point level, and enable publishing of alerts to subscribed applications.
 
 ## Build
-* API Services: extensive microservices API
-    * Device Definition (data points, attributes, commands, identity)
-    * Device Management
-    * Connectivity Gateway-Platform (MQTT, JMS)
-    * Ecosystem Management (groups)
-    * Pub-Sub of applications to ecosystem events
+These features enable the creation of applications and integrations to harvest value from interactions among connected people, systems, and devices. API Services (extensive microservices API) include device definition (data points, attributes, commands, identity), device management, connectivity gateway-platform (MQTT, JMS), ecosystem management (groups), and pub-sub of applications to ecosystem events.
+
+The technologies used to develop applications on this platform release include Java SDKs and REST APIs (See APIs sections).
 
 This Health Monitoring release provides proactive support by identifying and diagnosing potential faults and malfunctions, then contacting the affected stakeholders and directing them to solutions. By monitoring the health of a connected device, Covisint's IoT Platform allows customers and users to mitigate and avoid operational risks, while increasing safety and reducing costs.
 The technologies used to develop applications on this platform release include Java SDKs and REST APIs (See APIs sections).
