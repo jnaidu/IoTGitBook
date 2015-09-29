@@ -7,9 +7,6 @@ Create an application inside IoT solution. A unique applicationId for the applic
 SAMPLE REQUEST
 ```
 {
-    "creator": "",
-    "creatorAppId": "",
-    "realm": "",
     "name": [{
       "lang": "en_us", 
       "text": "Car Health Monitor App"
@@ -25,10 +22,7 @@ SAMPLE RESPONSE
 {
     "id": "65eb9268-b0d1-4f75-a855-71eac716a351",
     "version": "0",
-    "creator": "",
-    "creatorAppId": "",
     "creation": 1441377362856,
-    "realm": "",
     "name": [{
       "lang": "en_us", 
       "text": "Car Health Monitor App"
