@@ -2,6 +2,8 @@ OAuth2 is a protocol designed to let third-party applications authenticate to pe
 
 In application-only authentication flow, client application accesses resources on a server without user involvement. The 3rd party app simply presents its client ID and client secret in an encoded format, and if they are valid, Authorization server returns an access token (also called bearer tokens). Bearer token is passed in Authorization headers and acts as a pre-requisite to invoke any micro-services API.
 
+In order to make authorized calls to Covisint’s APIs, the application must first obtain an OAuth2.0 bearer token.
+
 **Sample Request:**
 ```
 POST /oauth/v2/token HTTP/1.1
