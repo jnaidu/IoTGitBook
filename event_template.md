@@ -9,9 +9,6 @@ URI: /eventTemplates
 SAMPLE REQUEST
 ```
 {
-    "creator": "",
-    "creatorAppId": "",
-    "realm": "{{newRealm}}",
     "name": "{{eventName}}",
     "description": [
         {
@@ -38,10 +35,7 @@ SAMPLE RESPONSE
 {
   "id": "8d6ff5b4-f2f7-473d-889a-0c9cf2064493",
   "version": "g2wAAAABaAJtAAAADNYQX5sthJnpAABOyWEBag==",
-  "creator": "",
-  "creatorAppId": "",
   "creation": 1441949748924,
-  "realm": "",
   "name": "{{eventName}}",
   "description": [
     {
@@ -69,9 +63,9 @@ URI: /eventTemplates
 
 SAMPLE REQUEST
 ```
-Accept: application/vnd.com.covisint.platform.eventTemplate.v1+json
-Content-Type: application/vnd.com.covisint.platform.eventTemplate.v1+json
-X-Realm: 
+Accept    application/vnd.com.covisint.platform.stream.v1+json
+Content-Type     application/vnd.com.covisint.platform.stream.v1+json
+Authorization	Bearer 34jhbf9uinvun98v098eijre=     
 ```
 SAMPLE RESPONSE
 ```
