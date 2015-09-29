@@ -8,3 +8,6 @@ For example:
 5. A notification application that is subscribed to the alert queue receives the alert.
 7. The notification application sends an alert to the fleet support team.
 8. The support team is then able to contact the driver and, with knowledge of the driver’s location relative to the nearest fleet outlet, direct the driver to go trade the car in for a new one.
+
+The diagram below illustrates the data flow in a use case such as described above.
+![](IoTOverview.jpg)
