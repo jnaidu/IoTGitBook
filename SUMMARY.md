@@ -30,5 +30,5 @@
    * [Device](device.md)
    * [Stream](stream.md)
    * [Routes](routes.md)
-   * Event Source
+   * [Event Source](event_source.md)
 
