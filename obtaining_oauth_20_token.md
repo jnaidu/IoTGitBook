@@ -6,7 +6,7 @@ In order to make authorized calls to Covisint APIs, the application must first o
 
 **Sample Request:**
 ```
-POST /oauth/v2/token HTTP/1.1
+POST /oauth/v3/token HTTP/1.1
 Host: api.us1.covisint.com
 Authorization: Basic {authorization code}
 Content-Type: application/x-www-form-urlencoded
