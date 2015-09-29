@@ -12,9 +12,6 @@ Accept: application/vnd.com.covisint.platform.messaging.route.v1+json
 Content-type: application/vnd.com.covisint.platform.messaging.route.v1+json
 x-Realm: 
 {
-	"creator": "",
-  	"creatorAppId": "",
-  	"realm": "{{iotRealmHeader}}",
   	"routeType": "EVENT",
   	"streamId": "stream01",
   	"routeSourceId": "5acb7b8e017x",
@@ -29,10 +26,7 @@ SAMPLE RESPONSE
 {
   "id": "bf069bb8-c4cf-418f-814f-216b4aac7ec2",
   "version": "g2wAAAABaAJtAAAADNYQX5stnA6MAAAEdGEBag==",
-  "creator": "",
-  "creatorAppId": "",
   "creation": 1442389711913,
-  "realm": "",
   "routeId": "bf069bb8-c4cf-418f-814f-216b4aac7ec2",
   "routeSourceId": "5acb7b8e017x",
   "routeType": "EVENT",
