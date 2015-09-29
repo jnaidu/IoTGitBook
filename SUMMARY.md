@@ -28,4 +28,5 @@
    * [Command Template](command_template.md)
    * [Device Template](device_template.md)
    * [Device](device.md)
+   * Stream
 
