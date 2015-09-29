@@ -1,6 +1,8 @@
 
 # **Domain Model**
 
+The IoT Domain Model illustrates entities and the relationships between them. The objective of this section is provide an effective basis for understanding the responsibilities of entities. 
+
 
 ## IoT Solution
 IoT Solution is a logical grouping of several solution instances developed to address a particular problem. An IoT solution can consist of zero or more solution instances.
