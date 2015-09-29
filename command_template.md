@@ -96,10 +96,7 @@ SAMPLE RESPONSE
   {
     "id": "bc02b60f-90f8-4eed-ad17-8d10f8b9bfa8",
     "version": "g2wAAAABaAJtAAAADNYQX5stIjkQAAABW2EBag==",
-    "creator": "",
-    "creatorAppId": "",
     "creation": 1441958618261,
-    "realm": "",
     "name": "{{commandName}}",
     "description": [
       {
@@ -136,10 +133,7 @@ SAMPLE RESPONSE
   {
     "id": "f58e3d66-47e9-4dd1-b255-64f24334bf38",
     "version": "g2wAAAABaAJtAAAADCDMPMOaSzKTAAE722EBag==",
-    "creator": "Sam",
-    "creatorAppId": "Sam's App",
     "creation": 1442217205007,
-    "realm": "",
     "name": "{{commandName}}",
     "description": [
       {
@@ -176,10 +170,7 @@ SAMPLE RESPONSE
   {
     "id": "c12249b9-a84f-4a8e-9048-1e7127db9694",
     "version": "g2wAAAABaAJtAAAADNYQX5swFAnfAAADdGEBag==",
-    "creator": "",
-    "creatorAppId": "",
     "creation": 1442223526270,
-    "realm": "",
     "name": "{{commandName}}",
     "description": [
       {
@@ -216,10 +207,7 @@ SAMPLE RESPONSE
   {
     "id": "141bd70d-b9ce-4ea1-b2a6-99e2acb43aeb",
     "version": "g2wAAAABaAJtAAAADNYQX5sthJnpAABQ7mEBag==",
-    "creator": "",
-    "creatorAppId": "",
     "creation": 1442223545432,
-    "realm": "",
     "name": "{{commandName}}",
     "description": [
       {
@@ -264,17 +252,14 @@ SAMPLE REQUEST
 ```
 Accept: application/vnd.com.covisint.platform.commandTemplate.v1+json
 Content-Type: application/vnd.com.covisint.platform.commandTemplate.v1+json
-X-Realm: 
+Authorization	Bearer 34jhbf9uinvun98v098eijre 
 ```
 SAMPLE RESPONSE
 ```
 {
   "id": "bc02b60f-90f8-4eed-ad17-8d10f8b9bfa8",
   "version": "g2wAAAABaAJtAAAADNYQX5stIjkQAAABW2EBag==",
-  "creator": "",
-  "creatorAppId": "",
   "creation": 1441958618261,
-  "realm": "",
   "name": "{{commandName}}",
   "description": [
     {
