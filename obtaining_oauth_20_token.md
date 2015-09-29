@@ -11,10 +11,12 @@ Content-Type: application/x-www-form-urlencoded
 grant_type= client_credentials&scope=all
 ```
 
-Sample Response:
+**Sample Response:**
+```
 {
 "access_token": "2|uxyoDbuisAehSKMhipjGG13zwt2v",
 "expires_in": "899",
 "scope": "email",
 "token_type": "BearerToken"
 }
+```
