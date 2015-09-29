@@ -36,7 +36,7 @@ Event Source describes the list of events or a group of events. Events can be gr
 Device is an instance of a device template. It inherits the device attributes, commands, and events described in the template. Devices communicate over streams, and can have zero or more streams.
 
 ## Stream
-Stream is a data pipe that transfers events and commands to/from devices.
+Stream is a data pipe that transfers messages between devices and applications. A stream can either be an application stream or a device stream. Each stream has publisher, consumer, and alert topics. Routes are used to connect publisher and subscriber. A stream can have multiple routes.
 
 ## Route
 Route identifies the producers and consumers of the event or command stream.
