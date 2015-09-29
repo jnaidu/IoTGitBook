@@ -7,9 +7,6 @@ This service is used to create a route between source and destination topics. Wi
 SAMPLE REQUEST
 ```
 {
-    "creator": "",
-    "creatorAppId": "",
-    "realm": "",
     "routeType": "EVENT",
     "streamId": "a724dfc1-38a5-45c7-b609-8eefb66f65c8",
     "routeSourceId": "3fb1ad85-edc3-4586-8fc0-c564328e6a45",
@@ -21,9 +18,6 @@ SAMPLE RESPONSE
   {
     "id": "1766682f-3d7c-47a7-8f9f-468bef155b4d",
     "version": "g2wAAAABaAJtAAAADCDMPMOaTGC2AAE5jWEBag==",
-    "creator": "",
-    "creatorAppId": "",
-    "realm": "",
     "creation": 1441819423946,
     "routeSourceId": "5acb7b8e017x",
     "routeType": "EVENT",
