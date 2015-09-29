@@ -1,5 +1,5 @@
 # Fleet Management Use Case
- This release of the IoT Platform enables a fleet manager to monitor vehicle health while operating a fleet of cars. This is achieved by the transfer of data about a potential problem with the vehicle through the Platform (cloud), to monitoring applications, then back to the driver as an alert. The alert then offers solutions to the problem.
+For a specific example of the health monitoring of connected products, let’s look at how the manager of a fleet of vehicles can monitor the health of individual vehicles.
 
 For example:
 1. Data about an event in a car (ex. temperature gauge shows overheating) is transferred via MQTT to an event data hub.
