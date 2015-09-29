@@ -23,4 +23,5 @@
    * [Configure The Application](configure_the_application.md)
    * [Send Event From Device](send_event_from_device.md)
 * [API Documentation](api_reference_guide.md)
+   * Attribute Type
 
