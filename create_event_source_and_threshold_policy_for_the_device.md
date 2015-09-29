@@ -7,9 +7,6 @@ Create event source service will create an event source on IoT platform. Event s
 SAMPLE REQUEST
 ```
 {
-    "creator": "",
-    "creatorAppId": "",
-    "realm": "",
    "name": [{ 
       "lang": "en_US", 
       "text": "Engine fault event source"
@@ -29,8 +26,6 @@ SAMPLE RESPONSE
 {
   "id": "231034ca-96ee-48bc-9937-aa964d8c9813",
   "version": "g2wAAAABaAJtAAAADCDMPMOaTHL2AAIpj2EBag==",
-    "creator": "",
-    "creatorAppId": "",
   "creation": 1442863150834,
    "realm": "",
    "name": [{ 
@@ -53,9 +48,6 @@ On the incoming events from the device, we can attach policies to detect if a ce
 SAMPLE REQUEST
 ```
 {
-    "creator": "",
-    "creatorAppId": "",
-    "realm": "",
    "name”: “Engine fault detection policy”,
    "description": [{ 
       "lang": "en_US", 
@@ -72,10 +64,7 @@ SAMPLE RESPONSE
 {
   "id": "da920956-c33c-4ef6-bb4e-6e106be6eb09",
   "version": "g2wAAAABaAJtAAAADCDMPMOaTHL2AAIpj2EBag==",
-   "creator": "",
-   "creatorAppId": "",
   "creation": 1444763256834,
-   "realm": "",
    "name”: “Engine fault detection policy”,
    "description": [{ 
       "lang": "en_US", 
