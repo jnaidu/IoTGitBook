@@ -1,0 +1,1 @@
+https://s-platform-covs.portal.stg.covapp.io/learn/dp/-/book/developer-portal/creating_solutions/create_a_solution.html
