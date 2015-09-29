@@ -10,7 +10,7 @@
    * [Creating Solution](creating_solution.md)
    * [Creating Instance](creating_instance.md)
    * [Creating Application](creating_application.md)
-   * [Authorization](obtaining_oauth_20_token.md)
+   * [OAuth 2.0 Authorization](obtaining_oauth_20_token.md)
 * [IoT Example](iot_use_case.md)
    * [Model The Device](model_the_device.md)
    * [Create An Instance Of The Device From Template](create_an_instance_of_the_device_from_template.md)
