@@ -73,10 +73,7 @@ SAMPLE RESPONSE
   {
     "id": "8d6ff5b4-f2f7-473d-889a-0c9cf2064493",
     "version": "g2wAAAACaAJtAAAADKEXbw0nGFeJAAAnxmECaAJtAAAADNYQX5sthJnpAABOyWEEag==",
-    "creator": "",
-    "creatorAppId": "",
     "creation": 1441949748924,
-    "realm": "",
     "name": "{{eventName}}",
     "description": [
       {
