@@ -1,6 +1,6 @@
 {
     "variables": {
-        "title": "Covisint Developer",
+        "title": "Covisint Internet of Things",
         "abstract": "Covisint Internet of Things Platform introduces features that monitor the health (optimal functionality) of connected products. In addition to Secure and Control, Connect, Manage, and Build enhancements, the IoT Platform provides comprehensive API documentation to assist and expand the capability of developers.",
         "portal-page-url": "/learn/dp",
         "portal-display-priority": "300"
