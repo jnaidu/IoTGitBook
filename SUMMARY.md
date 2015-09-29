@@ -7,7 +7,7 @@
    * [Features](features.md)
 * [Getting Started](getting_started.md)
    * [Registering With Covisint](registering_with_covisint.md)
-   * Creating Solution
+   * [Creating Solution](creating_solution.md)
    * [Creating Instance](creating_instance.md)
    * [Creating Application](creating_application.md)
    * [Obtaining OAuth 2.0 Token](obtaining_oauth_20_token.md)
