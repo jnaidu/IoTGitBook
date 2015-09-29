@@ -8,9 +8,7 @@ URI: /commandTemplates
 
 SAMPLE REQUEST
 ```
-{   "creator": "",     
-	"creatorAppId": "",
-	"realm": "{{newRealm}}",
+{   
 	"name": "{{commandName}}",
 	"isActive": true,
 	"description": [       
@@ -46,10 +44,7 @@ SAMPLE RESPONSE
 {
   "id": "141bd70d-b9ce-4ea1-b2a6-99e2acb43aeb",
   "version": "g2wAAAABaAJtAAAADNYQX5sthJnpAABQ7mEBag==",
-  "creator": "Sam",
-  "creatorAppId": "Sam's App",
   "creation": 1442223545432,
-  "realm": "",
   "name": "{{commandName}}",
   "description": [
     {
@@ -93,7 +88,7 @@ SAMPLE REQUEST
 ```
 Accept: application/vnd.com.covisint.platform.commandTemplate.v1+json
 Content-Type: application/vnd.com.covisint.platform.commandTemplate.v1+json
-X-Realm: 
+Authorization	Bearer 34jhbf9uinvun98v098eijre 
 ```
 SAMPLE RESPONSE
 ```
