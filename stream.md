@@ -9,9 +9,6 @@ URI: /streams
 SAMPLE REQUEST
 ```
 {
-  "creator": "",
-   "creatorAppId": "",
-  "realm": "",
   "ownerId": "Admin",
   "name": [
     {
@@ -34,10 +31,7 @@ SAMPLE RESPONSE
 {
   "id": "af57ec91-c123-4b98-96da-40a04b28e40b",
   "version": "g2wAAAABaAJtAAAADCDMPMOaSx/qAAE8V2EBag==",
-  "creator": "",
-  "creatorAppId": "",
   "creation": 1442303332104,
-  "realm": "",
   "name": [
     {
       "lang": "en",
@@ -86,17 +80,14 @@ URI: /streams
 SAMPLE REQUEST
 ```
 Accept: application/vnd.com.covisint.platform.stream.v1+json 
-X-Realm: 
+Authorization	Bearer 34jhbf9uinvun98v098eijre
 ```
 SAMPLE RESPONSE
 ```
 {
   "id": "af57ec91-c123-4b98-96da-40a04b28e40b",
   "version": "g2wAAAABaAJtAAAADCDMPMOaSx/qAAE8V2EBag==",
-  "creator": "",
-  "creatorAppId": "",
   "creation": 1442303332104,
-  "realm": "",
   "name": [
     {
       "lang": "en",
@@ -153,10 +144,7 @@ SAMPLE RESPONSE
   {
     "id": "af57ec91-c123-4b98-96da-40a04b28e40b",
     "version": "g2wAAAABaAJtAAAADCDMPMOaSx/qAAE8V2EBag==",
-    "creator": "",
-    "creatorAppId": "",
     "creation": 1442303332104,
-    "realm": "",
     "name": [
       {
         "lang": "en",
@@ -208,10 +196,7 @@ SAMPLE REQUEST
 {
   "id": "877ac67d-5590-424a-b2f1-5ef129b714df",
   "version": "0",
-  "creator": "",
-  "creatorAppId": "",
   "creation": 1442401643958,
-  "realm": "",
   "name": [
     {
       "lang": "en",
@@ -257,10 +242,7 @@ SAMPLE RESPONSE
 {
   "id": "877ac67d-5590-424a-b2f1-5ef129b714df",
   "version": "g2wAAAACaAJtAAAADKEXbw0sq0pXAAAEtmEBaAJtAAAADNYQX5ssZoElAAAErGEBag==",
-  "creator": "",
-  "creatorAppId": "",
   "creation": 1442401776937,
-  "realm": "",
   "name": [
     {
       "lang": "en",
@@ -309,7 +291,7 @@ URI: /stream/{streamId}
 SAMPLE REQUEST
 ```
 Accept: application/vnd.com.covisint.platform.stream.device.v1+json
-X-Realm: 
+Authorization	Bearer 34jhbf9uinvun98v098eijre 
 ```
 ## POST: REGISTER DEVICE WITH STREAM
 Registers a device with a Connector Stream.
@@ -319,9 +301,6 @@ URI: /streams/{streamId}/devices
 SAMPLE REQUEST
 ```
 {
-  "creator": "EADAMS",
-  "creatorAppId": "postman",
-  "realm": "{{iotRealmHeader}}",
   "deviceId": "{{$timestamp}}",
   "streamId": "6cc3260f-f5a2-4cfe-ab28-f5a0cba27785"
 }
@@ -331,10 +310,7 @@ SAMPLE RESPONSE
 {
   "id": "357b36af-208f-4549-b257-7e47d80cf684",
   "version": "g2wAAAABaAJtAAAADCDMPMOaSx/qAAE8c2EBag==",
-  "creator": "EADAMS",
-  "creatorAppId": "postman",
   "creation": 1442316982919,
-  "realm": "",
   "deviceId": "1442316983",
   "streamId": "6cc3260f-f5a2-4cfe-ab28-f5a0cba27785"
 }
@@ -355,8 +331,6 @@ SAMPLE RESPONSE
   {
     "id": "357b36af-208f-4549-b257-7e47d80cf684",
     "version": "g2wAAAABaAJtAAAADCDMPMOaSx/qAAE8c2EBag==",
-    "creator": "EADAMS",
-    "creatorAppId": "postman",
     "creation": 1442316982919,
     "realm": "",
     "deviceId": "1442316983",
