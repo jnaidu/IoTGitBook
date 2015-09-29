@@ -33,7 +33,7 @@ Event Threshold Policy describes a set of actions that need to be executed when 
 Event Source describes the list of events or a group of events. Events can be grouped based on event templates and device templates or devices.
 
 ## Device
-Device is an instance of a Device Template. It inherits the device properties, commands and events described in the template.
+Device is an instance of a device template. It inherits the device attributes, commands, and events described in the template. Devices communicate over streams, and can have zero or more streams.
 
 ## Stream
 Stream is a data pipe that transfers events and commands to/from devices.
