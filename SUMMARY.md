@@ -6,7 +6,7 @@
    * [Domain Model](iot_domain_model.md)
    * [Features](features.md)
 * [Getting Started](getting_started.md)
-   * Registering With Covisint
+   * [Registering With Covisint](registering_with_covisint.md)
 * [IoT Example](iot_use_case.md)
    * [Model The Device](model_the_device.md)
    * [Create An Instance Of The Device From Template](create_an_instance_of_the_device_from_template.md)
