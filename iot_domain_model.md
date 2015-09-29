@@ -3,15 +3,15 @@
 
 
 ## IoT Solution
-IoT Solution is a logical grouping of related devices and applications.
+IoT Solution is a logical grouping of several solution instances developed to address a particular problem. An IoT solution can consist of zero or more solution instances.
 
 
 ## Instance
-Instance is an application environment dedicated for a specific purpose.
+Instance is a logical grouping of devices and applications inside an application environment dedicated for a specific purpose. An instance consists of a library of command templates, attribute types, event templates used to model the device. An instance can have multiple applications which are associated with the devices.
 
 
 ## Application
-Application refers to any external software.
+Application refers to any external software, which is affiliated with devices. Applications can subscribe to events from devices and send commands to devices through streams. An application can have several streams.
 
 
 ## Device Template
