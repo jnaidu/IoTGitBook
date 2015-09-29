@@ -7,9 +7,6 @@ Create stream service will require information on the protocol used to connect t
 SAMPLE REQUEST
 ```
 {
-    "creator": "",
-    "creatorAppId": "",
-    "realm": "",
     "ownerId": "2bbb69c0-4551-4b91-b06b-c77a6865e44c",
     "name": [{
       "lang": "en_us", 
