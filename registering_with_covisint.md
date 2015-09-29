@@ -1,0 +1,1 @@
+https://s-platform-covs.portal.stg.covapp.io/learn/idms/-/book/covisint-identity/Register_a_new_user.html
