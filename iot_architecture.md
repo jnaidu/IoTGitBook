@@ -11,7 +11,7 @@ Covisint IoT platform enables partners and solution developers to securely conne
 * Send Command/Event to Devices
 
 
-**_The Platform consists of the following components:_**
+**_The platform consists of the following components:_**
 * Core Services unit
 * Messaging Services unit
 * Service Broker
