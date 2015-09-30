@@ -10,4 +10,4 @@ For a specific example of the health monitoring of connected products, let’s l
 
 **_The diagram below illustrates the data flow in a use case such as described above_**.
 
-![](IoTUseCase.jpg)
+![](IoT_Overview_latest.jpg)
