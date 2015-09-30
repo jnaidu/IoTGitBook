@@ -1,7 +1,7 @@
 # Fleet Management Use Case
 For a specific example of the health monitoring of connected products, let’s look at how the manager of a fleet of vehicles can monitor the health of individual vehicles.
 
-**_For example_** -
+**_For example:_**
 --
 1. Data about an event in a car (ex. temperature gauge shows overheating) is transferred via MQTT to an event data hub.
 3. An event processing engine processes the data.
