@@ -10,4 +10,5 @@ For example:
 8. The support team is then able to contact the driver and, with knowledge of the driver’s location relative to the nearest fleet outlet, direct the driver to go trade the car in for a new one.
 
 The diagram below illustrates the data flow in a use case such as described above.
+
 ![](IoTUseCase.jpg)
