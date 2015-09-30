@@ -1,4 +1,4 @@
-# Features
+# Key Features
 
 This section describes the capabilities provided in this release, similar to the ones listed below.
 
