@@ -46,5 +46,5 @@ Route connects producers and consumers of messages. A route can either be an eve
 
 **_IoT Domain Model_**
 
-![](IoT_DomainModel.jpg)
+![](IoTDomainModel.jpg)
 
