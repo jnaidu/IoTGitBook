@@ -4,5 +4,3 @@ Registration consist of two types: Company and New User. A company is either a p
 Access will be provided to the customer with a portal application called Developer Portal. There are several steps to be completed for the registration as demonstrated in the diagram below, for additional information please refer to the following: 
 Link: https://s-platform-covs.portal.stg.covapp.io/learn/idms/-/book/covisint-identity/Register_a_new_user.html
 
-![](registeration_overview.jpg)
-
