@@ -1,6 +1,6 @@
 # Features
 
-## This section describes the capabilities provided in this release, similar to the ones listed below.
+This section describes the capabilities provided in this release, similar to the ones listed below.
 
 * **_Ability to define devices_**: There are templates for devices, and a device’s attributes can be described so that a message from a sensor on the device will carry the device type and attributes.
 * **_Ability to collect data from the device ecosystem_**: An ecosystem could be a fleet of cars equipped to forward the data to an event hub within our platform. Data is sent in a protocol called MQTT, which is the industry standard data format for industrial IoT.
