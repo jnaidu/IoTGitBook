@@ -10,6 +10,6 @@ For a specific example of the health monitoring of connected products, let’s l
 7. The notification application sends an alert to the fleet support team.
 8. The support team is then able to contact the driver and, with knowledge of the driver’s location relative to the nearest fleet outlet, direct the driver to go trade the car in for a new one.
 
-The diagram below illustrates the data flow in a use case such as described above.
+**_The diagram below illustrates the data flow in a use case such as described above_**.
 
 ![](IoTUseCase.jpg)
