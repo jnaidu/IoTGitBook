@@ -2,7 +2,7 @@
 
 Covisint IoT Platform enables partners and solution developers to securely connect people, process and system of things. The platform provides identity relationship management and entitlement management services for users, devices and applications. Building applications is made easy with a rich set of APIs.
 
-**_Solution developers can use Covisint IoT platform to perform the following tasks_**:
+**_Solution developers can use Covisint IoT platform to perform the following tasks:_**
 * Define Device Templates
 * Create and manage Devices
 * Define Events and Commands
@@ -11,7 +11,7 @@ Covisint IoT Platform enables partners and solution developers to securely conne
 * Send Command/Event to Devices
 
 
-**_The Platform consists of the following components_**:
+**_The Platform consists of the following components:_**
 * Core Services unit
 * Messaging Services unit
 * Service Broker
