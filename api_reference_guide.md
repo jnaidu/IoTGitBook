@@ -1,2 +1,2 @@
 # API Documentation
-This section captures all the endpoints available in September Release and captures sample request and response for the APIs.
+This section lists all of the endpoints and provides sample requests and responses for the Covisint IoT APIs. See also the API Reference Documentation
