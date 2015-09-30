@@ -1,5 +1,5 @@
 
-# IoT Example
+# Creating an IoT Solution
 
 
 ## Purpose
