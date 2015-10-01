@@ -15,7 +15,7 @@ Your client application must request an access token from the Covisint Authoriza
 
 This token is then used to access the Covisint Platform API of your choice.
 
-In application-only authentication flow, client application accesses resources on a server without user involvement. The third party application simply presents its client ID and client secret in an encoded format, and if they are valid, the Authorization server returns an access token (also called bearer tokens).
+In application-only authentication flow, the client application accesses resources on a server without user involvement. The third party application simply presents its client ID and client secret in an encoded format, and if they are valid, the Authorization server returns an access token (also called bearer tokens).
 
 ## 3. Use the Access Token to Access a Covisint API
 The bearer token is passed in Authorization headers and acts as a prerequisite to invoke any Covisint API.
