@@ -1,8 +1,8 @@
 # IoT Platform Overview
 
-This initial release of the Covisint Internet of Things platform introduces features that support the fundamental IoT use case of monitoring the health of connected products. In this use case, a monitoring application that is subscribed to a queue receives data about a connected product via the IoT platform.
+This release of the Covisint Internet of Things Platform introduces features that offer full support for the fundamental IoT use case of monitoring the health of connected products. In this use case, one or more monitoring applications that are subscribed to specific queues receive data about an ecosystem of connected products via the IoT platform. Upcoming releases will add features to fully support more complex IoT use cases for connected products.
 
-This release provides out-of-the-box support for health monitoring, and can be customized to support more complex IoT use cases. Upcoming releases will add features to support more complex IoT use cases for connected products.
+The current release includes features that support core IoT capabilities, briefly described below. Leveraging the comprehensive IoT Core, a developer is able to implement more complex IoT scenarios which include remote control of products and the orchestration of external stakeholders to data and commands, to name a few.
 
 The current release includes features that support core IoT capabilities, briefly described below. These features can be customized to support more complex IoT use cases.
 
