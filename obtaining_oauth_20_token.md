@@ -13,7 +13,7 @@ Your client application must request an access token from the Covisint Authoriza
 * *Client Credentials:* Use Client ID and Client Secret in an HTTP authorization header - Base64 encoded.
 * *Refresh Token:* The refresh token returned by a previous "Authorization Code", "client Credentials" or "Password" call. For refresh_token, the scope list must not include a scope not originally granted by the resource owner.
 
-This token is then used to access the Covisint Platform API you want to access.
+This token is then used to access the Covisint Platform API of your choice.
 
 In application-only authentication flow, client application accesses resources on a server without user involvement. The third-party app simply presents its client ID and client secret in an encoded format, and if they are valid, Authorization server returns an access token (also called bearer tokens).
 
