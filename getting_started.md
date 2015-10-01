@@ -4,5 +4,8 @@ Registering is a very important step required to proceed to the portal and begin
 
 This diagram demonstrates the overall standard view of the process for submitting an application and gaining access to Covisint Platform. As you can see from the diagram, there are a number of steps required  to gain access .  This section will provide additional detailed information on how to obtain access.
 
+Typical workflow to gain access to Covisint APIs
+
+
 
 
