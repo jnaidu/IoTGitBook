@@ -4,8 +4,6 @@ This release of the Covisint Internet of Things Platform introduces features tha
 
 The current release includes features that support core IoT capabilities, briefly described below. Leveraging the comprehensive IoT Core, a developer is able to implement more complex IoT scenarios which include remote control of products and the orchestration of external stakeholders to data and commands, to name a few.
 
-The current release includes features that support core IoT capabilities, briefly described below. These features can be customized to support more complex IoT use cases.
-
 ## Secure and Control
 These features help protect and govern identity, data, connectivity, commands, and relationships among people, systems, and devices. Identity Provisioning provides secure device registration and token (JWT) issuance. Identity Relationship Management allows definition of groups of people, devices, organizations, and other groups. It also provides a flexible group attribute definition model. Identity Authentication includes device authentication (JWT token). Secure Data Transport allows encryption of all network and payload traffic between cloud services, gateways and devices; logs all CRUD operations in a persistent log for auditing and compliance reporting; allows third party applications to retrieve and analyze audit records; and allows the ability to restrict who can access what data, based on event routing.
 
