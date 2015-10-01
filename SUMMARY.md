@@ -6,7 +6,7 @@
    * [Architecture](iot_architecture.md)
    * [Domain Model](iot_domain_model.md)
 * [Getting Started](getting_started.md)
-   * [Registering With Covisint](registering_with_covisint.md)
+   * [Registration Overview](registering_with_covisint.md)
    * [Creating a Solution](creating_solution.md)
    * [Creating an Instance](creating_instance.md)
    * [Creating an Application](creating_application.md)
