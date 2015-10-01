@@ -6,6 +6,7 @@ This diagram demonstrates the overall standard view of the process for submittin
 
 Typical workflow to gain access to Covisint APIs
 
+![](gettingstarted.jpg)
 
 
 
