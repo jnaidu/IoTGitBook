@@ -9,7 +9,7 @@ To begin the process, obtain OAuth 2.0 client credentials such as client ID and 
 ## 2. Obtain an Access Token
 Your client application must request an access token from the Covisint Authorization server. The parameters that need to be passed to obtain an access token are dictated by the grant type:
 * *Authorization Code:* Get an OAuth 2.0 authorization. A successful call will result in a redirection to the authorization server in order to receive the resource owner's consent. The redirection will be to the login page or directly to the consent page (if the user is already authenticated and login is not forced). Once consent is granted then the authorization server will send the user agent to the redirect_uri with query parameters state, scope, and code. For the authorization code grant type the scope is dictated by the scope value in the /authorization call.
-* *Password:* This is used in conjunction with the username (or user_id) parameter to validate the resource owner's credentials. Will be ignored for any other grant type.
+* *Password:* This is used in conjunction with the username (or user_id) parameter to validate the resource owner's credentials. Password will be ignored for any other grant type.
 * *Client Credentials:* Use Client ID and Client Secret in an HTTP authorization header - Base64 encoded.
 * *Refresh Token:* The refresh token returned by a previous "Authorization Code", "client Credentials" or "Password" call. For refresh_token, the scope list must not include a scope not originally granted by the resource owner.
 
