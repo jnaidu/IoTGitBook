@@ -4,7 +4,7 @@
 
 ## Purpose
 
-This section is intended to be a guide for solution developers and partners to develop their IoT solution on top of Covisint platform. It illustrates steps involved in developing an IoT solution by using an example use case. A sample request and response is provided to guide the user. For a complete list of APIs, refer to the API documentation: https://s-platform-covs.portal.stg.covapp.io/learn/iot/-/book/covisint-iot/api_reference_guide.html
+This section is intended to be a guide for solution developers and partners to develop their IoT solution on top of Covisint platform. It illustrates steps involved in developing an IoT solution by using an example use case. A sample request and response is provided to guide the user. For a complete list of APIs, refer to the API documentation at this link: https://s-platform-covs.portal.stg.covapp.io/learn/iot/-/book/covisint-iot/api_reference_guide.html
 
 ## Pre-requisite
 Assumption is that the IoT solution instance already exists and the following application is built on top of this solution instance.
