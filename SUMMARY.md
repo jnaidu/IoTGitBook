@@ -8,7 +8,7 @@
 * [Getting Started](getting_started.md)
    * [Registering With Covisint](registering_with_covisint.md)
    * [Creating a Solution](creating_solution.md)
-   * [Creating Instance](creating_instance.md)
+   * [Creating an Instance](creating_instance.md)
    * [Creating Application](creating_application.md)
    * [OAuth 2.0 Authorization](obtaining_oauth_20_token.md)
 * [Creating an IoT Solution](iot_use_case.md)
