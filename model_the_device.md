@@ -80,7 +80,7 @@ SAMPLE RESPONSE
 }
 ```
 ## POST: BIND EVENT FIELD TO ATTRIBUTE
-Bind event field to attribute so that the attribute is updated with the latest value in the event. The bound attribute must have the same data type as the field. Using the eventID and the attributeID obtained in the previous requests, we will create a binding between the event and the attribute using this web service.
+Bind the event field to attribute so that the attribute is updated with the latest value in the event. The bound attribute must have the same data type as the field. Using the eventID and the attributeID obtained in the previous requests, we will create a binding between the event and the attribute using this web service.
 
 URI: /eventTemplates/{{eventID}}/tasks/bindEventField?attributeTypeId={{attributeTypeId}}
 
