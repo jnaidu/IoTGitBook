@@ -88,8 +88,8 @@ ATTRIBUTES:
 
 | Parameter | Type | Required? | Description |
 | -- | -- | -- | -- |
-| eventId | String | True | Id of the event which needs to be bound to an attribute type |
-| attributeTypeId | String | True | Id of the attribute type |
+| eventId | String | True | ID of the event which needs to be bound to an attribute type |
+| attributeTypeId | String | True | ID of the attribute type |
 
 ## POST: CREATE DEVICE TEMPLATE
 Create Device Template will create a template with all the listed attributes, events and commands. In the following sample, we create a device template of a car with engine fault code with the attribute ID and the event ID. By default the device template is not active unless specified in the request.
