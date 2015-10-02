@@ -1,4 +1,4 @@
-# Create An Instance Of The Device From Template
+# Create an Instance of the Device from Template
 From a device template, we can create multiple instances of a device. In this case, we create an instance of a car from a device template and activate the device in IoT platform.
 
 ## POST: CREATE DEVICE
