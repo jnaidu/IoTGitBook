@@ -42,7 +42,7 @@ SAMPLE RESPONSE
 }
 ```
 ## POST: CREATE EVENT TEMPLATE
-Create Event Template service will create an event in the IoT solution library. The car can send engine fault code events every minute. This is captured in the following request.
+Create Event Template service will create an event in the IoT solution library - enabling the car can send engine fault code events every minute. This is captured in the following request.
 
 SAMPLE REQUEST
 ```
