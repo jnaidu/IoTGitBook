@@ -1,4 +1,4 @@
-# Configure The Device
+# Configure the Device
 In order for the device to connect to Covisint IoT Platform, the connectivity and message processing information needs to be flashed onto the device. In this example, the gateway in the car will have the following information.
 
 ## CONNECTIVITY CONFIGURATION INFORMATION
