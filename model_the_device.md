@@ -1,5 +1,5 @@
 # Model the Device
-The first step to creating an IoT solution in a health monitoring use case is to model the device, or the car, in the IoT platform. A device template is used to represent a device of a particular kind and create multiple instances of it. A device template contains Attribute Type, Event Template and Command Template. In this case, the device template for a car will have Attribute Types and Event Templates. Since no commands sent out to the car, Command Templates are not modeled. 
+The first step to creating an IoT solution in a health monitoring use case is to model the device, or the car, in the IoT platform. A device template is used to represent a device of a particular kind and create multiple instances of it. A device template contains Attribute Type, Event Template and Command Template. In this case, the device template for a car will have Attribute Types and Event Templates. Since no commands are sent out to the car, Command Templates are not modeled. 
 
 First, create the library of attributes that are required to represent a car. Second, create a library of events to be sent by the gateway on the car can send. Finally, create a device template using all the required attributes and events required to represent a car.
 
