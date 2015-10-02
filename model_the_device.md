@@ -4,7 +4,7 @@ The first step to creating an IoT solution in a health monitoring use case is to
 First, create the library of attributes that are required to represent a car. Second, create a library of events to be sent by the gateway on the car can send. Finally, create a device template using all the required attributes and events required to represent a car.
 
 ## POST: CREATE ATTRIBUTE TYPE
-Create Attribute Type service will create an attribute in the IoT solution library. In this case, the basic attributes required to represent a car are: Manufacturer, Model, Year of Make, VIN number etc. In addition to this, we would need to model the engine fault code which is of our interest.
+Create Attribute Type service will create an attribute in the IoT solution library. In this case, the basic attributes required to represent a car are: Manufacturer, Model, Year of Make, VIN number etc. In addition, it is important to model the engine fault code which is of our interest.
 
 SAMPLE REQUEST
 ```
