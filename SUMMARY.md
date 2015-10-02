@@ -14,7 +14,7 @@
 * [Creating an IoT Solution](iot_use_case.md)
    * [Model the Device](model_the_device.md)
    * [Create an Instance of the Device from Template](create_an_instance_of_the_device_from_template.md)
-   * [Create Event Source And Threshold Policy For The Device](create_event_source_and_threshold_policy_for_the_device.md)
+   * [Create Event Source and Threshold Policy for the Device](create_event_source_and_threshold_policy_for_the_device.md)
    * [Create Event Stream For Device](create_event_stream_for_device.md)
    * [Create Application](create_application.md)
    * [Create Event Stream For Application](create_event_stream_for_application.md)
