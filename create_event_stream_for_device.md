@@ -1,4 +1,4 @@
-# Create Event Stream For Device
+# Create Event Stream for Device
 In order to connect a device, we need to create a event stream for it. This event stream is a secure channel that allows the device to publish events and subscribe to commands. You will need the deviceId in order to create an event stream.
 
 ## POST: CREATE STREAM
