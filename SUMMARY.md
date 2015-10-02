@@ -18,7 +18,7 @@
    * [Create Event Stream For Device](create_event_stream_for_device.md)
    * [Create Application](create_application.md)
    * [Create Event Stream For Application](create_event_stream_for_application.md)
-   * [Subscribe To Events](subscribe_to_events.md)
+   * [Subscribe to Events](subscribe_to_events.md)
    * [Configure The Device](configure_the_device.md)
    * [Configure The Application](configure_the_application.md)
    * [Send Event From Device](send_event_from_device.md)
