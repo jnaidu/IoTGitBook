@@ -1,4 +1,4 @@
-# Subscribe To Events
+# Subscribe to Events
 After creating event streams for the device and the application, we need to specify how to route events. This is done by subscribing to appropriate stream and routing topic.
 
 ## POST: CREATE ROUTE
