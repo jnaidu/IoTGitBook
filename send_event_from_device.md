@@ -1,5 +1,5 @@
 # Send Event from Device
-To send an event from the car, the gateway on the car needs to perform the following steps:
+To send an event from the car, the gateway on the car must perform the following steps:
 1. Read engine fault code: The gateway will read the engine fault code every minute.
 2. Construct message: The gateway will construct JSON string for the event. -
 For example:
