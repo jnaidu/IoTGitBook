@@ -1,4 +1,4 @@
-# Configure The Application
+# Configure the Application
 In order to establish a secure communication between the application and the Covisint IoT Platform, you will need the following connectivity and message processing information.
 
 ## CONNECTIVITY CONFIGURATION INFORMATION
