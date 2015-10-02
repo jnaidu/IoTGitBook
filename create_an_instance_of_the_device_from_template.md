@@ -115,4 +115,4 @@ ATTRIBUTES:
 
 | Parameter | Type | Required? | Description |
 | -- | -- | -- | -- |
-| deviceId | String | True | Id of the device that needs to be activated |
+| deviceId | String | True | ID of the device that needs to be activated |
