@@ -1,4 +1,4 @@
-# Create Event Source And Threshold Policy For The Device
+# Create Event Source and Threshold Policy for the Device
 In order to receive an event from the device, we will have to create an event source with the deviceId and the eventTemplateId.
 
 ## POST: CREATE EVENT SOURCE
