@@ -17,7 +17,7 @@
    * [Create Event Source and Threshold Policy for the Device](create_event_source_and_threshold_policy_for_the_device.md)
    * [Create Event Stream for Device](create_event_stream_for_device.md)
    * [Create Application](create_application.md)
-   * [Create Event Stream For Application](create_event_stream_for_application.md)
+   * [Create Event Stream for Application](create_event_stream_for_application.md)
    * [Subscribe to Events](subscribe_to_events.md)
    * [Configure the Device](configure_the_device.md)
    * [Configure the Application](configure_the_application.md)
