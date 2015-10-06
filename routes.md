@@ -132,7 +132,7 @@ SAMPLE RESPONSE
 }
 ```
 ## DELETE: DELETE ROUTE
-Delete an existing route. Throws an error if {routeId} does not already exist.
+Deletes an existing route. Throws an error if {routeId} does not already exist.
 
 URI: /routes/{routeId}
 
