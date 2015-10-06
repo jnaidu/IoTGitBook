@@ -52,7 +52,7 @@ SAMPLE RESPONSE
 }
 ```
 ## GET: SEARCH EVENT SOURCE
-Search event sources based on the given query parameters.
+Searches event sources based on the given query parameters.
 
 URI: /eventSources
 
