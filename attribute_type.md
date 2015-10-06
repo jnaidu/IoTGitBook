@@ -1,5 +1,5 @@
 # AttributeType
-Attribute Type captures device properties in a template. A library of attribute types can be created inside and IoT solution and used in various device templates. Following operations are available on attribute type.
+Attribute Type captures device properties in a template. A library of attribute types can be created inside an IoT solution and used in various device templates. The following operations are available on attribute type.
 
 ## POST: CREATE ATTRIBUTE TYPE
 Create a new attribute type template.
