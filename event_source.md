@@ -113,7 +113,7 @@ SAMPLE RESPONSE
 }
 ```
 ## GET: DELETE EVENT SOURCE
-Delete an existing event source. Throws an error if {eventSourceId} does not already exist.
+Deletes an existing event source. Throws an error if {eventSourceId} does not already exist.
 
 URI: /eventSources/{eventSourceId}
 
