@@ -5,5 +5,5 @@ https://s-platform-covs.portal.stg.covapp.io/learn/idms/-/book/covisint-identity
 
 The customer will be provided access to Covisint’s Developer Portal. For additional information refer to the following:
 
-https://s-platform-covs.portal.stg.covapp.io/learn/idms/-/book/covisint-identity/Register_a_new_user.html
+https://developer.covisint.com/learn/idms/-/book/covisint-identity/Register_a_new_user.html
 
