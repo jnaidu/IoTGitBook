@@ -2,7 +2,7 @@
 The physical device that produces data and sends it to platform needs to be created.
 
 ## POST: CREATE DEVICE
-Create a new device. Prerequisite is Device Template should have been created.
+Create a new device. The prerequisite - Device Template, should already have been created.
 
 URI: /devices
 
