@@ -316,7 +316,7 @@ SAMPLE RESPONSE
 }
 ```
 ## GET: GET ALL DEVICES WITH STREAM
-List all devices attached to this stream.
+Lists all devices attached to this stream.
 
 URI: /streams/{streamId}/devices
 
