@@ -39,7 +39,7 @@ SAMPLE RESPONSE
 }
 ```
 ## GET: SEARCH ATTRIBUTE TYPE
-This method is used search attribute types based on the given filter parameters.
+This method is used to search attribute types based on the given filter parameters.
 
 URI: /attributeTypes
 
