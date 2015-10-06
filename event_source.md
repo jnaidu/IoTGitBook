@@ -28,7 +28,7 @@ SAMPLE RESPONSE
 }
 ```
 ## GET: GET EVENT SOURCE
-Retrieve the event source by its unique id.
+Retrieve the event source by its unique ID.
 
 URI: /eventSources/{eventSourceId}
 
