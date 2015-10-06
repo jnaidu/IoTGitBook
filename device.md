@@ -48,7 +48,7 @@ SAMPLE RESPONSE
 }
 ```
 ## GET: SEARCH DEVICE 
-This method is used search device based on the filter parameters.
+This method is used to search device based on the filter parameters.
 
 URI: /devices
 
