@@ -4,4 +4,4 @@ Solutions are implemented to integrate related development and administrative pr
 
 A solution name can represent a project name, which could be mapped to customers through configuration. For additional steps on how to perform this task refer to the following link:
 
-https://s-platform-covs.portal.stg.covapp.io/learn/dp/-/book/developer-portal/creating_solutions/create_a_solution.html
+https://developer.covisint.com/learn/dp/-/book/developer-portal/creating_solutions/create_a_solution.html
